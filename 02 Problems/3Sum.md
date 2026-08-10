@@ -16,8 +16,8 @@ hint_used: none
 time_taken: 24m
 first_attempt: 2026-08-09
 last_attempt: 2026-08-09
-next_review: 2026-08-10
-confidence: 4
+next_review: 2026-08-13
+confidence: 5
 expected_time_complexity: "O(N^2)"
 expected_space_complexity: "O(1)"
 tags:
@@ -32,7 +32,7 @@ tags:
 * **Platform**: [LeetCode](https://leetcode.com/problems/3sum/)
 * **Difficulty**: `Medium` | **Track**: `High Value`
 * **Primary Pattern**: [[Two Pointers]]
-* **Status**: `Solved` | **Result**: `Accepted` | **Grade**: `Grade B`
+* **Status**: `Solved` | **Result**: `Accepted` | **Grade**: `Grade A`
 
 ---
 
@@ -143,3 +143,4 @@ class Solution:
 | Date | Result | Time Taken | Hint Level | Grade | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 2026-08-09 | Accepted | 24m | none | Grade B | First pass solved independently using Two Pointers + set deduplication. |
+| 2026-08-10 | Accepted | 1m | none | Grade A | Spaced repetition flash-check passed! Flawless explanation of in-place duplicate skipping logic. |

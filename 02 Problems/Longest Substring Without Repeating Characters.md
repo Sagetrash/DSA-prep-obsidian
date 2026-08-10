@@ -16,7 +16,7 @@ hint_used: none
 time_taken: 23m
 first_attempt: 2026-08-09
 last_attempt: 2026-08-09
-next_review: 2026-08-10
+next_review: 2026-08-13
 confidence: 5
 expected_time_complexity: "O(N)"
 expected_space_complexity: "O(min(M, N))"
@@ -123,3 +123,4 @@ class Solution:
 | Date | Result | Time Taken | Hint Level | Grade | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 2026-08-09 | Accepted | 23m | none | Grade A | Solved independently on 1st pass using Sliding Window + hash set. |
+| 2026-08-10 | Accepted | 1m | none | Grade A | Spaced repetition flash-check passed! Flawless explanation of sliding window contraction. |

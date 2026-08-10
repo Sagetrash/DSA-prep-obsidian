@@ -16,8 +16,8 @@ hint_used: small
 time_taken: 3m
 first_attempt: 2026-08-09
 last_attempt: 2026-08-09
-next_review: 2026-08-10
-confidence: 4
+next_review: 2026-08-13
+confidence: 5
 expected_time_complexity: "O(N)"
 expected_space_complexity: "O(1)"
 tags:
@@ -33,7 +33,7 @@ tags:
 * **Platform**: [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 * **Difficulty**: `Easy` | **Track**: `Volume`
 * **Primary Pattern**: [[Sliding Window]]
-* **Status**: `Solved` | **Result**: `Accepted` | **Grade**: `Grade C`
+* **Status**: `Solved` | **Result**: `Accepted` | **Grade**: `Grade A`
 
 ---
 
@@ -94,3 +94,4 @@ class Solution:
 | Date | Result | Time Taken | Hint Level | Grade | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 2026-08-09 | Accepted | 3m | small | Grade C | Solved in single pass after conceptual hint on running min. Review scheduled in 1 day. |
+| 2026-08-10 | Accepted | 1m | none | Grade A | Spaced repetition flash-check passed! Flawless explanation of min_buy and max_profit tracking. |

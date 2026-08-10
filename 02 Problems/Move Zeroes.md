@@ -16,8 +16,8 @@ hint_used: none
 time_taken: 21m
 first_attempt: 2026-08-09
 last_attempt: 2026-08-09
-next_review: 2026-08-10
-confidence: 4
+next_review: 2026-08-13
+confidence: 5
 expected_time_complexity: "O(N)"
 expected_space_complexity: "O(1)"
 tags:
@@ -33,7 +33,7 @@ tags:
 * **Platform**: [LeetCode](https://leetcode.com/problems/move-zeroes/)
 * **Difficulty**: `Easy` | **Track**: `Volume`
 * **Primary Pattern**: [[Two Pointers]]
-* **Status**: `Solved` | **Result**: `Accepted` | **Grade**: `Grade B`
+* **Status**: `Solved` | **Result**: `Accepted` | **Grade**: `Grade A`
 
 ---
 
@@ -115,3 +115,4 @@ class Solution:
 | Date | Result | Time Taken | Hint Level | Grade | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 2026-08-09 | Accepted | 21m | none | Grade B | Solved independently in-place. Recommended refactoring to clean single-loop fast/slow pattern. |
+| 2026-08-10 | Accepted | 1m | none | Grade A | Spaced repetition flash-check passed! Flawless explanation of fast/slow pointer swapping. |
