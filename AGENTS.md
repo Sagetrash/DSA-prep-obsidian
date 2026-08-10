@@ -151,6 +151,7 @@ When the user gives natural language prompts, execute the corresponding protocol
 * **User Time Minimization**: User provides (1) Code, (2) Time, (3) Hints, (4) Result (either directly in chat or inside the note). Agent executes all note edits, metadata updates, pattern links, mistake tracking, and review scheduling automatically.
 * **Central Problem Index Maintenance**: The AI agent MUST maintain and consult `02 Problems/Problem Index.md` whenever adding new problems or updating solution states, so any agent can inspect all solved/unsolved problems at a glance.
 * **Live LeetCode Profile Verification**: The AI agent can query LeetCode's GraphQL API (`https://leetcode.com/graphql`, handle: `sagetrash`) to verify live AC status, cross-reference solved problems, and auto-tag problems as `Unseen` vs `Re-Verification`.
+* **Git Versioning Protocol**: The AI agent should commit vault updates automatically after significant sessions or problem analysis using clear conventional commit messages (e.g., `feat(daily): complete 2026-08-08 session - 7 solved`, `docs(problem): add solution & AI analysis for <Problem>`).
 
 
 ---
