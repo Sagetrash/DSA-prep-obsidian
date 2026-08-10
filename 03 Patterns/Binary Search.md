@@ -2,11 +2,11 @@
 pattern_name: "Binary Search"
 category: "Algorithmic Pattern"
 mastery_level: 5
-attempted_count: 2
-solved_count: 2
-independent_solved_count: 2
+attempted_count: 3
+solved_count: 3
+independent_solved_count: 3
 hint_rate: "0%"
-average_time: "8m"
+average_time: "7m"
 tags:
   - pattern
 ---
