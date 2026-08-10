@@ -1,0 +1,9 @@
+# Obsidian temporary / workspace files
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/dataview/data.json
+
+# OS & System files
+.DS_Store
+Thumbs.db
+*.tmp
