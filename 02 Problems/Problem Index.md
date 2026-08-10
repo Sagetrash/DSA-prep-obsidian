@@ -1,6 +1,6 @@
 ---
 title: "Problem Index"
-last_updated: 2026-08-09
+last_updated: 2026-08-10
 tags:
   - index
   - problems
@@ -31,6 +31,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **[[Squares of a Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Solved | Accepted | 3m | Grade A | Level 5 | 2026-08-11 |
 | **[[Move Zeroes]]** | Easy | Volume | [[Two Pointers]] | Solved | Accepted | 21m | Grade B | Level 4 | 2026-08-10 |
 | **[[Remove Duplicates from Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Solved | Accepted | 2m | Grade A | Level 5 | 2026-08-11 |
+| **[[Binary Search]]** | Easy | High Value | [[Binary Search]] | Solved | Accepted | 5m | Grade A | Level 5 | 2026-08-11 |
 
 ---
 
@@ -46,7 +47,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **Day 2 (Aug 9)** | **[[Squares of a Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Solved (Grade A) |
 | **Day 2 (Aug 9)** | **[[Move Zeroes]]** | Easy | Volume | [[Two Pointers]] | Solved (Grade B) |
 | **Day 2 (Aug 9)** | **[[Remove Duplicates from Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Solved (Grade A) |
-| **Day 3 (Aug 10)** | **[[Binary Search]]** | Easy | High Value | [[Binary Search]] | Unsolved |
+| **Day 3 (Aug 10)** | **[[Binary Search]]** | Easy | High Value | [[Binary Search]] | Solved (Grade A) |
 | **Day 3 (Aug 10)** | **[[Search 2D Matrix]]** | Medium | High Value | [[Binary Search]] | Unsolved |
 | **Day 3 (Aug 10)** | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Unsolved |
 | **Day 4 (Aug 11)** | **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | Unsolved |
