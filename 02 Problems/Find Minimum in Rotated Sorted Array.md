@@ -7,16 +7,16 @@ difficulty: Medium
 track: Volume
 primary_pattern: "[[Binary Search]]"
 secondary_patterns: []
-status: Unsolved
-result: Untested
-attempts: 0
-independent_solves: 0
-hint_used: none
-time_taken: 0m
-first_attempt: null
-last_attempt: null
-next_review: null
-confidence: 0
+status: Solved
+result: Accepted
+attempts: 1
+independent_solves: 1
+hint_used: small
+time_taken: 12m
+first_attempt: 2026-08-10
+last_attempt: 2026-08-10
+next_review: 2026-08-11
+confidence: 5
 expected_time_complexity: "O(log N)"
 expected_space_complexity: "O(1)"
 tags:
@@ -31,7 +31,7 @@ tags:
 * **Platform**: [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 * **Difficulty**: `Medium` | **Track**: `Volume`
 * **Primary Pattern**: [[Binary Search]]
-* **Status**: `Unsolved` | **Result**: `Untested`
+* **Status**: `Solved` | **Result**: `Accepted`
 
 ---
 
@@ -58,16 +58,46 @@ Output: 0
 ---
 
 ## My First Thought
-*(Write your initial approach HERE)*
+Compare `nums[mid]` against `nums[high]`. If `nums[mid] > nums[high]`, the pivot (minimum element) must lie in the right half (`low = mid + 1`). Otherwise, the minimum element lies at `mid` or to its left (`high = mid`).
 
 ---
 
 ## My Solution
 ```python
-# Paste your code submission here
+class Solution:
+    def findMin(self, nums: List[int]) -> int:
+        low = 0
+        high = len(nums) - 1
+        while low < high:
+            mid = low + (high - low) // 2
+            if nums[mid] > nums[high]:
+                low = mid + 1
+            else:
+                high = mid
+        return nums[low]
 ```
 
 ---
 
+## Review History
+| Date | Result | Time | Hint Level | Grade | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-08-10 | Accepted | 12m | small | Grade A | Solved with `high = mid` boundary retention — optimal $\mathcal{O}(\log N)$ binary search on rotated sorted array. |
+
+---
+
 ## AI Analysis
-*(Pending submission)*
+
+### Interview Readiness Grade: **A (Strong Independent Solution)**
+
+### Code Evaluation & Complexity
+1. **Time Complexity**: $\mathcal{O}(\log N)$ — Halves search domain at each iteration.
+2. **Space Complexity**: $\mathcal{O}(1)$ — Uses standard scalar variables (`low`, `high`, `mid`).
+3. **Correctness & Edge Cases**:
+   * `while low < high:` guarantees termination when pointers converge on the minimum element without infinite loops.
+   * `high = mid` preserves `mid` as a candidate minimum when `nums[mid] <= nums[high]`.
+   * Handles unrotated arrays (e.g., `[1, 2, 3, 4, 5]`), single-element arrays (`[1]`), and 2-element arrays (`[2, 1]`) cleanly.
+
+### Mastery Level Assessment
+* **Assigned Level**: **Level 5 (Can solve independently + explain approach & complexity clearly)**.
+
