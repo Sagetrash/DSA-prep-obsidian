@@ -33,6 +33,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **[[Remove Duplicates from Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Solved | Accepted | 2m | Grade A | Level 5 | 2026-08-11 |
 | **[[Binary Search]]** | Easy | High Value | [[Binary Search]] | Solved | Accepted | 5m | Grade A | Level 5 | 2026-08-11 |
 | **[[Search 2D Matrix]]** | Medium | High Value | [[Binary Search]] | Solved | Accepted | 6m | Grade A | Level 5 | 2026-08-11 |
+| **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Solved | Accepted | 13m | Grade A | Level 5 | 2026-08-11 |
 
 ---
 
@@ -50,7 +51,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **Day 2 (Aug 9)** | **[[Remove Duplicates from Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Solved (Grade A) |
 | **Day 3 (Aug 10)** | **[[Binary Search]]** | Easy | High Value | [[Binary Search]] | Solved (Grade A) |
 | **Day 3 (Aug 10)** | **[[Search 2D Matrix]]** | Medium | High Value | [[Binary Search]] | Solved (Grade A) |
-| **Day 3 (Aug 10)** | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Attempted (Grade B) |
+| **Day 3 (Aug 10)** | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Solved (Grade A) |
 | **Day 4 (Aug 11)** | **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | Unsolved |
 | **Day 4 (Aug 11)** | **[[Min Stack]]** | Medium | High Value | [[Stack]] | Unsolved |
 | **Day 4 (Aug 11)** | **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | Unsolved |
