@@ -1,7 +1,7 @@
 ---
 mistake_name: "Off-by-One Error"
 category: "Implementation Error"
-occurrences: 0
+occurrences: 1
 severity: "High"
 tags:
   - mistake
