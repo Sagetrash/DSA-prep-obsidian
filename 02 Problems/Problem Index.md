@@ -45,6 +45,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **[[Merge Two Sorted Lists]]** | Easy | Volume | [[Linked List]] | Solved | Accepted | 5m 42s | Grade A | Level 5 | 2026-08-15 |
 | **[[Linked List Cycle]]** | Easy | Volume | [[Linked List]] | Solved | Accepted | 3m | Grade A | Level 5 | 2026-08-15 |
 | **[[Same Tree]]** | Easy | Volume | [[Trees]] | Solved | Accepted | 4m | Grade A | Level 5 | 2026-08-15 |
+| **[[Subtree of Another Tree]]** | Easy | Volume | [[Trees]] | Solved | Accepted | 7m 11s | Grade C | Level 4 | 2026-08-13 |
 
 ---
 
@@ -74,5 +75,6 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **Day 5 (Aug 12)** | **[[Invert Binary Tree]]** | Easy | High Value | [[Trees]] | Solved (Grade B) |
 | **Day 5 (Aug 12)** | **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | Solved (Grade A) |
 | **Day 5 (Aug 12)** | **[[Same Tree]]** | Easy | Volume | [[Trees]] | Solved (Grade A) |
+| **Day 5 (Aug 12)** | **[[Subtree of Another Tree]]** | Easy | Volume | [[Trees]] | Solved (Grade C) |
 | **Day 6 (Aug 13)** | **[[Maximum Subarray]]** | Medium | High Value | [[Greedy]] | Unsolved |
 | **Day 6 (Aug 13)** | **[[House Robber]]** | Medium | High Value | [[Dynamic Programming]] | Unsolved |
