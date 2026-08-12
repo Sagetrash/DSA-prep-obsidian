@@ -43,6 +43,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **[[Invert Binary Tree]]** | Easy | High Value | [[Trees]] | Solved | Accepted | 4m | Grade B | Level 4 | 2026-08-13 |
 | **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | Solved | Accepted | 2m | Grade A | Level 5 | 2026-08-15 |
 | **[[Merge Two Sorted Lists]]** | Easy | Volume | [[Linked List]] | Solved | Accepted | 5m 42s | Grade A | Level 5 | 2026-08-15 |
+| **[[Linked List Cycle]]** | Easy | Volume | [[Linked List]] | Solved | Accepted | 3m | Grade A | Level 5 | 2026-08-15 |
 
 ---
 
@@ -67,6 +68,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **Day 4 (Aug 11)** | **[[Min Stack]]** | Medium | High Value | [[Stack]] | Solved (Grade A) |
 | **Day 4 (Aug 11)** | **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | Solved (Grade A) |
 | **Day 4 (Aug 11)** | **[[Merge Two Sorted Lists]]** | Easy | Volume | [[Linked List]] | Solved (Grade A) |
+| **Day 4 (Aug 11)** | **[[Linked List Cycle]]** | Easy | Volume | [[Linked List]] | Solved (Grade A) |
 | **Day 5 (Aug 12)** | **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | Solved (Grade C) |
 | **Day 5 (Aug 12)** | **[[Invert Binary Tree]]** | Easy | High Value | [[Trees]] | Solved (Grade B) |
 | **Day 5 (Aug 12)** | **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | Solved (Grade A) |
