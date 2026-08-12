@@ -1,12 +1,12 @@
 ---
 pattern_name: "Trees"
 category: "Data Structures"
-mastery_level: 4
-attempted_count: 1
-solved_count: 1
-independent_solved_count: 0
-hint_rate: "100%"
-average_time: "4m"
+mastery_level: 5
+attempted_count: 2
+solved_count: 2
+independent_solved_count: 1
+hint_rate: "50%"
+average_time: "3m"
 tags:
   - pattern
 ---
