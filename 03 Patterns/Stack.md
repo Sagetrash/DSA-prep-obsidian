@@ -2,11 +2,11 @@
 pattern_name: "Stack"
 category: "Data Structures"
 mastery_level: 5
-attempted_count: 1
-solved_count: 1
-independent_solved_count: 1
+attempted_count: 2
+solved_count: 2
+independent_solved_count: 2
 hint_rate: "0%"
-average_time: "5m 45s"
+average_time: "6m 22s"
 tags:
   - pattern
 ---
