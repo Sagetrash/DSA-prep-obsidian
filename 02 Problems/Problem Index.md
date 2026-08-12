@@ -33,7 +33,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **[[Remove Duplicates from Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Solved | Accepted | 2m | Grade A | Level 5 | 2026-08-11 |
 | **[[Binary Search]]** | Easy | High Value | [[Binary Search]] | Solved | Accepted | 5m | Grade A | Level 5 | 2026-08-11 |
 | **[[Search 2D Matrix]]** | Medium | High Value | [[Binary Search]] | Solved | Accepted | 6m | Grade A | Level 5 | 2026-08-11 |
-| **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Solved | Accepted | 13m | Grade A | Level 5 | 2026-08-11 |
+| **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Solved | Accepted | 4m | Grade A | Level 6 | 2026-08-19 |
 | **[[Find Minimum in Rotated Sorted Array]]** | Medium | Volume | [[Binary Search]] | Solved | Accepted | 12m | Grade A | Level 5 | 2026-08-11 |
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | Solved | Accepted | 5m | Grade A | Level 6 | 2026-08-19 |
 | **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | Solved | Accepted | 5m 45s | Grade A | Level 5 | 2026-08-15 |
