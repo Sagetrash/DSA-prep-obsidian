@@ -1,7 +1,7 @@
 ---
 pattern_name: "Binary Search"
 category: "Algorithmic Pattern"
-mastery_level: 5
+mastery_level: 6
 attempted_count: 6
 solved_count: 6
 independent_solved_count: 6

@@ -35,7 +35,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **[[Search 2D Matrix]]** | Medium | High Value | [[Binary Search]] | Solved | Accepted | 6m | Grade A | Level 5 | 2026-08-11 |
 | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Solved | Accepted | 13m | Grade A | Level 5 | 2026-08-11 |
 | **[[Find Minimum in Rotated Sorted Array]]** | Medium | Volume | [[Binary Search]] | Solved | Accepted | 12m | Grade A | Level 5 | 2026-08-11 |
-| **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | Solved | Accepted | 15m | Grade A | Level 5 | 2026-08-11 |
+| **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | Solved | Accepted | 5m | Grade A | Level 6 | 2026-08-19 |
 | **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | Solved | Accepted | 5m 45s | Grade A | Level 5 | 2026-08-15 |
 | **[[Min Stack]]** | Medium | High Value | [[Stack]] | Solved | Accepted | 4m 31s | Grade A | Level 5 | 2026-08-15 |
 | **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | Solved | Accepted | 11m | Grade A | Level 5 | 2026-08-15 |
