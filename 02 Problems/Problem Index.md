@@ -17,7 +17,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | Problem Title | Difficulty | Track | Primary Pattern | Status | Result | Time | Grade | Mastery Level | Next Review |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | Solved | Accepted | 13m | Grade A | Level 4 | 2026-08-09 |
-| **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | Solved | Accepted | 12m | Grade A | Level 5 | 2026-08-11 |
+| **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | Solved | Accepted | 5m | Grade A | Level 6 | 2026-08-19 |
 | **[[Contains Duplicate]]** | Easy | Volume | [[Arrays & Hashing]] | Solved | Accepted | 6m | Grade A | Level 4 | 2026-08-09 |
 | **[[Valid Anagram]]** | Easy | Volume | [[Arrays & Hashing]] | Solved | Accepted | 11m | Grade A | Level 5 | 2026-08-09 |
 | **[[Top K Frequent Elements]]** | Medium | High Value | [[Arrays & Hashing]] | Solved | Accepted | 23m | Grade A | Level 5 | 2026-08-11 |

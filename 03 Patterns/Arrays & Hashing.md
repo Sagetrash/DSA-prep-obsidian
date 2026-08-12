@@ -1,7 +1,7 @@
 ---
 pattern_name: "Arrays & Hashing"
 category: "Data Structures"
-mastery_level: 5
+mastery_level: 6
 attempted_count: 4
 solved_count: 4
 independent_solved_count: 4
