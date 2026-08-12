@@ -38,6 +38,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | Solved | Accepted | 15m | Grade A | Level 5 | 2026-08-11 |
 | **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | Solved | Accepted | 5m 45s | Grade A | Level 5 | 2026-08-15 |
 | **[[Min Stack]]** | Medium | High Value | [[Stack]] | Solved | Accepted | 4m 31s | Grade A | Level 5 | 2026-08-15 |
+| **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | Solved | Accepted | 11m | Grade A | Level 5 | 2026-08-15 |
 
 ---
 
@@ -60,7 +61,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **Day 3 (Aug 10)** | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | Solved (Grade A) |
 | **Day 4 (Aug 11)** | **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | Solved (Grade A) |
 | **Day 4 (Aug 11)** | **[[Min Stack]]** | Medium | High Value | [[Stack]] | Solved (Grade A) |
-| **Day 4 (Aug 11)** | **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | Unsolved |
+| **Day 4 (Aug 11)** | **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | Solved (Grade A) |
 | **Day 5 (Aug 12)** | **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | Unsolved |
 | **Day 6 (Aug 13)** | **[[Maximum Subarray]]** | Medium | High Value | [[Greedy]] | Unsolved |
 | **Day 6 (Aug 13)** | **[[House Robber]]** | Medium | High Value | [[Dynamic Programming]] | Unsolved |
