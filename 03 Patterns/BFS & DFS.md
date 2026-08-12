@@ -1,12 +1,12 @@
 ---
 pattern_name: "BFS & DFS"
 category: "Algorithmic Pattern"
-mastery_level: 1
-attempted_count: 0
-solved_count: 0
+mastery_level: 3
+attempted_count: 1
+solved_count: 1
 independent_solved_count: 0
-hint_rate: "0%"
-average_time: "0m"
+hint_rate: "100%"
+average_time: "8m 35s"
 tags:
   - pattern
 ---
