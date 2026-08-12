@@ -36,6 +36,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Solved | Accepted | 13m | Grade A | Level 5 | 2026-08-11 |
 | **[[Find Minimum in Rotated Sorted Array]]** | Medium | Volume | [[Binary Search]] | Solved | Accepted | 12m | Grade A | Level 5 | 2026-08-11 |
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | Solved | Accepted | 15m | Grade A | Level 5 | 2026-08-11 |
+| **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | Solved | Accepted | 5m 45s | Grade A | Level 5 | 2026-08-15 |
 
 ---
 
@@ -56,7 +57,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **Day 3 (Aug 10)** | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Solved (Grade A) |
 | **Day 3 (Aug 10)** | **[[Find Minimum in Rotated Sorted Array]]** | Medium | Volume | [[Binary Search]] | Solved (Grade A) |
 | **Day 3 (Aug 10)** | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | Solved (Grade A) |
-| **Day 4 (Aug 11)** | **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | Unsolved |
+| **Day 4 (Aug 11)** | **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | Solved (Grade A) |
 | **Day 4 (Aug 11)** | **[[Min Stack]]** | Medium | High Value | [[Stack]] | Unsolved |
 | **Day 4 (Aug 11)** | **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | Unsolved |
 | **Day 5 (Aug 12)** | **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | Unsolved |

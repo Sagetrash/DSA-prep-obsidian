@@ -61,9 +61,9 @@ Analysis of your GitHub repository [`Sagetrash/neetcode-submissions`](https://gi
 ---
 
 ## 📈 Recent Progress & Metrics Summary
-* **Total Solved (Sprint)**: 20 / 35
-* **High Value Solved**: 11 (Two Sum, Group Anagrams, Top K Frequent Elements, Product of Array Except Self, 3Sum, Longest Substring Without Repeating Characters, Container With Most Water, Binary Search, Search 2D Matrix, Koko Eating Bananas, Search in Rotated Sorted Array)
+* **Total Solved (Sprint)**: 21 / 35
+* **High Value Solved**: 12 (Two Sum, Group Anagrams, Top K Frequent Elements, Product of Array Except Self, 3Sum, Longest Substring Without Repeating Characters, Container With Most Water, Binary Search, Search 2D Matrix, Koko Eating Bananas, Search in Rotated Sorted Array, Valid Parentheses)
 * **Volume Solved**: 9 (Contains Duplicate, Valid Anagram, Search Insert Position, Valid Palindrome, Best Time to Buy and Sell Stock, Squares of a Sorted Array, Move Zeroes, Remove Duplicates from Sorted Array, Find Minimum in Rotated Sorted Array)
-* **Independent Solve Rate**: 95.0% (19/20 unassisted passes)
-* **Average Solving Time**: 11.6 mins (Full Problem Presentation $\to$ Code Submission Window)
+* **Independent Solve Rate**: 95.2% (20/21 unassisted passes)
+* **Average Solving Time**: 11.3 mins (Full Problem Presentation $\to$ Code Submission Window)
 * **Long-Term Target**: 300+ Problems Solved

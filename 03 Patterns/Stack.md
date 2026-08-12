@@ -1,12 +1,12 @@
 ---
 pattern_name: "Stack"
 category: "Data Structures"
-mastery_level: 1
-attempted_count: 0
-solved_count: 0
-independent_solved_count: 0
+mastery_level: 5
+attempted_count: 1
+solved_count: 1
+independent_solved_count: 1
 hint_rate: "0%"
-average_time: "0m"
+average_time: "5m 45s"
 tags:
   - pattern
 ---
