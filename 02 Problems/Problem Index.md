@@ -37,7 +37,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **[[Find Minimum in Rotated Sorted Array]]** | Medium | Volume | [[Binary Search]] | Solved | Accepted | 12m | Grade A | Level 5 | 2026-08-11 |
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | Solved | Accepted | 15m | Grade A | Level 5 | 2026-08-11 |
 | **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | Solved | Accepted | 5m 45s | Grade A | Level 5 | 2026-08-15 |
-| **[[Min Stack]]** | Medium | High Value | [[Stack]] | Solved | Accepted | 7m | Grade A | Level 5 | 2026-08-15 |
+| **[[Min Stack]]** | Medium | High Value | [[Stack]] | Solved | Accepted | 4m 31s | Grade A | Level 5 | 2026-08-15 |
 
 ---
 

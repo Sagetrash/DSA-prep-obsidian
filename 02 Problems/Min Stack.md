@@ -12,7 +12,7 @@ result: Accepted
 attempts: 1
 independent_solves: 1
 hint_used: none
-time_taken: 7m
+time_taken: 4m 31s
 first_attempt: 2026-08-12
 last_attempt: 2026-08-12
 next_review: 2026-08-15
@@ -99,7 +99,7 @@ class MinStack:
 ---
 
 ## Attempt Log & Metrics
-* **Time Taken**: `7m`
+* **Time Taken**: `4m 31s`
 * **Hint Used**: `none`
 * **Result**: `Accepted`
 * **Self Confidence (1–5)**: `5`
@@ -133,7 +133,7 @@ To retrieve the minimum element in $\mathcal{O}(1)$ time without searching throu
 ## Review History
 | Date | Result | Time | Hint Level | Code Grade | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 2026-08-12 | Accepted | 7m | none | Grade A | Flawless 1st-pass solution under benchmark time (15m). |
+| 2026-08-12 | Accepted | 4m 31s | none | Grade A | Flawless 1st-pass solution under benchmark time (15m). |
 
 ---
 
