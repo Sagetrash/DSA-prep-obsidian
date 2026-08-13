@@ -78,3 +78,6 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **Day 5 (Aug 12)** | **[[Subtree of Another Tree]]** | Easy | Volume | [[Trees]] | Solved (Grade C) |
 | **Day 6 (Aug 13)** | **[[Maximum Subarray]]** | Medium | High Value | [[Greedy]] | Unsolved |
 | **Day 6 (Aug 13)** | **[[House Robber]]** | Medium | High Value | [[Dynamic Programming]] | Unsolved |
+| **Day 6 (Aug 13)** | **[[Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Unsolved |
+| **Day 6 (Aug 13)** | **[[Best Time to Buy and Sell Stock II]]** | Medium | Volume | [[Greedy]] | Unsolved |
+
