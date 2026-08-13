@@ -8,16 +8,16 @@ track: Volume
 primary_pattern: "[[Greedy]]"
 secondary_patterns:
   - "[[Dynamic Programming]]"
-status: Unsolved
-result: Untested
-attempts: 0
-independent_solves: 0
+status: Solved
+result: Accepted
+attempts: 1
+independent_solves: 1
 hint_used: none
-time_taken: 0m
-first_attempt: null
-last_attempt: null
-next_review: null
-confidence: 0
+time_taken: 6m
+first_attempt: 2026-08-13
+last_attempt: 2026-08-13
+next_review: 2026-08-14
+confidence: 5
 expected_time_complexity: "O(N)"
 expected_space_complexity: "O(1)"
 tags:
@@ -33,7 +33,8 @@ tags:
 * **Platform**: [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 * **Difficulty**: `Medium` | **Track**: `Volume`
 * **Primary Pattern**: [[Greedy]]
-* **Status**: `Unsolved` | **Result**: `Untested`
+* **Status**: `Solved` | **Result**: `Accepted`
+* **Next Review**: `2026-08-14`
 
 ---
 
@@ -69,16 +70,68 @@ Explanation: There is no way to make a positive profit, so we never buy the stoc
 ---
 
 ## My First Thought
-*(Write your initial approach HERE)*
+Instead of tracking multi-day transactions, I can greedily sum up every positive daily price difference (`prices[i] - prices[i-1] > 0`).
 
 ---
 
 ## My Solution
 ```python
-# Paste your code submission here
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        buy_price = prices[0]
+        max_profit = 0
+        for i in range(1, len(prices)):
+            profit = prices[i] - buy_price
+            if profit >= 0:
+                max_profit += profit
+            buy_price = prices[i]
+        return max_profit
 ```
 
 ---
 
+## Attempt Log & Metrics
+* **Time Taken**: 6m
+* **Hint Used**: `none`
+* **Result**: `Accepted`
+* **Self Confidence (1–5)**: 5
+
+---
+
+## Reasoning & Explanation
+The key insight is that holding a stock across multiple days of increasing prices (e.g. buying at $p_1$ and selling at $p_3$) is mathematically equivalent to collecting individual daily profits: $(p_3 - p_1) = (p_3 - p_2) + (p_2 - p_1)$.
+Thus, a greedy strategy that adds every positive daily gain (`prices[i] - prices[i-1]`) guarantees the global maximum profit in $\mathcal{O}(N)$ time and $\mathcal{O}(1)$ space.
+
+---
+
+## Correct Approach & Complexity Analysis
+* **Optimal Pattern**: [[Greedy]] (Slope / Peak-Valley Accumulation)
+* **Time Complexity**: $\mathcal{O}(N)$ — single linear pass through `prices`.
+* **Space Complexity**: $\mathcal{O}(1)$ — constant extra space.
+
+---
+
+## Key Edge Cases
+- [x] Strictly decreasing prices `[7, 6, 4, 3, 1]` $\implies$ Profit is negative on every step; returns `0`.
+- [x] Strictly increasing prices `[1, 2, 3, 4, 5]` $\implies$ Accumulates all positive daily differences; returns `4`.
+- [x] Single day prices `[5]` $\implies$ Loop range `(1, 1)` doesn't execute; returns `0`.
+
+---
+
+## Linked Mistakes
+* None.
+
+---
+
+## Review History
+| Date | Result | Time | Hint Level | Code Grade | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-08-13 | Accepted | 6m | none | Grade A | Completely unassisted 1st-pass solve! Clean linear greedy pass. |
+
+---
+
 ## AI Analysis
-*(Pending submission)*
+* **Grade**: `Grade A`
+* **Edge Cases Missed**: None — single element arrays and strictly decreasing prices are handled naturally without branching errors.
+* **Code Quality**: Clean, intuitive, and optimal.
+* **Actionable Advice**: Flawless execution! You can simplify the loop body even further in Python as `max_profit += max(0, prices[i] - prices[i-1])`.

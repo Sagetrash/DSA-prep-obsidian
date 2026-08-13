@@ -49,6 +49,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **[[Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Solved | Accepted | 5m | Grade A | Level 4 | 2026-08-14 |
 | **[[House Robber]]** | Medium | High Value | [[Dynamic Programming]] | Solved | Accepted | 8m | Grade A | Level 5 | 2026-08-14 |
 | **[[Maximum Subarray]]** | Medium | High Value | [[Greedy]] | Solved | Accepted | 8m | Grade A | Level 5 | 2026-08-14 |
+| **[[Best Time to Buy and Sell Stock II]]** | Medium | Volume | [[Greedy]] | Solved | Accepted | 6m | Grade A | Level 5 | 2026-08-14 |
 
 ---
 
@@ -82,5 +83,5 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **Day 6 (Aug 13)** | **[[Maximum Subarray]]** | Medium | High Value | [[Greedy]] | Solved (Grade A) |
 | **Day 6 (Aug 13)** | **[[House Robber]]** | Medium | High Value | [[Dynamic Programming]] | Solved (Grade A) |
 | **Day 6 (Aug 13)** | **[[Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Solved (Grade A) |
-| **Day 6 (Aug 13)** | **[[Best Time to Buy and Sell Stock II]]** | Medium | Volume | [[Greedy]] | Unsolved |
+| **Day 6 (Aug 13)** | **[[Best Time to Buy and Sell Stock II]]** | Medium | Volume | [[Greedy]] | Solved (Grade A) |
 
