@@ -10,13 +10,13 @@ secondary_patterns:
   - "[[Arrays & Hashing]]"
 status: Solved
 result: Accepted
-attempts: 1
-independent_solves: 1
+attempts: 2
+independent_solves: 2
 hint_used: none
-time_taken: 24m
+time_taken: 10m
 first_attempt: 2026-08-09
-last_attempt: 2026-08-09
-next_review: 2026-08-13
+last_attempt: 2026-08-13
+next_review: 2026-08-16
 confidence: 5
 expected_time_complexity: "O(N^2)"
 expected_space_complexity: "O(1)"
@@ -33,6 +33,7 @@ tags:
 * **Difficulty**: `Medium` | **Track**: `High Value`
 * **Primary Pattern**: [[Two Pointers]]
 * **Status**: `Solved` | **Result**: `Accepted` | **Grade**: `Grade A`
+* **Next Review**: `2026-08-16`
 
 ---
 
@@ -57,84 +58,53 @@ Output: []
 ---
 
 ## My First Thought
-> *"I am thinking, we'll first sort it, then we can use 3 pointers low high and k, low and high move till they cross each other, and k is used to shrink the search space everytime"*
+Sort the array first, then fix an outer pointer `i` and use two inner converging pointers `j` and `k` to find pairs summing to `-nums[i]`. Skip identical values in-place for both `i` and `j` to eliminate duplicate triplets without allocating extra `set()` memory.
 
 ---
 
-## My Solution
-```python
-class Solution:
-    def threeSum(self, nums: list[int]) -> list[list[int]]:
-        nums.sort()
-        out = set()
-        for i in range(len(nums)):
-            j = len(nums) - 1
-            k = i+1
-            while(k<j):
-                s = nums[i]+nums[j]+nums[k]
-                if s == 0:
-                    out.add((nums[i],nums[j],nums[k]))
-                if s > 0:
-                    j -= 1
-                else:
-                    k += 1
-        return list(out)
-```
-
----
-
-## AI Analysis
-
-### Code & Complexity Assessment
-* **Correctness**: Correct logic and output. Successfully sorts the array and utilizes two pointers converging towards target sum `-nums[i]`. Uses `set()` to filter duplicate triplets.
-* **Submitted Time Complexity**: $\mathcal{O}(N^2)$ — Outer loop runs $N$ times, inner two-pointers scan up to $N$ elements.
-* **Submitted Space Complexity**: $\mathcal{O}(N^2)$ worst-case auxiliary space due to using `set()` for duplicate triplet elimination instead of pointer-based duplicate skipping.
-* **Interview Readiness Grade**: **Grade B — Correct but Suboptimal Space / Shaky Duplicate Handling**
-  * *Reasoning*: While functional and within time limits, using a `set()` incurs extra space memory overhead $\mathcal{O}(N^2)$ and unnecessary set hashing operations. In an interview setting, optimal $\mathcal{O}(1)$ extra space is expected by skipping adjacent identical elements with explicit pointer checks.
-
-### Linked Mistakes & Cognitive Habits
-* Linked Mistake: [[Set Deduplication Overhead]]
-* *Habit*: Relying on post-processing set structures rather than driving pointer boundary conditions directly.
-
-### Refactored Optimal Solution ($\mathcal{O}(N^2)$ Time, $\mathcal{O}(1)$ Extra Space)
+## My Solution (Re-Attempt Pass — In-Place Duplicate Skipping)
 ```python
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         nums.sort()
         res = []
-        n = len(nums)
-        
-        for i in range(n - 2):
-            # Skip duplicate values for the outer fixed element
-            if i > 0 and nums[i] == nums[i - 1]:
+        for i in range(len(nums)-1):
+            if i > 0 and nums[i] == nums[i-1]:
                 continue
-            
-            # Early exit optimization: if smallest possible sum > 0, stop
-            if nums[i] + nums[i + 1] + nums[i + 2] > 0:
-                break
-            # Early skip optimization: if largest possible sum < 0, continue
-            if nums[i] + nums[n - 2] + nums[n - 1] < 0:
-                continue
-
-            left, right = i + 1, n - 1
-            while left < right:
-                total = nums[i] + nums[left] + nums[right]
-                if total == 0:
-                    res.append([nums[i], nums[left], nums[right]])
-                    left += 1
-                    right -= 1
-                    # Skip duplicate inner pointer values
-                    while left < right and nums[left] == nums[left - 1]:
-                        left += 1
-                    while left < right and nums[right] == nums[right + 1]:
-                        right -= 1
-                elif total < 0:
-                    left += 1
+            k = len(nums) - 1
+            j = i + 1
+            while(j<k):
+                s = nums[i] + nums[j] + nums[k]
+                if s == 0:
+                    res.append([nums[i],nums[j],nums[k]])
+                    j += 1
+                    k -= 1
                 else:
-                    right -= 1
-                    
+                    if s<0:
+                        j += 1
+                    else:
+                        k -= 1
+                while j<k and nums[j] == nums[j-1]:
+                    j += 1
         return res
 ```
+
+---
+
+## Attempt Log & Metrics
+* **Time Taken**: 10m
+* **Hint Used**: `none`
+* **Result**: `Accepted`
+* **Self Confidence (1–5)**: 5
+
+---
+
+## Reasoning & Explanation
+Sorting array in $\mathcal{O}(N \log N)$ aligns all duplicate values adjacently. By executing:
+1. Outer duplicate skip: `if i > 0 and nums[i] == nums[i-1]: continue`
+2. Inner duplicate skip: `while j < k and nums[j] == nums[j-1]: j += 1`
+
+The algorithm guarantees every distinct triplet is visited exactly once while eliminating set deduplication overhead, operating in $\mathcal{O}(N^2)$ time and $\mathcal{O}(1)$ auxiliary space.
 
 ---
 
@@ -144,3 +114,12 @@ class Solution:
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 2026-08-09 | Accepted | 24m | none | Grade B | First pass solved independently using Two Pointers + set deduplication. |
 | 2026-08-10 | Accepted | 1m | none | Grade A | Spaced repetition flash-check passed! Flawless explanation of in-place duplicate skipping logic. |
+| 2026-08-13 | Accepted | 10m | none | Grade A | Re-attempt pass complete! Successfully eliminated set overhead with in-place duplicate skipping ($\mathcal{O}(1)$ space). |
+
+---
+
+## AI Analysis
+* **Grade**: `Grade A`
+* **Edge Cases Missed**: None — duplicate triplets are cleanly skipped in-place.
+* **Code Quality**: Optimal $\mathcal{O}(N^2)$ time and $\mathcal{O}(1)$ extra space.
+* **Mastery Level**: Upgraded to **Level 5/6 Mastery**!

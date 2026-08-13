@@ -23,7 +23,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **[[Top K Frequent Elements]]** | Medium | High Value | [[Arrays & Hashing]] | Solved | Accepted | 23m | Grade A | Level 5 | 2026-08-11 |
 | **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | Solved | Accepted | 21m | Grade A | Level 5 | 2026-08-11 |
 | **[[Search Insert Position]]** | Easy | Volume | [[Binary Search]] | Solved | Accepted | 11m | Grade A | Level 4 | 2026-08-09 |
-| **[[3Sum]]** | Medium | High Value | [[Two Pointers]] | Solved | Accepted | 24m | Grade A | Level 4 | 2026-08-13 |
+| **[[3Sum]]** | Medium | High Value | [[Two Pointers]] | Solved | Accepted | 10m | Grade A | Level 5 | 2026-08-16 |
 | **[[Longest Substring Without Repeating Characters]]** | Medium | High Value | [[Sliding Window]] | Solved | Accepted | 23m | Grade A | Level 4 | 2026-08-13 |
 | **[[Container With Most Water]]** | Medium | High Value | [[Two Pointers]] | Solved | Accepted | 9m | Grade A | Level 5 | 2026-08-11 |
 | **[[Valid Palindrome]]** | Easy | Volume | [[Two Pointers]] | Solved | Accepted | 5m | Grade A | Level 5 | 2026-08-11 |
@@ -39,7 +39,7 @@ This note indexes all problems in the vault, tracking their difficulty, primary 
 | **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | Solved | Accepted | 5m 45s | Grade A | Level 5 | 2026-08-15 |
 | **[[Min Stack]]** | Medium | High Value | [[Stack]] | Solved | Accepted | 4m 31s | Grade A | Level 5 | 2026-08-15 |
 | **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | Solved | Accepted | 11m | Grade A | Level 5 | 2026-08-15 |
-| **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | Solved | Accepted | 8m 35s | Grade C | Level 3 | 2026-08-13 |
+| **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | Solved | Accepted | 5m | Grade A | Level 5 | 2026-08-16 |
 | **[[Invert Binary Tree]]** | Easy | High Value | [[Trees]] | Solved | Accepted | 4m | Grade B | Level 4 | 2026-08-13 |
 | **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | Solved | Accepted | 2m | Grade A | Level 5 | 2026-08-15 |
 | **[[Merge Two Sorted Lists]]** | Easy | Volume | [[Linked List]] | Solved | Accepted | 5m 42s | Grade A | Level 5 | 2026-08-15 |
