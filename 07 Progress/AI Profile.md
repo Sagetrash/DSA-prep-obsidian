@@ -2,7 +2,7 @@
 title: "AI Profile & Learning Memory"
 last_updated: 2026-08-13
 sprint_phase: "Initial 7-Day Sprint"
-overall_readiness: "Sprint Day 6 In Progress (32/35 Solved — Medium DP & 1D Transitions Mastered! 🔥)"
+overall_readiness: "Sprint Day 6 In Progress (33/35 Solved — Kadane's Algorithm & Greedy Subarrays Mastered! 🔥)"
 github_repo: "Sagetrash/neetcode-submissions"
 tags:
   - profile
@@ -25,7 +25,7 @@ Direct GraphQL integration with LeetCode handle **`sagetrash`**:
   * *Binary Search*: `Search Insert Position`, `Binary Search`, `Search 2D Matrix`, `Koko Eating Bananas`, `Find Minimum in Rotated Sorted Array`, `Search in Rotated Sorted Array`
   * *Linked List*: `Odd Even Linked List`
   * *Trees*: `Same Tree`, `Maximum Depth of Binary Tree`, `Binary Tree Preorder Traversal`, `Binary Tree Postorder Traversal`
-  * *Dynamic Programming / Greedy*: `Best Time to Buy and Sell Stock II`, `Fibonacci Number`, `Climbing Stairs`, `House Robber`
+  * *Dynamic Programming / Greedy*: `Best Time to Buy and Sell Stock II`, `Fibonacci Number`, `Climbing Stairs`, `House Robber`, `Maximum Subarray`
 
 ---
 
@@ -40,10 +40,7 @@ Analysis of your GitHub repository [`Sagetrash/neetcode-submissions`](https://gi
 * **Algorithmic Intuition**: Independently invented **Bucket Sort** for *Top K Frequent Elements* ($O(N)$ linear time) and mastered $\mathcal{O}(1)$ extra space scalar accumulator for *Product of Array Except Self*.
 * **Binary Search & Rotated Boundaries**: Level 5/6 achieved. Flawless pointer termination logic on *Search Insert Position* (11m), *Binary Search* (5m), *Search 2D Matrix* (6m), *Koko Eating Bananas* (13m), *Find Minimum in Rotated Sorted Array* (12m), and *Search in Rotated Sorted Array* (15m) with sorted half identification.
 * **Sliding Window Boundary Control**: Clean implementation of variable-size window with set-based contraction on *Longest Substring Without Repeating Characters* (23m).
-* **Greedy Two Pointers**: Excellent intuition on *Container With Most Water* (9m), executing optimal $\mathcal{O}(N)$ contraction by moving height bottlenecks.
-* **In-Place Two Pointer String Scan**: Flawless pivot to $\mathcal{O}(1)$ extra space on *Valid Palindrome* (5m), handling non-alphanumeric boundary conditions cleanly.
-* **Converging Ends Two Pointers**: Efficient boundary comparison on *Squares of a Sorted Array* (3m) achieving linear $\mathcal{O}(N)$ time.
-* **Fast & Slow Pointer Partitioning**: Flawless in-place array element partitioning on *Move Zeroes* (21m) and *Remove Duplicates from Sorted Array* (2m).
+* **Greedy Subarray Accumulation**: Flawless 1st-pass execution of Kadane's Algorithm on *Maximum Subarray* (8m), resetting negative debt prefixes in $\mathcal{O}(N)$ time and $\mathcal{O}(1)$ space.
 * **1D Dynamic Programming Recurrence**: Instant pattern recognition on *Climbing Stairs* (5m) and *House Robber* (8m), identifying non-adjacent subproblem transitions independently.
 
 ---
@@ -62,9 +59,9 @@ Analysis of your GitHub repository [`Sagetrash/neetcode-submissions`](https://gi
 ---
 
 ## 📈 Recent Progress & Metrics Summary
-* **Total Solved (Sprint)**: 32 / 35 (Day 6 in progress 🔥)
-* **High Value Solved**: 18 (Two Sum, Group Anagrams, Top K Frequent Elements, Product of Array Except Self, 3Sum, Longest Substring Without Repeating Characters, Container With Most Water, Binary Search, Search 2D Matrix, Koko Eating Bananas, Search in Rotated Sorted Array, Valid Parentheses, Min Stack, Reverse Linked List, Binary Tree Level Order Traversal, Invert Binary Tree, Maximum Depth of Binary Tree, House Robber)
+* **Total Solved (Sprint)**: 33 / 35 (Day 6 in progress 🔥)
+* **High Value Solved**: 19 (Two Sum, Group Anagrams, Top K Frequent Elements, Product of Array Except Self, 3Sum, Longest Substring Without Repeating Characters, Container With Most Water, Binary Search, Search 2D Matrix, Koko Eating Bananas, Search in Rotated Sorted Array, Valid Parentheses, Min Stack, Reverse Linked List, Binary Tree Level Order Traversal, Invert Binary Tree, Maximum Depth of Binary Tree, House Robber, Maximum Subarray)
 * **Volume Solved**: 14 (Contains Duplicate, Valid Anagram, Search Insert Position, Valid Palindrome, Best Time to Buy and Sell Stock, Squares of a Sorted Array, Move Zeroes, Remove Duplicates from Sorted Array, Find Minimum in Rotated Sorted Array, Merge Two Sorted Lists, Linked List Cycle, Same Tree, Subtree of Another Tree, Climbing Stairs)
-* **Independent Solve Rate**: 87.5% (28/32 unassisted passes)
+* **Independent Solve Rate**: 87.9% (29/33 unassisted passes)
 * **Average Solving Time**: 9.4 mins (Full Problem Presentation $\to$ Code Submission Window)
 * **Long-Term Target**: 300+ Problems Solved
