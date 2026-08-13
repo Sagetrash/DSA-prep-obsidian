@@ -1,12 +1,12 @@
 ---
 pattern_name: "Dynamic Programming"
 category: "Algorithmic Pattern"
-mastery_level: 1
-attempted_count: 0
-solved_count: 0
-independent_solved_count: 0
+mastery_level: 4
+attempted_count: 1
+solved_count: 1
+independent_solved_count: 1
 hint_rate: "0%"
-average_time: "0m"
+average_time: "5m"
 tags:
   - pattern
 ---
