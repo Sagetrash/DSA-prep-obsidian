@@ -149,17 +149,17 @@ When the user gives natural language prompts, execute the corresponding protocol
 * **Information Density over Decoration**: Focus on actionable data.
 * **Direct, Professional, Interviewer-Like**: Direct feedback without fluff or shame. Praise must be earned by clean code and independent reasoning.
 * **User Time Minimization**: User provides (1) Code, (2) Time, (3) Hints, (4) Result (either directly in chat or inside the note). Agent executes all note edits, metadata updates, pattern links, mistake tracking, and review scheduling automatically.
-* **MANDATORY AUTOMATIC VAULT SYNC ON SOLUTION SUBMISSION**: Whenever a valid code submission or solution attempt is provided (either pasted in chat or written in a note), the AI agent MUST automatically execute a full 9-step vault synchronization:
+* **MANDATORY AUTOMATIC VAULT SYNC ON SOLUTION SUBMISSION**: Whenever a valid code submission or solution attempt is provided (either pasted in chat or written in a note), the AI agent MUST automatically execute a full vault synchronization:
   1. Create/update the target problem note in `02 Problems/`.
   2. Write code, intuition, time taken, result, and hint level into the note.
   3. Perform AI solution analysis (Grade A–E, actual time/space complexity, edge cases, code quality).
   4. Update pattern mastery and metrics in `03 Patterns/`.
   5. Update mistake frequencies in `04 Mistakes/`.
   6. Update daily session summary in `01 Daily/`.
-  7. Update master problem index in `02 Problems/Problem Index.md`.
+  7. Run `python3 scripts/update_problem_index.py` to synchronize BOTH `02 Problems/Problem Index.md` (active revision queue) and `07 Progress/NeetCode 150 Tracker.md` (curriculum module progress bars & checkboxes).
   8. Update long-term memory profile in `07 Progress/AI Profile.md`.
   9. Commit vault changes to Git with clean conventional commit message.
-* **Central Problem Index Maintenance**: The AI agent MUST maintain and consult `02 Problems/Problem Index.md` whenever adding new problems or updating solution states, so any agent can inspect all solved/unsolved problems at a glance.
+* **NeetCode 150 & Central Index Maintenance**: The AI agent MUST maintain and consult both `02 Problems/Problem Index.md` and `07 Progress/NeetCode 150 Tracker.md` whenever adding new problems, generating daily sessions, or updating solution states.
 * **Live LeetCode Profile Verification**: The AI agent can query LeetCode's GraphQL API (`https://leetcode.com/graphql`, handle: `sagetrash`) to verify live AC status, cross-reference solved problems, and auto-tag problems as `Unseen` vs `Re-Verification`.
 * **Git Versioning Protocol**: The AI agent should commit vault updates automatically after significant sessions or problem analysis using clear conventional commit messages (e.g., `feat(daily): complete 2026-08-08 session - 7 solved`, `docs(problem): add solution & AI analysis for <Problem>`).
 
