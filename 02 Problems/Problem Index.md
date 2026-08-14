@@ -1,87 +1,101 @@
 ---
-title: "Problem Index"
+title: "Problem Index & Revision Dashboard"
 last_updated: 2026-08-14
 tags:
   - index
   - problems
+  - revision
 ---
 
-# 📚 Central Problem Index
+# 📚 Central Problem Index & Revision Dashboard
 
-This note indexes all problems in the vault, tracking their difficulty, primary pattern, attempt metrics, and current re-verification status.
-
----
-
-## 🟢 Solved & Re-Verified Problems (Sprint 2026-08-08)
-
-| Problem Title | Difficulty | Track | Primary Pattern | Status | Result | Time | Grade | Mastery Level | Next Review |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | Solved | Accepted | 13m | Grade A | Level 4 | 2026-08-09 |
-| **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | Solved | Accepted | 5m | Grade A | Level 6 | 2026-08-19 |
-| **[[Contains Duplicate]]** | Easy | Volume | [[Arrays & Hashing]] | Solved | Accepted | 6m | Grade A | Level 4 | 2026-08-09 |
-| **[[Valid Anagram]]** | Easy | Volume | [[Arrays & Hashing]] | Solved | Accepted | 11m | Grade A | Level 5 | 2026-08-09 |
-| **[[Top K Frequent Elements]]** | Medium | High Value | [[Arrays & Hashing]] | Solved | Accepted | 23m | Grade A | Level 5 | 2026-08-11 |
-| **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | Solved | Accepted | 21m | Grade A | Level 5 | 2026-08-11 |
-| **[[Search Insert Position]]** | Easy | Volume | [[Binary Search]] | Solved | Accepted | 11m | Grade A | Level 4 | 2026-08-09 |
-| **[[3Sum]]** | Medium | High Value | [[Two Pointers]] | Solved | Accepted | 10m | Grade A | Level 5 | 2026-08-16 |
-| **[[Longest Substring Without Repeating Characters]]** | Medium | High Value | [[Sliding Window]] | Solved | Accepted | 23m | Grade A | Level 4 | 2026-08-13 |
-| **[[Container With Most Water]]** | Medium | High Value | [[Two Pointers]] | Solved | Accepted | 9m | Grade A | Level 5 | 2026-08-11 |
-| **[[Valid Palindrome]]** | Easy | Volume | [[Two Pointers]] | Solved | Accepted | 5m | Grade A | Level 5 | 2026-08-11 |
-| **[[Best Time to Buy and Sell Stock]]** | Easy | Volume | [[Sliding Window]] | Solved | Accepted | 3m | Grade A | Level 4 | 2026-08-13 |
-| **[[Squares of a Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Solved | Accepted | 3m | Grade A | Level 5 | 2026-08-11 |
-| **[[Move Zeroes]]** | Easy | Volume | [[Two Pointers]] | Solved | Accepted | 21m | Grade A | Level 4 | 2026-08-13 |
-| **[[Remove Duplicates from Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Solved | Accepted | 2m | Grade A | Level 5 | 2026-08-11 |
-| **[[Binary Search]]** | Easy | High Value | [[Binary Search]] | Solved | Accepted | 5m | Grade A | Level 5 | 2026-08-11 |
-| **[[Search 2D Matrix]]** | Medium | High Value | [[Binary Search]] | Solved | Accepted | 6m | Grade A | Level 5 | 2026-08-11 |
-| **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Solved | Accepted | 4m | Grade A | Level 6 | 2026-08-19 |
-| **[[Find Minimum in Rotated Sorted Array]]** | Medium | Volume | [[Binary Search]] | Solved | Accepted | 12m | Grade A | Level 5 | 2026-08-11 |
-| **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | Solved | Accepted | 5m | Grade A | Level 6 | 2026-08-19 |
-| **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | Solved | Accepted | 5m 45s | Grade A | Level 5 | 2026-08-15 |
-| **[[Min Stack]]** | Medium | High Value | [[Stack]] | Solved | Accepted | 4m 31s | Grade A | Level 5 | 2026-08-15 |
-| **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | Solved | Accepted | 11m | Grade A | Level 5 | 2026-08-15 |
-| **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | Solved | Accepted | 5m | Grade A | Level 5 | 2026-08-16 |
-| **[[Invert Binary Tree]]** | Easy | High Value | [[Trees]] | Solved | Accepted | 4m | Grade B | Level 4 | 2026-08-13 |
-| **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | Solved | Accepted | 2m | Grade A | Level 5 | 2026-08-15 |
-| **[[Merge Two Sorted Lists]]** | Easy | Volume | [[Linked List]] | Solved | Accepted | 5m 42s | Grade A | Level 5 | 2026-08-15 |
-| **[[Linked List Cycle]]** | Easy | Volume | [[Linked List]] | Solved | Accepted | 3m | Grade A | Level 5 | 2026-08-15 |
-| **[[Same Tree]]** | Easy | Volume | [[Trees]] | Solved | Accepted | 4m | Grade A | Level 5 | 2026-08-15 |
-| **[[Subtree of Another Tree]]** | Easy | Volume | [[Trees]] | Solved | Accepted | 7m 11s | Grade C | Level 4 | 2026-08-13 |
-| **[[Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Solved | Accepted | 5m | Grade A | Level 4 | 2026-08-14 |
-| **[[House Robber]]** | Medium | High Value | [[Dynamic Programming]] | Solved | Accepted | 8m | Grade A | Level 5 | 2026-08-14 |
-| **[[Maximum Subarray]]** | Medium | High Value | [[Greedy]] | Solved | Accepted | 8m | Grade A | Level 5 | 2026-08-14 |
-| **[[Best Time to Buy and Sell Stock II]]** | Medium | Volume | [[Greedy]] | Solved | Accepted | 6m | Grade A | Level 5 | 2026-08-14 |
+This note dynamically tracks all problems in the vault, their attempt metrics, and their current **Spaced Repetition Revision Status**.
 
 ---
 
-## 🟡 Weekly Sprint Target Queue (2026-08-09 to 2026-08-14)
+## 🔴 Active Revision Queue (Up for Review Today: 2026-08-14) — 20 Problems
 
-| Day / Date | Problem Title | Difficulty | Track | Primary Pattern | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Day 2 (Aug 9)** | **[[3Sum]]** | Medium | High Value | [[Two Pointers]] | Solved (Grade B) |
-| **Day 2 (Aug 9)** | **[[Longest Substring Without Repeating Characters]]** | Medium | High Value | [[Sliding Window]] | Solved (Grade A) |
-| **Day 2 (Aug 9)** | **[[Container With Most Water]]** | Medium | High Value | [[Two Pointers]] | Solved (Grade A) |
-| **Day 2 (Aug 9)** | **[[Valid Palindrome]]** | Easy | Volume | [[Two Pointers]] | Solved (Grade A) |
-| **Day 2 (Aug 9)** | **[[Best Time to Buy and Sell Stock]]** | Easy | Volume | [[Sliding Window]] | Solved (Grade C) |
-| **Day 2 (Aug 9)** | **[[Squares of a Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Solved (Grade A) |
-| **Day 2 (Aug 9)** | **[[Move Zeroes]]** | Easy | Volume | [[Two Pointers]] | Solved (Grade B) |
-| **Day 2 (Aug 9)** | **[[Remove Duplicates from Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Solved (Grade A) |
-| **Day 3 (Aug 10)** | **[[Binary Search]]** | Easy | High Value | [[Binary Search]] | Solved (Grade A) |
-| **Day 3 (Aug 10)** | **[[Search 2D Matrix]]** | Medium | High Value | [[Binary Search]] | Solved (Grade A) |
-| **Day 3 (Aug 10)** | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Solved (Grade A) |
-| **Day 3 (Aug 10)** | **[[Find Minimum in Rotated Sorted Array]]** | Medium | Volume | [[Binary Search]] | Solved (Grade A) |
-| **Day 3 (Aug 10)** | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | Solved (Grade A) |
-| **Day 4 (Aug 11)** | **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | Solved (Grade A) |
-| **Day 4 (Aug 11)** | **[[Min Stack]]** | Medium | High Value | [[Stack]] | Solved (Grade A) |
-| **Day 4 (Aug 11)** | **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | Solved (Grade A) |
-| **Day 4 (Aug 11)** | **[[Merge Two Sorted Lists]]** | Easy | Volume | [[Linked List]] | Solved (Grade A) |
-| **Day 4 (Aug 11)** | **[[Linked List Cycle]]** | Easy | Volume | [[Linked List]] | Solved (Grade A) |
-| **Day 5 (Aug 12)** | **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | Solved (Grade C) |
-| **Day 5 (Aug 12)** | **[[Invert Binary Tree]]** | Easy | High Value | [[Trees]] | Solved (Grade B) |
-| **Day 5 (Aug 12)** | **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | Solved (Grade A) |
-| **Day 5 (Aug 12)** | **[[Same Tree]]** | Easy | Volume | [[Trees]] | Solved (Grade A) |
-| **Day 5 (Aug 12)** | **[[Subtree of Another Tree]]** | Easy | Volume | [[Trees]] | Solved (Grade C) |
-| **Day 6 (Aug 13)** | **[[Maximum Subarray]]** | Medium | High Value | [[Greedy]] | Solved (Grade A) |
-| **Day 6 (Aug 13)** | **[[House Robber]]** | Medium | High Value | [[Dynamic Programming]] | Solved (Grade A) |
-| **Day 6 (Aug 13)** | **[[Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Solved (Grade A) |
-| **Day 6 (Aug 13)** | **[[Best Time to Buy and Sell Stock II]]** | Medium | Volume | [[Greedy]] | Solved (Grade A) |
+| Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **[[Contains Duplicate]]** | Easy | Volume | [[Arrays & Hashing]] | 2026-08-08 | `2026-08-09` | 🔴 Overdue (2026-08-09) |
+| **[[Search Insert Position]]** | Easy | Volume | [[Binary Search]] | 2026-08-08 | `2026-08-09` | 🔴 Overdue (2026-08-09) |
+| **[[Valid Anagram]]** | Easy | Volume | [[Arrays & Hashing]] | 2026-08-08 | `2026-08-09` | 🔴 Overdue (2026-08-09) |
+| **[[Container With Most Water]]** | Medium | High Value | [[Two Pointers]] | 2026-08-09 | `2026-08-10` | 🔴 Overdue (2026-08-10) |
+| **[[Remove Duplicates from Sorted Array]]** | Easy | Volume | [[Two Pointers]] | 2026-08-09 | `2026-08-10` | 🔴 Overdue (2026-08-10) |
+| **[[Squares of a Sorted Array]]** | Easy | Volume | [[Two Pointers]] | 2026-08-09 | `2026-08-10` | 🔴 Overdue (2026-08-10) |
+| **[[Valid Palindrome]]** | Easy | Volume | [[Two Pointers]] | 2026-08-09 | `2026-08-10` | 🔴 Overdue (2026-08-10) |
+| **[[Binary Search]]** | Easy | High Value | [[Binary Search]] | 2026-08-10 | `2026-08-11` | 🔴 Overdue (2026-08-11) |
+| **[[Find Minimum in Rotated Sorted Array]]** | Medium | Volume | [[Binary Search]] | 2026-08-10 | `2026-08-11` | 🔴 Overdue (2026-08-11) |
+| **[[Search 2D Matrix]]** | Medium | High Value | [[Binary Search]] | 2026-08-10 | `2026-08-11` | 🔴 Overdue (2026-08-11) |
+| **[[Top K Frequent Elements]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-08 | `2026-08-11` | 🔴 Overdue (2026-08-11) |
+| **[[Best Time to Buy and Sell Stock]]** | Easy | Volume | [[Sliding Window]] | 2026-08-09 | `2026-08-13` | 🔴 Overdue (2026-08-13) |
+| **[[Invert Binary Tree]]** | Easy | High Value | [[Trees]] | 2026-08-12 | `2026-08-13` | 🔴 Overdue (2026-08-13) |
+| **[[Longest Substring Without Repeating Characters]]** | Medium | High Value | [[Sliding Window]] | 2026-08-09 | `2026-08-13` | 🔴 Overdue (2026-08-13) |
+| **[[Move Zeroes]]** | Easy | Volume | [[Two Pointers]] | 2026-08-09 | `2026-08-13` | 🔴 Overdue (2026-08-13) |
+| **[[Subtree of Another Tree]]** | Easy | Volume | [[Trees]] | 2026-08-12 | `2026-08-13` | 🔴 Overdue (2026-08-13) |
+| **[[Best Time to Buy and Sell Stock II]]** | Medium | Volume | [[Greedy]] | 2026-08-13 | `2026-08-14` | 🟡 Due Today |
+| **[[Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | 2026-08-13 | `2026-08-14` | 🟡 Due Today |
+| **[[House Robber]]** | Medium | High Value | [[Dynamic Programming]] | 2026-08-13 | `2026-08-14` | 🟡 Due Today |
+| **[[Maximum Subarray]]** | Medium | High Value | [[Greedy]] | 2026-08-13 | `2026-08-14` | 🟡 Due Today |
 
+---
+
+## 🟢 Future Scheduled Revisions (Upcoming Days) — 14 Problems
+
+| Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **[[Linked List Cycle]]** | Easy | Volume | [[Linked List]] | 2026-08-12 | `2026-08-15` | 🟢 Scheduled |
+| **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | 2026-08-12 | `2026-08-15` | 🟢 Scheduled |
+| **[[Merge Two Sorted Lists]]** | Easy | Volume | [[Linked List]] | 2026-08-12 | `2026-08-15` | 🟢 Scheduled |
+| **[[Min Stack]]** | Medium | High Value | [[Stack]] | 2026-08-12 | `2026-08-15` | 🟢 Scheduled |
+| **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | 2026-08-12 | `2026-08-15` | 🟢 Scheduled |
+| **[[Same Tree]]** | Easy | Volume | [[Trees]] | 2026-08-12 | `2026-08-15` | 🟢 Scheduled |
+| **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | 2026-08-12 | `2026-08-15` | 🟢 Scheduled |
+| **[[3Sum]]** | Medium | High Value | [[Two Pointers]] | 2026-08-13 | `2026-08-16` | 🟢 Scheduled |
+| **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | 2026-08-13 | `2026-08-16` | 🟢 Scheduled |
+| **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-17` | 🟢 Scheduled |
+| **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
+| **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
+| **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-21` | 🟢 Scheduled |
+| **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-28` | 🟢 Scheduled |
+
+---
+
+## 📊 Master Problem Inventory (34 Solved)
+
+| Problem Title | Difficulty | Track | Primary Pattern | Grade | Last Solved | Next Review Date |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **[[3Sum]]** | Medium | High Value | [[Two Pointers]] | Grade A | 2026-08-13 | `2026-08-16` |
+| **[[Best Time to Buy and Sell Stock]]** | Easy | Volume | [[Sliding Window]] | Grade A | 2026-08-09 | `2026-08-13` |
+| **[[Best Time to Buy and Sell Stock II]]** | Medium | Volume | [[Greedy]] | Grade A | 2026-08-13 | `2026-08-14` |
+| **[[Binary Search]]** | Easy | High Value | [[Binary Search]] | Grade A | 2026-08-10 | `2026-08-11` |
+| **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | Grade C | 2026-08-13 | `2026-08-16` |
+| **[[Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Grade A | 2026-08-13 | `2026-08-14` |
+| **[[Container With Most Water]]** | Medium | High Value | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-10` |
+| **[[Contains Duplicate]]** | Easy | Volume | [[Arrays & Hashing]] | Grade A | 2026-08-08 | `2026-08-09` |
+| **[[Find Minimum in Rotated Sorted Array]]** | Medium | Volume | [[Binary Search]] | Grade A | 2026-08-10 | `2026-08-11` |
+| **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-14 | `2026-08-28` |
+| **[[House Robber]]** | Medium | High Value | [[Dynamic Programming]] | Grade A | 2026-08-13 | `2026-08-14` |
+| **[[Invert Binary Tree]]** | Easy | High Value | [[Trees]] | Grade B | 2026-08-12 | `2026-08-13` |
+| **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Grade A | 2026-08-12 | `2026-08-19` |
+| **[[Linked List Cycle]]** | Easy | Volume | [[Linked List]] | Grade A | 2026-08-12 | `2026-08-15` |
+| **[[Longest Substring Without Repeating Characters]]** | Medium | High Value | [[Sliding Window]] | Grade A | 2026-08-09 | `2026-08-13` |
+| **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | Grade A | 2026-08-12 | `2026-08-15` |
+| **[[Maximum Subarray]]** | Medium | High Value | [[Greedy]] | Grade A | 2026-08-13 | `2026-08-14` |
+| **[[Merge Two Sorted Lists]]** | Easy | Volume | [[Linked List]] | Grade A | 2026-08-12 | `2026-08-15` |
+| **[[Min Stack]]** | Medium | High Value | [[Stack]] | Grade A | 2026-08-12 | `2026-08-15` |
+| **[[Move Zeroes]]** | Easy | Volume | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-13` |
+| **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-14 | `2026-08-21` |
+| **[[Remove Duplicates from Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-10` |
+| **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | Grade A | 2026-08-12 | `2026-08-15` |
+| **[[Same Tree]]** | Easy | Volume | [[Trees]] | Grade A | 2026-08-12 | `2026-08-15` |
+| **[[Search 2D Matrix]]** | Medium | High Value | [[Binary Search]] | Grade A | 2026-08-10 | `2026-08-11` |
+| **[[Search Insert Position]]** | Easy | Volume | [[Binary Search]] | Grade A | 2026-08-08 | `2026-08-09` |
+| **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | Grade A | 2026-08-12 | `2026-08-19` |
+| **[[Squares of a Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-10` |
+| **[[Subtree of Another Tree]]** | Easy | Volume | [[Trees]] | Grade C | 2026-08-12 | `2026-08-13` |
+| **[[Top K Frequent Elements]]** | Medium | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-08 | `2026-08-11` |
+| **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-14 | `2026-08-17` |
+| **[[Valid Anagram]]** | Easy | Volume | [[Arrays & Hashing]] | Grade A | 2026-08-08 | `2026-08-09` |
+| **[[Valid Palindrome]]** | Easy | Volume | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-10` |
+| **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | Grade A | 2026-08-12 | `2026-08-15` |
