@@ -9,13 +9,13 @@ primary_pattern: "[[Arrays & Hashing]]"
 secondary_patterns: []
 status: Solved
 result: Accepted
-attempts: 1
-independent_solves: 1
+attempts: 2
+independent_solves: 2
 hint_used: none
-time_taken: 13m
+time_taken: 2m 19s
 first_attempt: 2026-08-08
-last_attempt: 2026-08-08
-next_review: 2026-08-09
+last_attempt: 2026-08-14
+next_review: 2026-08-17
 confidence: 5
 expected_time_complexity: "O(N)"
 expected_space_complexity: "O(N)"
@@ -119,6 +119,7 @@ Iterates through `nums` once using standard index loop. For each element `nums[i
 | Date | Result | Time | Hint Level | Code Grade | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 2026-08-08 | Accepted | 13m | none | Grade A | Initial independent solve |
+| 2026-08-14 | Accepted | 2m 19s | none | Grade A | Mock OA 1 timed solve (blazing fast!) |
 
 ---
 

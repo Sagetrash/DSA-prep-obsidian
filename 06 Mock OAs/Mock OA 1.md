@@ -24,7 +24,7 @@ tags:
 
 | # | Problem | Difficulty | Track | LeetCode / NeetCode | Result | Time Taken | Hint Used | Grade |
 | :-: | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| 1 | **[[Two Sum]]** | Easy | High Value | [LeetCode #1](https://leetcode.com/problems/two-sum/) \| [NeetCode](https://neetcode.io/problems/two-integer-sum) | Pending | - | Pending | - |
+| 1 | **[[Two Sum]]** | Easy | High Value | [LeetCode #1](https://leetcode.com/problems/two-sum/) \| [NeetCode](https://neetcode.io/problems/two-integer-sum) | Accepted | 2m 19s | none | Grade A |
 | 2 | **[[Group Anagrams]]** | Medium | High Value | [LeetCode #49](https://leetcode.com/problems/group-anagrams/) \| [NeetCode](https://neetcode.io/problems/anagram-groups) | Pending | - | Pending | - |
 | 3 | **[[Product of Array Except Self]]** | Medium | High Value | [LeetCode #238](https://leetcode.com/problems/product-of-array-except-self/) \| [NeetCode](https://neetcode.io/problems/products-of-array-discluding-self) | Pending | - | Pending | - |
 
@@ -39,25 +39,29 @@ tags:
 Given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`*. You may assume that each input would have **exactly one solution**, and you may not use the same element twice.
 
 #### My First Thought
-*(Write your initial intuition & approach here before coding)*
+Single-pass Hash Map lookup: For each element `nums[i]`, calculate complement `comp = target - nums[i]`. Check if `comp` exists in `hashMap` in $\mathcal{O}(1)$ average time.
 
 #### My Solution
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        # Paste your code here
-        pass
+        hashMap = {}
+        for i in range(len(nums)):
+            comp = target - nums[i]
+            if comp in hashMap:
+                return [hashMap[comp], i]
+            hashMap[nums[i]] = i
 ```
 
 #### Attempt Metrics
-* **Time Taken**: 
-* **Result**: `Accepted` / `Wrong Answer` / `TLE`
-* **Hint Used**: `none` / `small` / `substantial` / `solution`
+* **Time Taken**: `2m 19s`
+* **Result**: `Accepted`
+* **Hint Used**: `none`
 
 #### AI Analysis & Grade
-*(Will be populated by AI Coach after submission)*
-* **Grade**: `Pending`
-* **Complexity**: Time: `Pending` | Space: `Pending`
+* **Grade**: **Grade A — Strong Independent Solution**
+* **Complexity**: Time: $\mathcal{O}(N)$ | Space: $\mathcal{O}(N)$
+* **Feedback**: Flawless 1st-pass execution. Optimal complement hash map lookup completed in just 2 minutes 19 seconds.
 
 ---
 
@@ -122,7 +126,7 @@ class Solution:
 ## 📊 Post-OA Summary & Evaluation
 
 ### Time Management Breakdown
-* **Problem 1 (Two Sum)**: 
+* **Problem 1 (Two Sum)**: `2m 19s`
 * **Problem 2 (Group Anagrams)**: 
 * **Problem 3 (Product of Array Except Self)**: 
 * **Total Time**: `/ 60 minutes`
