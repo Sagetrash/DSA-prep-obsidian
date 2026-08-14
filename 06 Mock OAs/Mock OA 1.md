@@ -4,30 +4,130 @@ date: 2026-08-14
 duration_minutes: 60
 total_problems: 3
 score: 0
-status: "Scheduled"
+status: "In Progress"
 tags:
   - mock-oa
+  - diagnostic
 ---
 
-# Mock OA 1 — Diagnostic Placement Sprint
+# ⏱️ Mock OA 1 — Diagnostic Placement Sprint
 
-## ⏱️ Test Overview
+## 📊 Assessment Overview
 * **Scheduled Date**: `2026-08-14`
-* **Duration**: `60 mins`
-* **Target Problems**: 2 Medium High-Value + 1 Easy Volume (Unlabeled Patterns)
-* **Status**: `Scheduled`
+* **Duration**: `60 minutes`
+* **Target Problems**: 2 Medium High-Value + 1 Easy High-Value
+* **Status**: `In Progress`
 
 ---
 
-## 🎯 Test Problems & Performance
+## 🎯 Test Scoreboard & Performance
 
-| # | Problem | Track | Difficulty | Result | Time Taken | Pattern Recognized? | Grade |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [[Two Sum]] | High Value | Easy/Medium | Pending | - | Pending | - |
-| 2 | [[Group Anagrams]] | High Value | Medium | Pending | - | Pending | - |
-| 3 | [[Contains Duplicate]] | Volume | Easy | Pending | - | Pending | - |
+| # | Problem | Difficulty | Track | LeetCode / NeetCode | Result | Time Taken | Hint Used | Grade |
+| :-: | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| 1 | **[[Two Sum]]** | Easy | High Value | [LeetCode #1](https://leetcode.com/problems/two-sum/) \| [NeetCode](https://neetcode.io/problems/two-integer-sum) | Pending | - | Pending | - |
+| 2 | **[[Group Anagrams]]** | Medium | High Value | [LeetCode #49](https://leetcode.com/problems/group-anagrams/) \| [NeetCode](https://neetcode.io/problems/anagram-groups) | Pending | - | Pending | - |
+| 3 | **[[Product of Array Except Self]]** | Medium | High Value | [LeetCode #238](https://leetcode.com/problems/product-of-array-except-self/) \| [NeetCode](https://neetcode.io/problems/products-of-array-discluding-self) | Pending | - | Pending | - |
 
 ---
 
-## 📊 Post-OA Analysis
-*(Populated after completing test)*
+## 📝 Problem Submission Workspaces
+
+### 1️⃣ Problem 1: Two Sum (Easy)
+* **Links**: [LeetCode #1](https://leetcode.com/problems/two-sum/) | [NeetCode Solution](https://neetcode.io/problems/two-integer-sum)
+
+#### Problem Statement
+Given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`*. You may assume that each input would have **exactly one solution**, and you may not use the same element twice.
+
+#### My First Thought
+*(Write your initial intuition & approach here before coding)*
+
+#### My Solution
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        # Paste your code here
+        pass
+```
+
+#### Attempt Metrics
+* **Time Taken**: 
+* **Result**: `Accepted` / `Wrong Answer` / `TLE`
+* **Hint Used**: `none` / `small` / `substantial` / `solution`
+
+#### AI Analysis & Grade
+*(Will be populated by AI Coach after submission)*
+* **Grade**: `Pending`
+* **Complexity**: Time: `Pending` | Space: `Pending`
+
+---
+
+### 2️⃣ Problem 2: Group Anagrams (Medium)
+* **Links**: [LeetCode #49](https://leetcode.com/problems/group-anagrams/) | [NeetCode Solution](https://neetcode.io/problems/anagram-groups)
+
+#### Problem Statement
+Given an array of strings `strs`, group the anagrams together. You can return the answer in **any order**.
+
+#### My First Thought
+*(Write your initial intuition & approach here before coding)*
+
+#### My Solution
+```python
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        # Paste your code here
+        pass
+```
+
+#### Attempt Metrics
+* **Time Taken**: 
+* **Result**: `Accepted` / `Wrong Answer` / `TLE`
+* **Hint Used**: `none` / `small` / `substantial` / `solution`
+
+#### AI Analysis & Grade
+*(Will be populated by AI Coach after submission)*
+* **Grade**: `Pending`
+* **Complexity**: Time: `Pending` | Space: `Pending`
+
+---
+
+### 3️⃣ Problem 3: Product of Array Except Self (Medium)
+* **Links**: [LeetCode #238](https://leetcode.com/problems/product-of-array-except-self/) | [NeetCode Solution](https://neetcode.io/problems/products-of-array-discluding-self)
+
+#### Problem Statement
+Given an integer array `nums`, return an array `answer` such that `answer[i]` is equal to the product of all the elements of `nums` except `nums[i]`. Algorithm must run in $\mathcal{O}(n)$ time and **without using division**.
+
+#### My First Thought
+*(Write your initial intuition & approach here before coding)*
+
+#### My Solution
+```python
+class Solution:
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        # Paste your code here
+        pass
+```
+
+#### Attempt Metrics
+* **Time Taken**: 
+* **Result**: `Accepted` / `Wrong Answer` / `TLE`
+* **Hint Used**: `none` / `small` / `substantial` / `solution`
+
+#### AI Analysis & Grade
+*(Will be populated by AI Coach after submission)*
+* **Grade**: `Pending`
+* **Complexity**: Time: `Pending` | Space: `Pending`
+
+---
+
+## 📊 Post-OA Summary & Evaluation
+
+### Time Management Breakdown
+* **Problem 1 (Two Sum)**: 
+* **Problem 2 (Group Anagrams)**: 
+* **Problem 3 (Product of Array Except Self)**: 
+* **Total Time**: `/ 60 minutes`
+
+### Final Verdict & Action Plan
+* **Score**: `Pending`
+* **Verdict**: `Pending`
+* **Key Observations**: 
