@@ -9,13 +9,13 @@ primary_pattern: "[[Arrays & Hashing]]"
 secondary_patterns: []
 status: Solved
 result: Accepted
-attempts: 2
-independent_solves: 2
+attempts: 3
+independent_solves: 3
 hint_used: none
-time_taken: 21m
+time_taken: 12m 14s
 first_attempt: 2026-08-08
-last_attempt: 2026-08-08
-next_review: 2026-08-11
+last_attempt: 2026-08-14
+next_review: 2026-08-21
 confidence: 5
 expected_time_complexity: "O(N)"
 expected_space_complexity: "O(1)"
@@ -120,6 +120,7 @@ Constructs prefix products directly into output array `res`. Uses a single scala
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 2026-08-08 | Accepted | 11m | none | Grade A | Solved independently via prefix/postfix array multiplication. |
 | 2026-08-08 | Accepted | 11m | none | Grade A | Refactored to O(1) extra space scalar postfix approach. |
+| 2026-08-14 | Accepted | 12m 14s | none | Grade A | Mock OA 1 timed solve (12m 14s prefix/postfix pass). |
 
 ---
 
