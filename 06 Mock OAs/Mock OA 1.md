@@ -25,7 +25,7 @@ tags:
 | # | Problem | Difficulty | Track | LeetCode / NeetCode | Result | Time Taken | Hint Used | Grade |
 | :-: | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 1 | **[[Two Sum]]** | Easy | High Value | [LeetCode #1](https://leetcode.com/problems/two-sum/) \| [NeetCode](https://neetcode.io/problems/two-integer-sum) | Accepted | 2m 19s | none | Grade A |
-| 2 | **[[Group Anagrams]]** | Medium | High Value | [LeetCode #49](https://leetcode.com/problems/group-anagrams/) \| [NeetCode](https://neetcode.io/problems/anagram-groups) | Pending | - | Pending | - |
+| 2 | **[[Group Anagrams]]** | Medium | High Value | [LeetCode #49](https://leetcode.com/problems/group-anagrams/) \| [NeetCode](https://neetcode.io/problems/anagram-groups) | Accepted | 1m 59s | none | Grade A |
 | 3 | **[[Product of Array Except Self]]** | Medium | High Value | [LeetCode #238](https://leetcode.com/problems/product-of-array-except-self/) \| [NeetCode](https://neetcode.io/problems/products-of-array-discluding-self) | Pending | - | Pending | - |
 
 ---
@@ -72,25 +72,27 @@ class Solution:
 Given an array of strings `strs`, group the anagrams together. You can return the answer in **any order**.
 
 #### My First Thought
-*(Write your initial intuition & approach here before coding)*
+Canonical key categorization: Sort character elements of string to construct key `"".join(sorted(i))` for `collections.defaultdict(list)`. Group all matching anagrams in $\mathcal{O}(1)$ average hash map lookup time.
 
 #### My Solution
 ```python
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        # Paste your code here
-        pass
+        groups = collections.defaultdict(list)
+        for i in strs:
+            groups["".join(sorted(i))].append(i)
+        return list(groups.values())
 ```
 
 #### Attempt Metrics
-* **Time Taken**: 
-* **Result**: `Accepted` / `Wrong Answer` / `TLE`
-* **Hint Used**: `none` / `small` / `substantial` / `solution`
+* **Time Taken**: `1m 59s`
+* **Result**: `Accepted`
+* **Hint Used**: `none`
 
 #### AI Analysis & Grade
-*(Will be populated by AI Coach after submission)*
-* **Grade**: `Pending`
-* **Complexity**: Time: `Pending` | Space: `Pending`
+* **Grade**: **Grade A — Strong Independent Solution**
+* **Complexity**: Time: $\mathcal{O}(N \cdot K \log K)$ | Space: $\mathcal{O}(N \cdot K)$
+* **Feedback**: Sub-2-minute solve on a Medium problem! Extremely clean, production-grade Pythonic implementation using `defaultdict`.
 
 ---
 
@@ -127,7 +129,7 @@ class Solution:
 
 ### Time Management Breakdown
 * **Problem 1 (Two Sum)**: `2m 19s`
-* **Problem 2 (Group Anagrams)**: 
+* **Problem 2 (Group Anagrams)**: `1m 59s`
 * **Problem 3 (Product of Array Except Self)**: 
 * **Total Time**: `/ 60 minutes`
 

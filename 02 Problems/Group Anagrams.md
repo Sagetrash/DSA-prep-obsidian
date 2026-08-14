@@ -9,13 +9,13 @@ primary_pattern: "[[Arrays & Hashing]]"
 secondary_patterns: []
 status: Solved
 result: Accepted
-attempts: 3
-independent_solves: 3
+attempts: 4
+independent_solves: 4
 hint_used: none
-time_taken: 5m
+time_taken: 1m 59s
 first_attempt: 2026-08-08
-last_attempt: 2026-08-12
-next_review: 2026-08-19
+last_attempt: 2026-08-14
+next_review: 2026-08-28
 confidence: 5
 expected_time_complexity: "O(N * K)"
 expected_space_complexity: "O(N * K)"
@@ -122,6 +122,7 @@ Iterates over strings in `strs`. Uses `defaultdict(list)` for clean $O(1)$ amort
 | 2026-08-08 | Accepted | 10m | small | Grade B | Solved via sorted string key. |
 | 2026-08-08 | Accepted | 10m | none | Grade A | Refactored to idiomatic defaultdict(list) with O(1) in-place append. |
 | 2026-08-12 | Accepted | 5m | none | Grade A | Re-verification pass. Flawless O(N*K log K) defaultdict solution verified against test suite. Level 6 Mastery. |
+| 2026-08-14 | Accepted | 1m 59s | none | Grade A | Mock OA 1 timed solve (Sub-2-minute Medium solve!). |
 
 ---
 
