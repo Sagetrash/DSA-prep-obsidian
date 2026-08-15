@@ -55,13 +55,13 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | 2026-08-13 | `2026-08-16` | 🟢 Scheduled |
 | **[[Diameter of Binary Tree]]** | Easy | Volume | [[Trees]] | 2026-08-15 | `2026-08-16` | 🟢 Scheduled |
 | **[[Evaluate Reverse Polish Notation]]** | Medium | High Value | [[Stack]] | 2026-08-15 | `2026-08-16` | 🟢 Scheduled |
+| **[[Last Stone Weight]]** | Easy | Volume | [[Heap & Priority Queue]] | 2026-08-15 | `2026-08-16` | 🟢 Scheduled |
 | **[[Two Sum II - Input Array Is Sorted]]** | Medium | High Value | [[Two Pointers]] | 2026-08-15 | `2026-08-16` | 🟢 Scheduled |
 | **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-17` | 🟢 Scheduled |
 | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
 | **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-21` | 🟢 Scheduled |
 | **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-28` | 🟢 Scheduled |
-| **[[Last Stone Weight]]** | Easy | Volume | [[Heap & Priority Queue]] | null | `null` | 🟢 Scheduled |
 
 ---
 
@@ -84,7 +84,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[House Robber]]** | Medium | High Value | [[Dynamic Programming]] | Grade A | 2026-08-13 | `2026-08-14` |
 | **[[Invert Binary Tree]]** | Easy | High Value | [[Trees]] | Grade B | 2026-08-12 | `2026-08-13` |
 | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Grade A | 2026-08-12 | `2026-08-19` |
-| **[[Last Stone Weight]]** | Easy | Volume | [[Heap & Priority Queue]] | Grade A | null | `null` |
+| **[[Last Stone Weight]]** | Easy | Volume | [[Heap & Priority Queue]] | Grade A | 2026-08-15 | `2026-08-16` |
 | **[[Linked List Cycle]]** | Easy | Volume | [[Linked List]] | Grade A | 2026-08-12 | `2026-08-15` |
 | **[[Longest Substring Without Repeating Characters]]** | Medium | High Value | [[Sliding Window]] | Grade A | 2026-08-09 | `2026-08-13` |
 | **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | Grade A | 2026-08-12 | `2026-08-15` |

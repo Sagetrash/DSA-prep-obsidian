@@ -7,16 +7,16 @@ difficulty: Easy
 track: Volume
 primary_pattern: "[[Heap & Priority Queue]]"
 secondary_patterns: []
-status: Unsolved
-result: Pending
-attempts: 0
-independent_solves: 0
+status: Solved
+result: Accepted
+attempts: 1
+independent_solves: 1
 hint_used: none
-time_taken: "-"
-first_attempt: null
-last_attempt: null
-next_review: null
-confidence: 0
+time_taken: 5m
+first_attempt: 2026-08-15
+last_attempt: 2026-08-15
+next_review: 2026-08-16
+confidence: 5
 expected_time_complexity: "O(N log N)"
 expected_space_complexity: "O(N)"
 tags:
@@ -32,7 +32,7 @@ tags:
 * **Platform**: [LeetCode](https://leetcode.com/problems/last-stone-weight/)
 * **Difficulty**: `Easy` | **Track**: `Volume`
 * **Primary Pattern**: [[Heap & Priority Queue]]
-* **Status**: `Unsolved` | **Result**: `Pending`
+* **Status**: `Solved` | **Result**: `Accepted`
 
 ---
 
@@ -68,41 +68,54 @@ Output: 1
 ---
 
 ## My First Thought
-*(Pending submission)*
+Sort/repeatedly extract the largest elements efficiently. Since repeated array sorting is $O(N^2 \log N)$, use a Max-Heap (storing negated values in Python's `heapq`). At each step, pop the two largest stones, calculate their difference, and push the difference back onto the heap if non-zero.
 
 ---
 
 ## My Solution
 ```python
-# Pending solution
+import heapq
+
+class Solution:
+    def lastStoneWeight(self, stones: List[int]) -> int:
+        heap = []
+        heapq.heapify(heap)
+        for s in stones:
+            heapq.heappush(heap, -s)
+        while len(heap) > 1:
+            first = -heapq.heappop(heap)
+            second = -heapq.heappop(heap)
+            if first != second:
+                heapq.heappush(heap, -(first - second))
+        return -heap[0] if heap else 0
 ```
 
 ---
 
 ## Attempt Log & Metrics
-* **Time Taken**: -
+* **Time Taken**: 5m
 * **Hint Used**: `none`
-* **Result**: `Pending`
-* **Self Confidence (1–5)**: -
+* **Result**: `Accepted`
+* **Self Confidence (1–5)**: 5
 
 ---
 
 ## Reasoning & Explanation
-*(Pending submission)*
+Pushes negated stone values onto a min-heap structure `heap` to simulate a Max-Heap. In a `while len(heap) > 1` loop, pops the two heaviest stones `first = -heappop(heap)` and `second = -heappop(heap)`. If `first != second`, pushes `-(first - second)` back onto the heap. When loop terminates, returns `-heap[0]` if `heap` contains a remaining stone, else `0`.
 
 ---
 
 ## Correct Approach & Complexity Analysis
-* **Optimal Pattern**: Max-Heap simulation using negated values in Python's `heapq`
-* **Time Complexity**: `O(N log N)` — Building heap in $O(N)$, popping 2 elements and pushing 1 takes $O(\log N)$ per round for at most $N$ rounds.
-* **Space Complexity**: `O(N)` — Array storing negated elements for the heap structure.
+* **Optimal Pattern**: Max-Heap Simulation via `heapq`
+* **Time Complexity**: `O(N log N)` — Heap insertion takes $O(N \log N)$ total time. The while loop runs at most $N-1$ times, with pop and push taking $O(\log N)$ time each.
+* **Space Complexity**: `O(N)` — Heap array stores up to $N$ elements.
 
 ---
 
 ## Key Edge Cases
-- [ ] Single stone in array (`stones = [5]`, returns `5`)
-- [ ] All stones destroyed completely (`stones = [2, 2]`, returns `0`)
-- [ ] All stones have equal weight
+- [x] Single stone array (`stones = [1]`, returns `1`) — Loop doesn't execute, returns `-heap[0]`.
+- [x] All stones smashed to 0 (`stones = [2, 2]`, returns `0`) — Handled by `if heap else 0`.
+- [x] Duplicate stone weights — Handled correctly by heap ordering.
 
 ---
 
@@ -114,8 +127,13 @@ Output: 1
 ## Review History
 | Date | Result | Time | Hint Level | Code Grade | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-08-15 | Accepted | 5m | none | Grade A | Initial unassisted solve. Optimal max-heap simulation. |
 
 ---
 
 ## AI Analysis
-*(Pending completion)*
+* **Grade**: **Grade A — Strong Independent Solution**
+* **Correctness**: 100% correct logic and edge case handling.
+* **Complexity**: Optimal $O(N \log N)$ Time & $O(N)$ Space.
+* **Pattern Verification**: Max-Heap simulation via Python `heapq` negated value idiom.
+* **Interview Readiness**: 10/10. Clean, concise, and optimal.
