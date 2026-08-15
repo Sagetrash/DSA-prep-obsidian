@@ -1,6 +1,6 @@
 ---
 title: "NeetCode 150 Progress Tracker"
-last_updated: 2026-08-14
+last_updated: 2026-08-15
 total_solved: 29
 total_target: 150
 completion_percentage: "19.3%"
