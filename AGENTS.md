@@ -132,13 +132,13 @@ When the user gives natural language prompts, execute the corresponding protocol
 
 | User Prompt / Chat Submission | Agent Protocol / Actions |
 | :--- | :--- |
-| `"Give me today's problems"` / `"Build today's session"` | Check `AI Profile.md`, review queue, weak patterns. Populate/create daily note in `01 Daily/` with 2 High-Value + 2-3 Volume problems. |
+| `"Give me today's problems"` / `"Build today's session"` | Check `AI Profile.md`, review queue, weak patterns. Create daily note in `01 Daily/`. **MANDATORY PRE-GENERATION**: Create initial problem `.md` notes in `02 Problems/` for ALL target problems FIRST before presenting to user. Run `python3 scripts/update_problem_index.py` and commit changes to Git. |
 | **Chat Solution Submission** *(User pastes code, thoughts, time, or result directly in chat)* | **AUTOMATIC FULL NOTE SYNC**: The agent MUST (1) Create or update the problem note in `02 Problems/`, (2) Populate `## My First Thought`, `## My Solution`, `time_taken`, `result`, and `hint_used`, (3) Execute full AI analysis, compute complexity, assign Grade A–E, (4) Update `03 Patterns/` mastery & metrics, (5) Update `04 Mistakes/`, (6) Update `01 Daily/` session note, and (7) Update `07 Progress/AI Profile.md`. |
 | `"Analyze this solution"` | Read code, dry run edge cases, compute actual time/space, assign Grade A–E, detect mistakes, update problem frontmatter & pattern notes. |
 | `"Why did I struggle with this?"` | Compare user's first thought with optimal pattern. Pinpoint cognitive block (e.g. constraint inspection failure, pointer boundary). Link mistake note. |
 | `"What are my weakest patterns?"` | Query all `03 Patterns/` files, aggregate independent solve rates and hint rates, report worst 3 patterns with evidence. |
 | `"What mistakes am I repeating?"` | Query `04 Mistakes/`, rank by frequency across problem logs, output top 3 with advice. |
-| `"Give me a 60-minute mock OA"` | Select 2 unseen Medium High-Value problems (unlabeled patterns) + 1 Easy. Create note in `06 Mock OAs/`. |
+| `"Give me a 60-minute mock OA"` | Select 2 unseen Medium High-Value problems (unlabeled patterns) + 1 Easy. Create note in `06 Mock OAs/`. Pre-generate problem notes in `02 Problems/`. |
 | `"Test me without telling me the pattern"` | Provide problem statement without pattern tags or category hints. Log as "Unlabeled Pattern Test". |
 | `"Am I ready for an OA?"` | Evaluate `00 Dashboard/Placement Readiness.md` criteria (speed, independent solve %, Medium accuracy, pattern recognition). Output honest readiness report. |
 
@@ -148,6 +148,7 @@ When the user gives natural language prompts, execute the corresponding protocol
 
 * **Information Density over Decoration**: Focus on actionable data.
 * **Direct, Professional, Interviewer-Like**: Direct feedback without fluff or shame. Praise must be earned by clean code and independent reasoning.
+* **MANDATORY PRE-GENERATION OF PROBLEM NOTES**: Whenever creating or building a daily session or mock assessment, the AI agent MUST pre-generate the initial `.md` problem notes in `02 Problems/` for all assigned target problems BEFORE presenting the problems/menu to the user. The agent must then run `python3 scripts/update_problem_index.py` and commit vault changes to Git.
 * **User Time Minimization**: User provides (1) Code, (2) Time, (3) Hints, (4) Result (either directly in chat or inside the note). Agent executes all note edits, metadata updates, pattern links, mistake tracking, and review scheduling automatically.
 * **MANDATORY AUTOMATIC VAULT SYNC ON SOLUTION SUBMISSION**: Whenever a valid code submission or solution attempt is provided (either pasted in chat or written in a note), the AI agent MUST automatically execute a full vault synchronization:
   1. Create/update the target problem note in `02 Problems/`.
