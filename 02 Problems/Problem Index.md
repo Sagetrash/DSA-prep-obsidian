@@ -47,7 +47,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 
 ---
 
-## 🟢 Future Scheduled Revisions (Upcoming Days) — 7 Problems
+## 🟢 Future Scheduled Revisions (Upcoming Days) — 11 Problems
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -58,10 +58,14 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
 | **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-21` | 🟢 Scheduled |
 | **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-28` | 🟢 Scheduled |
+| **[[Diameter of Binary Tree]]** | Easy | Volume | [[Trees]] | null | `null` | 🟢 Scheduled |
+| **[[Evaluate Reverse Polish Notation]]** | Medium | High Value | [[Stack]] | null | `null` | 🟢 Scheduled |
+| **[[Last Stone Weight]]** | Easy | Volume | [[Heap & Priority Queue]] | null | `null` | 🟢 Scheduled |
+| **[[Two Sum II - Input Array Is Sorted]]** | Medium | High Value | [[Two Pointers]] | null | `null` | 🟢 Scheduled |
 
 ---
 
-## 📊 Master Problem Inventory (34 Solved)
+## 📊 Master Problem Inventory (38 Solved)
 
 | Problem Title | Difficulty | Track | Primary Pattern | Grade | Last Solved | Next Review Date |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -73,11 +77,14 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Grade A | 2026-08-13 | `2026-08-14` |
 | **[[Container With Most Water]]** | Medium | High Value | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-10` |
 | **[[Contains Duplicate]]** | Easy | Volume | [[Arrays & Hashing]] | Grade A | 2026-08-08 | `2026-08-09` |
+| **[[Diameter of Binary Tree]]** | Easy | Volume | [[Trees]] | Grade A | null | `null` |
+| **[[Evaluate Reverse Polish Notation]]** | Medium | High Value | [[Stack]] | Grade A | null | `null` |
 | **[[Find Minimum in Rotated Sorted Array]]** | Medium | Volume | [[Binary Search]] | Grade A | 2026-08-10 | `2026-08-11` |
 | **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-14 | `2026-08-28` |
 | **[[House Robber]]** | Medium | High Value | [[Dynamic Programming]] | Grade A | 2026-08-13 | `2026-08-14` |
 | **[[Invert Binary Tree]]** | Easy | High Value | [[Trees]] | Grade B | 2026-08-12 | `2026-08-13` |
 | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Grade A | 2026-08-12 | `2026-08-19` |
+| **[[Last Stone Weight]]** | Easy | Volume | [[Heap & Priority Queue]] | Grade A | null | `null` |
 | **[[Linked List Cycle]]** | Easy | Volume | [[Linked List]] | Grade A | 2026-08-12 | `2026-08-15` |
 | **[[Longest Substring Without Repeating Characters]]** | Medium | High Value | [[Sliding Window]] | Grade A | 2026-08-09 | `2026-08-13` |
 | **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | Grade A | 2026-08-12 | `2026-08-15` |
@@ -96,6 +103,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Subtree of Another Tree]]** | Easy | Volume | [[Trees]] | Grade C | 2026-08-12 | `2026-08-13` |
 | **[[Top K Frequent Elements]]** | Medium | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-08 | `2026-08-11` |
 | **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-14 | `2026-08-17` |
+| **[[Two Sum II - Input Array Is Sorted]]** | Medium | High Value | [[Two Pointers]] | Grade A | null | `null` |
 | **[[Valid Anagram]]** | Easy | Volume | [[Arrays & Hashing]] | Grade A | 2026-08-08 | `2026-08-09` |
 | **[[Valid Palindrome]]** | Easy | Volume | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-10` |
 | **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | Grade A | 2026-08-12 | `2026-08-15` |
