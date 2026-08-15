@@ -171,7 +171,7 @@ tags:
 | :-: | :-: | :--- | :-: | :--- | :-: | :-: |
 | - [x] ✅ Solved | 46 | **[[Invert Binary Tree]]** | Easy | [LeetCode](https://leetcode.com/problems/invert-binary-tree/) \| [NeetCode](https://neetcode.io/problems/invert-a-binary-tree) | Grade B | `2026-08-13` |
 | - [x] ✅ Solved | 47 | **[[Maximum Depth of Binary Tree]]** | Easy | [LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/) \| [NeetCode](https://neetcode.io/problems/depth-of-binary-tree) | Grade A | `2026-08-15` |
-| - [x] ✅ Solved | 48 | **[[Diameter of Binary Tree]]** | Easy | [LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/) \| [NeetCode](https://neetcode.io/problems/binary-tree-diameter) | Grade A | - |
+| - [x] ✅ Solved | 48 | **[[Diameter of Binary Tree]]** | Easy | [LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/) \| [NeetCode](https://neetcode.io/problems/binary-tree-diameter) | Grade C | `2026-08-16` |
 | - [ ] ⏳ Unsolved | 49 | [[Balanced Binary Tree]] | Easy | [LeetCode](https://leetcode.com/problems/balanced-binary-tree/) \| [NeetCode](https://neetcode.io/problems/balanced-binary-tree) | - | - |
 | - [x] ✅ Solved | 50 | **[[Same Tree]]** | Easy | [LeetCode](https://leetcode.com/problems/same-tree/) \| [NeetCode](https://neetcode.io/problems/same-binary-tree) | Grade A | `2026-08-15` |
 | - [x] ✅ Solved | 51 | **[[Subtree of Another Tree]]** | Easy | [LeetCode](https://leetcode.com/problems/subtree-of-another-tree/) \| [NeetCode](https://neetcode.io/problems/subtree-of-a-binary-tree) | Grade C | `2026-08-13` |

@@ -53,6 +53,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[[3Sum]]** | Medium | High Value | [[Two Pointers]] | 2026-08-13 | `2026-08-16` | 🟢 Scheduled |
 | **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | 2026-08-13 | `2026-08-16` | 🟢 Scheduled |
+| **[[Diameter of Binary Tree]]** | Easy | Volume | [[Trees]] | 2026-08-15 | `2026-08-16` | 🟢 Scheduled |
 | **[[Evaluate Reverse Polish Notation]]** | Medium | High Value | [[Stack]] | 2026-08-15 | `2026-08-16` | 🟢 Scheduled |
 | **[[Two Sum II - Input Array Is Sorted]]** | Medium | High Value | [[Two Pointers]] | 2026-08-15 | `2026-08-16` | 🟢 Scheduled |
 | **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-17` | 🟢 Scheduled |
@@ -60,7 +61,6 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
 | **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-21` | 🟢 Scheduled |
 | **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-28` | 🟢 Scheduled |
-| **[[Diameter of Binary Tree]]** | Easy | Volume | [[Trees]] | null | `null` | 🟢 Scheduled |
 | **[[Last Stone Weight]]** | Easy | Volume | [[Heap & Priority Queue]] | null | `null` | 🟢 Scheduled |
 
 ---
@@ -77,7 +77,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Grade A | 2026-08-13 | `2026-08-14` |
 | **[[Container With Most Water]]** | Medium | High Value | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-10` |
 | **[[Contains Duplicate]]** | Easy | Volume | [[Arrays & Hashing]] | Grade A | 2026-08-08 | `2026-08-09` |
-| **[[Diameter of Binary Tree]]** | Easy | Volume | [[Trees]] | Grade A | null | `null` |
+| **[[Diameter of Binary Tree]]** | Easy | Volume | [[Trees]] | Grade C | 2026-08-15 | `2026-08-16` |
 | **[[Evaluate Reverse Polish Notation]]** | Medium | High Value | [[Stack]] | Grade A | 2026-08-15 | `2026-08-16` |
 | **[[Find Minimum in Rotated Sorted Array]]** | Medium | Volume | [[Binary Search]] | Grade A | 2026-08-10 | `2026-08-11` |
 | **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-14 | `2026-08-28` |

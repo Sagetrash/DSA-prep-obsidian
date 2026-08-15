@@ -7,16 +7,16 @@ difficulty: Easy
 track: Volume
 primary_pattern: "[[Trees]]"
 secondary_patterns: []
-status: Unsolved
-result: Pending
-attempts: 0
+status: Solved
+result: Accepted
+attempts: 1
 independent_solves: 0
-hint_used: none
-time_taken: "-"
-first_attempt: null
-last_attempt: null
-next_review: null
-confidence: 0
+hint_used: small
+time_taken: 8m
+first_attempt: 2026-08-15
+last_attempt: 2026-08-15
+next_review: 2026-08-16
+confidence: 4
 expected_time_complexity: "O(N)"
 expected_space_complexity: "O(H)"
 tags:
@@ -32,7 +32,7 @@ tags:
 * **Platform**: [LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/)
 * **Difficulty**: `Easy` | **Track**: `Volume`
 * **Primary Pattern**: [[Trees]]
-* **Status**: `Unsolved` | **Result**: `Pending`
+* **Status**: `Solved` | **Result**: `Accepted`
 
 ---
 
@@ -60,54 +60,77 @@ Output: 1
 ---
 
 ## My First Thought
-*(Pending submission)*
+Use depth-first search to measure node depth. Calculate `left` subtree height and `right` subtree height recursively for every node, and track the maximum path sum (`left + right`) as the global diameter.
 
 ---
 
 ## My Solution
 ```python
-# Pending solution
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
+        self.maxHeight = 0
+        self.getHeight(root)
+        return self.maxHeight
+
+    def getHeight(self, node: Optional[TreeNode]):
+        if not node:
+            return 0
+        left = self.getHeight(node.left)
+        right = self.getHeight(node.right)
+        self.maxHeight = max(self.maxHeight, left + right)
+        return 1 + max(left, right)
 ```
 
 ---
 
 ## Attempt Log & Metrics
-* **Time Taken**: -
-* **Hint Used**: `none`
-* **Result**: `Pending`
-* **Self Confidence (1–5)**: -
+* **Time Taken**: 8m
+* **Hint Used**: `small` (nudged to distinguish root depth vs turning node diameter and eliminate redundant stack loop)
+* **Result**: `Accepted`
+* **Self Confidence (1–5)**: 4
 
 ---
 
 ## Reasoning & Explanation
-*(Pending submission)*
+Computes tree diameter using post-order DFS. For any node `node`, recursively calculates the height of its left subtree (`left`) and right subtree (`right`). The diameter path pivoting at `node` is `left + right`. Maintains an instance variable `self.maxHeight` updated with `max(self.maxHeight, left + right)`. Returns `1 + max(left, right)` as the subtree height to the caller.
 
 ---
 
 ## Correct Approach & Complexity Analysis
 * **Optimal Pattern**: Post-order DFS Depth Calculation with global maximum update.
-* **Time Complexity**: `O(N)` — Every node is visited once during recursive DFS traversal.
-* **Space Complexity**: `O(H)` — Recursion stack depth equals tree height $H$ (where $H = \mathcal{O}(\log N)$ for balanced trees, $\mathcal{O}(N)$ for skewed trees).
+* **Time Complexity**: `O(N)` — Every node in the binary tree is visited exactly once.
+* **Space Complexity**: `O(H)` — Call stack uses $O(H)$ space where $H$ is the tree height ($O(\log N)$ average, $O(N)$ worst case skewed).
 
 ---
 
 ## Key Edge Cases
-- [ ] Single node tree (`root = [1]`, diameter = `0`)
-- [ ] Highly unbalanced / skewed tree (linked list structure)
-- [ ] Longest path does not pass through the root node
+- [x] Single node tree (`root = [1]`, returns `0`) — Handled cleanly (`left=0, right=0`).
+- [x] Skewed tree (`1 -> 2 -> 3`) — Handled correctly.
+- [x] Path does not pass through root node — Handled correctly by tracking max across all subtrees.
 
 ---
 
 ## Linked Mistakes
-* None
+* [[Subtree Recursion Scope Error]]
 
 ---
 
 ## Review History
 | Date | Result | Time | Hint Level | Code Grade | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-08-15 | Accepted | 8m | small | Grade C | Solved with conceptual nudge to remove redundant while loop. |
 
 ---
 
 ## AI Analysis
-*(Pending completion)*
+* **Grade**: **Grade C — Correct with Hints**
+* **Correctness**: 100% correct post-order DFS implementation after removing outer iterative loop.
+* **Complexity**: Optimal $O(N)$ Time & $O(H)$ Space.
+* **Pattern Verification**: Post-order tree height traversal with global diameter state tracking.
+* **Interview Readiness**: 8/10. Clean recursive helper structure. Keep in mind that a single DFS traversal already visits every node, so additional outer loops are unnecessary.

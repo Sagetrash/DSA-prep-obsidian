@@ -2,11 +2,11 @@
 pattern_name: "Trees"
 category: "Data Structures"
 mastery_level: 4
-attempted_count: 4
-solved_count: 4
+attempted_count: 5
+solved_count: 5
 independent_solved_count: 2
-hint_rate: "50%"
-average_time: "4m 18s"
+hint_rate: "60%"
+average_time: "5m 02s"
 tags:
   - pattern
 ---
