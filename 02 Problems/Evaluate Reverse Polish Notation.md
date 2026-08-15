@@ -7,16 +7,16 @@ difficulty: Medium
 track: High Value
 primary_pattern: "[[Stack]]"
 secondary_patterns: []
-status: Unsolved
-result: Pending
-attempts: 0
-independent_solves: 0
+status: Solved
+result: Accepted
+attempts: 1
+independent_solves: 1
 hint_used: none
-time_taken: "-"
-first_attempt: null
-last_attempt: null
-next_review: null
-confidence: 0
+time_taken: 4m
+first_attempt: 2026-08-15
+last_attempt: 2026-08-15
+next_review: 2026-08-16
+confidence: 5
 expected_time_complexity: "O(N)"
 expected_space_complexity: "O(N)"
 tags:
@@ -32,7 +32,7 @@ tags:
 * **Platform**: [LeetCode](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 * **Difficulty**: `Medium` | **Track**: `High Value`
 * **Primary Pattern**: [[Stack]]
-* **Status**: `Unsolved` | **Result**: `Pending`
+* **Status**: `Solved` | **Result**: `Accepted`
 
 ---
 
@@ -47,7 +47,6 @@ Note that:
 * The division between two integers always **truncates toward zero**.
 * There will not be any division by zero.
 * The input represents a valid arithmetic expression in reverse polish notation.
-* The answer and all intermediate calculations can be represented in a 32-bit integer.
 
 ### Examples
 ```text
@@ -61,13 +60,7 @@ Explanation: (4 + (13 / 5)) = 6
 
 Input: tokens = ["10","6","9","3","+","-11","*","/","*","17","+","5","+"]
 Output: 22
-Explanation: ((10 * (6 / ((9 + 3) * -11))) + 17) + 5
-= ((10 * (6 / (12 * -11))) + 17) + 5
-= ((10 * (6 / -132)) + 17) + 5
-= ((10 * 0) + 17) + 5
-= (0 + 17) + 5
-= 17 + 5
-= 22
+Explanation: ((10 * (6 / ((9 + 3) * -11))) + 17) + 5 = 22
 ```
 
 ### Constraints
@@ -77,41 +70,57 @@ Explanation: ((10 * (6 / ((9 + 3) * -11))) + 17) + 5
 ---
 
 ## My First Thought
-*(Pending submission)*
+Iterate through the tokens and push operands onto a stack. When an operator is encountered, pop two values from the stack: `b` (operand2, right) and `a` (operand1, left). Perform `a op b` and push the result back onto the stack. At the end, return the final value left on the stack.
 
 ---
 
 ## My Solution
 ```python
-# Pending solution
+class Solution:
+    def evalRPN(self, tokens: List[str]) -> int:
+        opr = {
+            "+": lambda a,b:a+b,
+            "-": lambda a,b:a-b,
+            "/": lambda a,b:int(a/b),
+            "*": lambda a,b:a*b
+        }
+        stack = []
+        for token in tokens:
+            if not token in opr:
+                stack.append(int(token))
+            else:
+                b = stack.pop()
+                a = stack.pop()
+                stack.append(opr[token](a,b))
+        return stack.pop()
 ```
 
 ---
 
 ## Attempt Log & Metrics
-* **Time Taken**: -
+* **Time Taken**: 4m
 * **Hint Used**: `none`
-* **Result**: `Pending`
-* **Self Confidence (1–5)**: -
+* **Result**: `Accepted`
+* **Self Confidence (1–5)**: 5
 
 ---
 
 ## Reasoning & Explanation
-*(Pending submission)*
+Defines an operator dictionary `opr` mapping operator symbols `"+", "-", "/", "*"` to lambda functions. Iterates over each `token` in `tokens`. If `token` is an operand (not in `opr`), converts it to `int` and appends to `stack`. If `token` is an operator, pops `b` (right operand) and `a` (left operand), evaluates `opr[token](a, b)` (using `int(a / b)` for zero truncation), and appends the result. Finally returns `stack.pop()`.
 
 ---
 
 ## Correct Approach & Complexity Analysis
-* **Optimal Pattern**: Stack evaluation for postfix notation
-* **Time Complexity**: `O(N)` — Single pass over $N$ tokens.
-* **Space Complexity**: `O(N)` — Stack stores up to $N/2 + 1$ operands.
+* **Optimal Pattern**: LIFO Stack Evaluation for Postfix Expression
+* **Time Complexity**: `O(N)` — Single pass over `tokens` array of length $N$. Each push and pop is $O(1)$.
+* **Space Complexity**: `O(N)` — Stack stores at most $N$ integers in worst case.
 
 ---
 
 ## Key Edge Cases
-- [ ] Division truncating toward zero (e.g. `int(a / b)` in Python vs `a // b`)
-- [ ] Negative number operands (e.g. `"-11"`)
-- [ ] Single element array (`tokens = ["18"]`)
+- [x] Division truncation towards zero (`int(-3 / 2) == 0`) — Correctly handled via `int(a / b)`.
+- [x] Negative number strings (`"-11"`) — Correctly parsed by `int("-11")`.
+- [x] Single element array (`tokens = ["18"]`) — Pushes `18` and returns `18`.
 
 ---
 
@@ -123,8 +132,13 @@ Explanation: ((10 * (6 / ((9 + 3) * -11))) + 17) + 5
 ## Review History
 | Date | Result | Time | Hint Level | Code Grade | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-08-15 | Accepted | 4m | none | Grade A | Initial unassisted solve. Elegant dictionary lambda implementation. |
 
 ---
 
 ## AI Analysis
-*(Pending completion)*
+* **Grade**: **Grade A — Strong Independent Solution**
+* **Correctness**: 100% correct logic. Correct operand popping order `b = pop()`, `a = pop()`, and evaluation `a op b`.
+* **Complexity**: Optimal $O(N)$ Time & $O(N)$ Space.
+* **Pattern Verification**: Masterful LIFO Stack implementation. Clean use of Python dictionary lambdas.
+* **Interview Readiness**: 10/10. Highly clean, pythonic, and production-ready code.

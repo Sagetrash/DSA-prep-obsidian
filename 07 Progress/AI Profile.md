@@ -59,9 +59,9 @@ Analysis of your GitHub repository [`Sagetrash/neetcode-submissions`](https://gi
 ---
 
 ## 📈 Recent Progress & Metrics Summary
-* **Total Solved (Phase 2)**: 36 Solved Total (30 NeetCode 150 Core + 6 Volume/Supplementary)
-* **High Value Solved**: 20 (Two Sum, Group Anagrams, Top K Frequent Elements, Product of Array Except Self, 3Sum, Two Sum II - Input Array Is Sorted, Longest Substring Without Repeating Characters, Container With Most Water, Binary Search, Search 2D Matrix, Koko Eating Bananas, Search in Rotated Sorted Array, Valid Parentheses, Min Stack, Reverse Linked List, Binary Tree Level Order Traversal, Invert Binary Tree, Maximum Depth of Binary Tree, House Robber, Maximum Subarray)
+* **Total Solved (Phase 2)**: 37 Solved Total (31 NeetCode 150 Core + 6 Volume/Supplementary)
+* **High Value Solved**: 21 (Two Sum, Group Anagrams, Top K Frequent Elements, Product of Array Except Self, 3Sum, Two Sum II - Input Array Is Sorted, Evaluate Reverse Polish Notation, Longest Substring Without Repeating Characters, Container With Most Water, Binary Search, Search 2D Matrix, Koko Eating Bananas, Search in Rotated Sorted Array, Valid Parentheses, Min Stack, Reverse Linked List, Binary Tree Level Order Traversal, Invert Binary Tree, Maximum Depth of Binary Tree, House Robber, Maximum Subarray)
 * **Volume Solved**: 16 (Contains Duplicate, Valid Anagram, Search Insert Position, Valid Palindrome, Best Time to Buy and Sell Stock, Squares of a Sorted Array, Move Zeroes, Remove Duplicates from Sorted Array, Find Minimum in Rotated Sorted Array, Merge Two Sorted Lists, Linked List Cycle, Same Tree, Subtree of Another Tree, Climbing Stairs, Best Time to Buy and Sell Stock II)
-* **Independent Solve Rate**: 88.6% (31/35 unassisted passes)
-* **Average Solving Time**: 9.1 mins
+* **Independent Solve Rate**: 88.9% (32/36 unassisted passes)
+* **Average Solving Time**: 8.9 mins
 * **Long-Term Target**: 150 Core / 300+ Problems Solved
