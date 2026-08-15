@@ -7,16 +7,16 @@ difficulty: Medium
 track: High Value
 primary_pattern: "[[Two Pointers]]"
 secondary_patterns: []
-status: Unsolved
-result: Pending
-attempts: 0
-independent_solves: 0
+status: Solved
+result: Accepted
+attempts: 1
+independent_solves: 1
 hint_used: none
-time_taken: "-"
-first_attempt: null
-last_attempt: null
-next_review: null
-confidence: 0
+time_taken: 3m
+first_attempt: 2026-08-15
+last_attempt: 2026-08-15
+next_review: 2026-08-16
+confidence: 5
 expected_time_complexity: "O(N)"
 expected_space_complexity: "O(1)"
 tags:
@@ -32,7 +32,7 @@ tags:
 * **Platform**: [LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 * **Difficulty**: `Medium` | **Track**: `High Value`
 * **Primary Pattern**: [[Two Pointers]]
-* **Status**: `Unsolved` | **Result**: `Pending`
+* **Status**: `Solved` | **Result**: `Accepted`
 
 ---
 
@@ -70,41 +70,52 @@ Explanation: The sum of -1 and 0 is -1. Therefore, index1 = 1, index2 = 2. We re
 ---
 
 ## My First Thought
-*(Pending submission)*
+We can use two pointers and the sum of those values, squeezing inward like in 3Sum. Since the array is sorted, `low` starts at `0` and `high` starts at `len(numbers) - 1`. If `numbers[low] + numbers[high] < target`, increment `low`; if greater, decrement `high`; if equal, return `[low + 1, high + 1]`.
 
 ---
 
 ## My Solution
 ```python
-# Pending solution
+class Solution:
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+        low = 0
+        high = len(numbers) - 1
+        while low < high:
+            val = numbers[low] + numbers[high]
+            if val == target:
+                return [low+1,high+1]
+            if val < target:
+                low += 1
+            else:
+                high -= 1
 ```
 
 ---
 
 ## Attempt Log & Metrics
-* **Time Taken**: -
+* **Time Taken**: 3m
 * **Hint Used**: `none`
-* **Result**: `Pending`
-* **Self Confidence (1–5)**: -
+* **Result**: `Accepted`
+* **Self Confidence (1–5)**: 5
 
 ---
 
 ## Reasoning & Explanation
-*(Pending submission)*
+Uses two pointers `low` and `high` pointing to the start and end of the sorted array `numbers`. In a `while low < high` loop, calculates `val = numbers[low] + numbers[high]`. If `val == target`, returns 1-based indices `[low + 1, high + 1]`. If `val < target`, increments `low` to increase sum. Otherwise decrements `high` to decrease sum. Exactly one solution is guaranteed.
 
 ---
 
 ## Correct Approach & Complexity Analysis
 * **Optimal Pattern**: Two Pointers (Squeeze from ends)
-* **Time Complexity**: `O(N)` — Linear scan with two pointers moving towards each other.
-* **Space Complexity**: `O(1)` — Only constant extra variables for left and right pointers.
+* **Time Complexity**: `O(N)` — Single linear scan where `low` and `high` move towards each other at most $N$ steps total.
+* **Space Complexity**: `O(1)` — Only two scalar pointers (`low`, `high`) and integer variable (`val`) used.
 
 ---
 
 ## Key Edge Cases
-- [ ] Negative target values (`numbers = [-10, -5, -2, 0]`, target `-7`)
-- [ ] Two identical numbers (`numbers = [0, 0, 3, 4]`, target `0`)
-- [ ] Elements at extreme bounds ($N = 3 \cdot 10^4$)
+- [x] Negative target values (`numbers = [-1, 0]`, target `-1`) — Handled correctly.
+- [x] Duplicate values (`numbers = [2, 3, 4]`, target `6`) — Returns `[1, 3]`.
+- [x] Minimum length array ($N = 2$) — Loops once and returns.
 
 ---
 
@@ -116,8 +127,13 @@ Explanation: The sum of -1 and 0 is -1. Therefore, index1 = 1, index2 = 2. We re
 ## Review History
 | Date | Result | Time | Hint Level | Code Grade | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-08-15 | Accepted | 3m | none | Grade A | Initial unassisted pass. Flawless 2-pointer squeeze. |
 
 ---
 
 ## AI Analysis
-*(Pending completion)*
+* **Grade**: **Grade A — Strong Independent Solution**
+* **Correctness**: 100% correct logic and boundary condition. Correctly converts 0-indexed pointers to 1-indexed output `[low + 1, high + 1]`.
+* **Complexity**: Optimal $O(N)$ Time & $O(1)$ Extra Space match expected benchmarks.
+* **Pattern Verification**: Optimal Two-Pointer Squeeze pattern executed flawlessly. Avoided set/hashmap overhead.
+* **Interview Readiness**: 10/10. Clean variable naming, optimal complexity, instantaneous pattern recognition.

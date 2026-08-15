@@ -2,11 +2,11 @@
 pattern_name: "Two Pointers"
 category: "Algorithmic Pattern"
 mastery_level: 5
-attempted_count: 6
-solved_count: 6
-independent_solved_count: 6
+attempted_count: 7
+solved_count: 7
+independent_solved_count: 7
 hint_rate: "0%"
-average_time: "10.7m"
+average_time: "9.6m"
 tags:
   - pattern
 ---
