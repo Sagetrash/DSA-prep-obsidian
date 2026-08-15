@@ -1,6 +1,6 @@
 ---
 title: "DSA Command Center"
-last_updated: 2026-08-14
+last_updated: 2026-08-15
 leetcode_handle: "sagetrash"
 tags:
   - dashboard
@@ -17,66 +17,56 @@ tags:
 
 | Metric | Current Status |
 | :--- | :--- |
-| **Current Sprint** | **Initial 7-Day Sprint COMPLETE! 🎉** (35/35 Solved + Mock OA 1 Passed) |
-| **Days Remaining Until Placement** | ~ 0 Days (Ready for Placement Rounds) |
+| **Current Sprint** | **Phase 2 — Day 1 Complete! 🎉** (4/4 Solved Today, 39 Solved Total) |
+| **Days Remaining Until Placement** | ~ 0 Days (Ready for Placement Rounds & OAs) |
 | **Live LeetCode Solved (`sagetrash`)** | **44 Problems Accepted** (23 Easy, 21 Medium, 0 Hard) |
-| **Sprint Re-Verification Status** | **35 / 35 Re-Verified** (88.6% Independent Solve Rate) |
-| **Current Focus** | Phase 2 (30-Day Core Placement Engine & Hard Problems) |
+| **NeetCode 150 Core Progress** | **33 / 150 Solved** (22.0% Core Progress) |
+| **Current Focus** | Phase 2 (30-Day Core Placement Engine: Stack, Trees, Heap, Graphs, DP) |
 
 ---
 
-## 🎯 2. Day 2 Completed Session (2026-08-09 — 8 Problems Solved!)
+## 🎯 2. Today's Completed Session (2026-08-15 — Phase 2 Day 1 Complete! 🎉)
 
 ### Track A — High Value (Placement Priority)
-* ✅ [[3Sum]] — `Medium` | Pattern: [[Two Pointers]] | Grade B (24m)
-* ✅ [[Longest Substring Without Repeating Characters]] — `Medium` | Pattern: [[Sliding Window]] | Grade A (23m)
-* ✅ [[Container With Most Water]] — `Medium` | Pattern: [[Two Pointers]] | Grade A (9m)
+* ✅ [[Two Sum II - Input Array Is Sorted]] — `Medium` | Pattern: [[Two Pointers]] | Grade A (3m)
+* ✅ [[Evaluate Reverse Polish Notation]] — `Medium` | Pattern: [[Stack]] | Grade A (4m)
 
 ### Track B — Volume (Speed & Fluency Priority)
-* ✅ [[Valid Palindrome]] — `Easy` | Pattern: [[Two Pointers]] | Grade A (5m)
-* ✅ [[Best Time to Buy and Sell Stock]] — `Easy` | Pattern: [[Sliding Window]] | Grade C (3m)
-* ⚡ [[Squares of a Sorted Array]] — `Easy` | Pattern: [[Two Pointers]] | Grade A (3m)
-* ⚡ [[Move Zeroes]] — `Easy` | Pattern: [[Two Pointers]] | Grade B (21m)
-* ⚡ [[Remove Duplicates from Sorted Array]] — `Easy` | Pattern: [[Two Pointers]] | Grade A (2m)
+* ✅ [[Diameter of Binary Tree]] — `Easy` | Pattern: [[Trees]] | Grade C (8m)
+* ✅ [[Last Stone Weight]] — `Easy` | Pattern: [[Heap & Priority Queue]] | Grade A (5m)
 
 ---
 
 ## 🔄 3. Revision Queue & Target Areas
 
-| Problem Link | Difficulty | Track | Status | Re-Verification Grade | Next Review |
+| Problem Link | Difficulty | Track | Pattern | Last Solved | Next Review |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [[Two Sum]] | Easy | High Value | Solved | Grade A (13m) | 2026-08-09 |
-| [[Group Anagrams]] | Medium | High Value | Solved | Grade A (12m) | 2026-08-11 |
-| [[Contains Duplicate]] | Easy | Volume | Solved | Grade A (6m) | 2026-08-09 |
-| [[Valid Anagram]] | Easy | Volume | Solved | Grade A (11m) | 2026-08-09 |
-| [[Top K Frequent Elements]] | Medium | High Value | Solved | Grade A (23m) | 2026-08-11 |
-| [[Product of Array Except Self]] | Medium | High Value | Solved | Grade A (21m) | 2026-08-11 |
-| [[Search Insert Position]] | Easy | Volume | Solved | Grade A (11m) | 2026-08-09 |
+| [[Two Sum II - Input Array Is Sorted]] | Medium | High Value | [[Two Pointers]] | 2026-08-15 | 2026-08-16 |
+| [[Evaluate Reverse Polish Notation]] | Medium | High Value | [[Stack]] | 2026-08-15 | 2026-08-16 |
+| [[Diameter of Binary Tree]] | Easy | Volume | [[Trees]] | 2026-08-15 | 2026-08-16 |
+| [[Last Stone Weight]] | Easy | Volume | [[Heap & Priority Queue]] | 2026-08-15 | 2026-08-16 |
+| [[Min Stack]] | Medium | High Value | [[Stack]] | 2026-08-12 | 2026-08-15 |
+| [[Linked List Cycle]] | Easy | Volume | [[Linked List]] | 2026-08-12 | 2026-08-15 |
+| [[Reverse Linked List]] | Easy | High Value | [[Linked List]] | 2026-08-12 | 2026-08-15 |
 
 ---
 
-## 📊 4. LeetCode Solved Breakdown (`sagetrash`)
+## 📊 4. Curriculum & Progress Summary
 
-> **Source**: Live LeetCode Profile (`https://leetcode.com/u/sagetrash/`)
+> **Source**: Live Vault Inventory & [NeetCode 150 Tracker.md](file:///mnt/Driver_E/My%20Files/projects/DSA-prep/07%20Progress/NeetCode%20150%20Tracker.md)
 
-### Live LeetCode Portfolio Summary
+### NeetCode 150 Module Breakdown
 
-| Difficulty | Live Accepted Count | Vault Target Priority |
-| :--- | :--- | :--- |
-| 🟢 **Easy** | **23** | Volume & Speed Verification |
-| 🟡 **Medium** | **17** | Core High-Value Patterns |
-| 🔴 **Hard** | **0** | Advanced Placement Preparation |
-| **Total Combined** | **40** | **Re-Verification Goal: 40/40** |
-
----
-
-### Immediate Re-Verification Progress
-
-| Solve Type | Count | Percentage |
-| :--- | :--- | :--- |
-| 🟢 **Independent Solves Re-Verified** (`hint_used: none`) | 7 / 40 | 17.5% |
-| 🟡 **Hint-Assisted Solves** (`hint_used: small/substantial`) | 0 / 40 | 0% |
-| 🔴 **Solution-Assisted Solves** (`hint_used: solution`) | 0 / 40 | 0% |
+| Module | Solved / Total | Progress Bar | Status |
+| :--- | :---: | :--- | :--- |
+| 1. **Arrays & Hashing** | 6 / 9 | `[██████████░░░░░] 66.7%` | 🟡 In Progress |
+| 2. **Two Pointers** | 4 / 5 | `[████████████░░░] 80.0%` | 🟡 In Progress |
+| 3. **Sliding Window** | 2 / 6 | `[█████░░░░░░░░░░] 33.3%` | 🟡 In Progress |
+| 4. **Stack** | 3 / 7 | `[██████░░░░░░░░░] 42.9%` | 🟡 In Progress |
+| 5. **Binary Search** | 5 / 7 | `[███████████░░░░] 71.4%` | 🟡 In Progress |
+| 6. **Linked List** | 3 / 11 | `[████░░░░░░░░░░░] 27.3%` | 🟡 In Progress |
+| 7. **Trees** | 6 / 15 | `[██████░░░░░░░░░] 40.0%` | 🟡 In Progress |
+| 9. **Heap / Priority Queue** | 1 / 7 | `[██░░░░░░░░░░░░░] 14.3%` | 🟡 In Progress |
 
 ---
 
