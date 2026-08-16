@@ -1,10 +1,10 @@
 ---
 title: "NeetCode 150 Progress Tracker"
 last_updated: 2026-08-16
-total_solved: 41
+total_solved: 42
 total_target: 150
-completion_percentage: "27.3%"
-easy_solved: 19
+completion_percentage: "28.0%"
+easy_solved: 20
 easy_total: 28
 medium_solved: 22
 medium_total: 101
@@ -27,15 +27,15 @@ tags:
 ## 📊 Overall Progress Dashboard
 
 ### Overall Completion
-`[█████░░░░░░░░░░░░░░░] 27.3% (41 / 150 Solved)`
+`[██████░░░░░░░░░░░░░░] 28.0% (42 / 150 Solved)`
 
 ### Difficulty Breakdown
 | Difficulty | Solved / Total | Completion % | Visual Progress |
 | :--- | :---: | :---: | :--- |
-| 🟢 **Easy** | 19 / 28 | 67.9% | `[██████████████░░░░░░] 67.9%` |
+| 🟢 **Easy** | 20 / 28 | 71.4% | `[██████████████░░░░░░] 71.4%` |
 | 🟡 **Medium** | 22 / 101 | 21.8% | `[████░░░░░░░░░░░░░░░░] 21.8%` |
 | 🔴 **Hard** | 0 / 21 | 0.0% | `[░░░░░░░░░░░░░░░░░░░░] 0.0%` |
-| 🏆 **Total Overall** | **41 / 150** | **27.3%** | `[█████░░░░░░░░░░░░░░░] 27.3%` |
+| 🏆 **Total Overall** | **42 / 150** | **28.0%** | `[██████░░░░░░░░░░░░░░] 28.0%` |
 
 ---
 
@@ -55,7 +55,7 @@ tags:
 | 10 | [[#10. Backtracking (1 / 9 Solved — 11.1%)|Backtracking]] | 1 / 9 | 11.1% | `[██░░░░░░░░░░░░░] 11.1%` | 🟡 In Progress |
 | 11 | [[#11. Graphs (0 / 13 Solved — 0.0%)|Graphs]] | 0 / 13 | 0.0% | `[░░░░░░░░░░░░░░░] 0.0%` | ⚪ Not Started |
 | 12 | [[#12. Advanced Graphs (0 / 6 Solved — 0.0%)|Advanced Graphs]] | 0 / 6 | 0.0% | `[░░░░░░░░░░░░░░░] 0.0%` | ⚪ Not Started |
-| 13 | [[#13. 1D Dynamic Programming (2 / 12 Solved — 16.7%)|1D Dynamic Programming]] | 2 / 12 | 16.7% | `[██░░░░░░░░░░░░░] 16.7%` | 🟡 In Progress |
+| 13 | [[#13. 1D Dynamic Programming (3 / 12 Solved — 25.0%)|1D Dynamic Programming]] | 3 / 12 | 25.0% | `[████░░░░░░░░░░░] 25.0%` | 🟡 In Progress |
 | 14 | [[#14. 2D Dynamic Programming (0 / 11 Solved — 0.0%)|2D Dynamic Programming]] | 0 / 11 | 0.0% | `[░░░░░░░░░░░░░░░] 0.0%` | ⚪ Not Started |
 | 15 | [[#15. Greedy (1 / 8 Solved — 12.5%)|Greedy]] | 1 / 8 | 12.5% | `[██░░░░░░░░░░░░░] 12.5%` | 🟡 In Progress |
 | 16 | [[#16. Intervals (0 / 6 Solved — 0.0%)|Intervals]] | 0 / 6 | 0.0% | `[░░░░░░░░░░░░░░░] 0.0%` | ⚪ Not Started |
@@ -270,14 +270,14 @@ tags:
 
 ---
 
-## 13. 1D Dynamic Programming (2 / 12 Solved — 16.7%)
+## 13. 1D Dynamic Programming (3 / 12 Solved — 25.0%)
 
-**Pattern Note**: [[Dynamic Programming]] | **Progress**: `[██░░░░░░░░░░░░░] 16.7%` (2 / 12 problems solved)
+**Pattern Note**: [[Dynamic Programming]] | **Progress**: `[████░░░░░░░░░░░] 25.0%` (3 / 12 problems solved)
 
 | Status | # | Problem Title | Difficulty | Platform Links | Code Grade | Next Review Date |
 | :-: | :-: | :--- | :-: | :--- | :-: | :-: |
 | - [x] ✅ Solved | 99 | **[[Climbing Stairs]]** | Easy | [LeetCode](https://leetcode.com/problems/climbing-stairs/) \| [NeetCode](https://neetcode.io/problems/climbing-stairs) | Grade A | `2026-08-14` |
-| - [ ] ⏳ Unsolved | 100 | [[Min Cost Climbing Stairs]] | Easy | [LeetCode](https://leetcode.com/problems/min-cost-climbing-stairs/) \| [NeetCode](https://neetcode.io/problems/min-cost-climbing-stairs) | - | - |
+| - [x] ✅ Solved | 100 | **[[Min Cost Climbing Stairs]]** | Easy | [LeetCode](https://leetcode.com/problems/min-cost-climbing-stairs/) \| [NeetCode](https://neetcode.io/problems/min-cost-climbing-stairs) | Grade A | - |
 | - [x] ✅ Solved | 101 | **[[House Robber]]** | Medium | [LeetCode](https://leetcode.com/problems/house-robber/) \| [NeetCode](https://neetcode.io/problems/house-robber) | Grade A | `2026-08-14` |
 | - [ ] ⏳ Unsolved | 102 | [[House Robber II]] | Medium | [LeetCode](https://leetcode.com/problems/house-robber-ii/) \| [NeetCode](https://neetcode.io/problems/house-robber-ii) | - | - |
 | - [ ] ⏳ Unsolved | 103 | [[Longest Palindromic Substring]] | Medium | [LeetCode](https://leetcode.com/problems/longest-palindromic-substring/) \| [NeetCode](https://neetcode.io/problems/longest-palindromic-substring) | - | - |

@@ -47,7 +47,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 
 ---
 
-## 🟢 Future Scheduled Revisions (Upcoming Days) — 19 Problems
+## 🟢 Future Scheduled Revisions (Upcoming Days) — 20 Problems
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -68,12 +68,13 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-28` | 🟢 Scheduled |
 | **[[Kth Largest Element in a Stream]]** | Easy | Volume | [[Heap & Priority Queue]] | Unknown | `null` | 🟢 Scheduled |
 | **[[Lowest Common Ancestor of a Binary Search Tree]]** | Medium | High Value | [[Trees]] | Unknown | `null` | 🟢 Scheduled |
+| **[[Min Cost Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Unknown | `null` | 🟢 Scheduled |
 | **[[Permutation in String]]** | Medium | High Value | [[Sliding Window]] | Unknown | `null` | 🟢 Scheduled |
 | **[[Subsets]]** | Medium | Volume | [[Backtracking]] | Unknown | `null` | 🟢 Scheduled |
 
 ---
 
-## 📊 Master Problem Inventory (46 Solved)
+## 📊 Master Problem Inventory (47 Solved)
 
 | Problem Title | Difficulty | Track | Primary Pattern | Grade | Last Solved | Next Review Date |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -104,6 +105,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | Grade A | 2026-08-12 | `2026-08-15` |
 | **[[Maximum Subarray]]** | Medium | High Value | [[Greedy]] | Grade A | 2026-08-13 | `2026-08-14` |
 | **[[Merge Two Sorted Lists]]** | Easy | Volume | [[Linked List]] | Grade A | 2026-08-12 | `2026-08-15` |
+| **[[Min Cost Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Grade A | Unknown | `null` |
 | **[[Min Stack]]** | Medium | High Value | [[Stack]] | Grade A | 2026-08-12 | `2026-08-15` |
 | **[[Move Zeroes]]** | Easy | Volume | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-13` |
 | **[[Permutation in String]]** | Medium | High Value | [[Sliding Window]] | Grade A | Unknown | `null` |
