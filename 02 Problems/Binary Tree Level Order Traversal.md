@@ -8,18 +8,14 @@ track: High Value
 primary_pattern: "[[BFS & DFS]]"
 secondary_patterns:
   - "[[Trees]]"
-status: Solved
-result: Accepted
-attempts: 2
-independent_solves: 1
+result: "Accepted"
 hint_used: none
-time_taken: 5m
-first_attempt: 2026-08-12
-last_attempt: 2026-08-13
-next_review: 2026-08-16
-confidence: 5
-expected_time_complexity: "O(N)"
-expected_space_complexity: "O(N)"
+independent_solves: 2
+time_taken: "3m"
+grade: "Grade A"
+last_attempted: 2026-08-16
+next_review: 2026-08-23
+mistakes: []
 tags:
   - problem
   - leetcode
