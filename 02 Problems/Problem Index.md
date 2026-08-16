@@ -13,7 +13,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 
 ---
 
-## 🔴 Active Revision Queue (Up for Review Today: 2026-08-16) — 28 Problems
+## 🔴 Active Revision Queue (Up for Review Today: 2026-08-16) — 27 Problems
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -44,11 +44,10 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | 2026-08-12 | `2026-08-15` | 🔴 Overdue (2026-08-15) |
 | **[[Same Tree]]** | Easy | Volume | [[Trees]] | 2026-08-12 | `2026-08-15` | 🔴 Overdue (2026-08-15) |
 | **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | 2026-08-12 | `2026-08-15` | 🔴 Overdue (2026-08-15) |
-| **[[Two Sum II - Input Array Is Sorted]]** | Medium | High Value | [[Two Pointers]] | 2026-08-15 | `2026-08-16` | 🟡 Due Today |
 
 ---
 
-## 🟢 Future Scheduled Revisions (Upcoming Days) — 14 Problems
+## 🟢 Future Scheduled Revisions (Upcoming Days) — 15 Problems
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -63,6 +62,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
 | **[[Last Stone Weight]]** | Easy | Volume | [[Heap & Priority Queue]] | Unknown | `2026-08-19` | 🟢 Scheduled |
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
+| **[[Two Sum II - Input Array Is Sorted]]** | Medium | High Value | [[Two Pointers]] | Unknown | `2026-08-19` | 🟢 Scheduled |
 | **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-21` | 🟢 Scheduled |
 | **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | Unknown | `2026-08-23` | 🟢 Scheduled |
 | **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-28` | 🟢 Scheduled |
@@ -111,7 +111,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Subtree of Another Tree]]** | Easy | Volume | [[Trees]] | Grade C | 2026-08-12 | `2026-08-13` |
 | **[[Top K Frequent Elements]]** | Medium | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-08 | `2026-08-11` |
 | **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-14 | `2026-08-17` |
-| **[[Two Sum II - Input Array Is Sorted]]** | Medium | High Value | [[Two Pointers]] | Grade A | 2026-08-15 | `2026-08-16` |
+| **[[Two Sum II - Input Array Is Sorted]]** | Medium | High Value | [[Two Pointers]] | Grade A | Unknown | `2026-08-19` |
 | **[[Valid Anagram]]** | Easy | Volume | [[Arrays & Hashing]] | Grade A | 2026-08-08 | `2026-08-09` |
 | **[[Valid Palindrome]]** | Easy | Volume | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-10` |
 | **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | Grade A | 2026-08-12 | `2026-08-15` |
