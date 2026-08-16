@@ -47,7 +47,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 
 ---
 
-## 🟢 Future Scheduled Revisions (Upcoming Days) — 15 Problems
+## 🟢 Future Scheduled Revisions (Upcoming Days) — 19 Problems
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -66,10 +66,14 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-21` | 🟢 Scheduled |
 | **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | Unknown | `2026-08-23` | 🟢 Scheduled |
 | **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-28` | 🟢 Scheduled |
+| **[[Kth Largest Element in a Stream]]** | Easy | Volume | [[Heap & Priority Queue]] | Unknown | `null` | 🟢 Scheduled |
+| **[[Lowest Common Ancestor of a Binary Search Tree]]** | Medium | High Value | [[Trees]] | Unknown | `null` | 🟢 Scheduled |
+| **[[Permutation in String]]** | Medium | High Value | [[Sliding Window]] | Unknown | `null` | 🟢 Scheduled |
+| **[[Subsets]]** | Medium | Volume | [[Backtracking]] | Unknown | `null` | 🟢 Scheduled |
 
 ---
 
-## 📊 Master Problem Inventory (42 Solved)
+## 📊 Master Problem Inventory (46 Solved)
 
 | Problem Title | Difficulty | Track | Primary Pattern | Grade | Last Solved | Next Review Date |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -91,15 +95,18 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Invert Binary Tree]]** | Easy | High Value | [[Trees]] | Grade B | 2026-08-12 | `2026-08-13` |
 | **[[K Closest Points to Origin]]** | Medium | Volume | [[Heap & Priority Queue]] | Grade A | Unknown | `2026-08-17` |
 | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Grade A | 2026-08-12 | `2026-08-19` |
+| **[[Kth Largest Element in a Stream]]** | Easy | Volume | [[Heap & Priority Queue]] | Grade A | Unknown | `null` |
 | **[[Last Stone Weight]]** | Easy | Volume | [[Heap & Priority Queue]] | Grade A | Unknown | `2026-08-19` |
 | **[[Linked List Cycle]]** | Easy | Volume | [[Linked List]] | Grade A | 2026-08-12 | `2026-08-15` |
 | **[[Longest Repeating Character Replacement]]** | Medium | High Value | [[Sliding Window]] | Grade C | Unknown | `2026-08-17` |
 | **[[Longest Substring Without Repeating Characters]]** | Medium | High Value | [[Sliding Window]] | Grade A | 2026-08-09 | `2026-08-13` |
+| **[[Lowest Common Ancestor of a Binary Search Tree]]** | Medium | High Value | [[Trees]] | Grade A | Unknown | `null` |
 | **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | Grade A | 2026-08-12 | `2026-08-15` |
 | **[[Maximum Subarray]]** | Medium | High Value | [[Greedy]] | Grade A | 2026-08-13 | `2026-08-14` |
 | **[[Merge Two Sorted Lists]]** | Easy | Volume | [[Linked List]] | Grade A | 2026-08-12 | `2026-08-15` |
 | **[[Min Stack]]** | Medium | High Value | [[Stack]] | Grade A | 2026-08-12 | `2026-08-15` |
 | **[[Move Zeroes]]** | Easy | Volume | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-13` |
+| **[[Permutation in String]]** | Medium | High Value | [[Sliding Window]] | Grade A | Unknown | `null` |
 | **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-14 | `2026-08-21` |
 | **[[Remove Duplicates from Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-10` |
 | **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | Grade A | 2026-08-12 | `2026-08-15` |
@@ -108,6 +115,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Search Insert Position]]** | Easy | Volume | [[Binary Search]] | Grade A | 2026-08-08 | `2026-08-09` |
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | Grade A | 2026-08-12 | `2026-08-19` |
 | **[[Squares of a Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-10` |
+| **[[Subsets]]** | Medium | Volume | [[Backtracking]] | Grade A | Unknown | `null` |
 | **[[Subtree of Another Tree]]** | Easy | Volume | [[Trees]] | Grade C | 2026-08-12 | `2026-08-13` |
 | **[[Top K Frequent Elements]]** | Medium | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-08 | `2026-08-11` |
 | **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-14 | `2026-08-17` |
