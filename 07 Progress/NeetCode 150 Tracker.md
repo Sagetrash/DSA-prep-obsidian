@@ -206,7 +206,7 @@ tags:
 | Status | # | Problem Title | Difficulty | Platform Links | Code Grade | Next Review Date |
 | :-: | :-: | :--- | :-: | :--- | :-: | :-: |
 | - [ ] ⏳ Unsolved | 64 | [[Kth Largest Element in a Stream]] | Easy | [LeetCode](https://leetcode.com/problems/kth-largest-element-in-a-stream/) \| [NeetCode](https://neetcode.io/problems/kth-largest-integer-in-a-stream) | - | - |
-| - [x] ✅ Solved | 65 | **[[Last Stone Weight]]** | Easy | [LeetCode](https://leetcode.com/problems/last-stone-weight/) \| [NeetCode](https://neetcode.io/problems/last-stone-weight) | Grade A | `2026-08-16` |
+| - [x] ✅ Solved | 65 | **[[Last Stone Weight]]** | Easy | [LeetCode](https://leetcode.com/problems/last-stone-weight/) \| [NeetCode](https://neetcode.io/problems/last-stone-weight) | Grade A | `2026-08-19` |
 | - [x] ✅ Solved | 66 | **[[K Closest Points to Origin]]** | Medium | [LeetCode](https://leetcode.com/problems/k-closest-points-to-origin/) \| [NeetCode](https://neetcode.io/problems/k-closest-points-to-origin) | Grade A | `2026-08-17` |
 | - [ ] ⏳ Unsolved | 67 | [[Kth Largest Element in an Array]] | Medium | [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/) \| [NeetCode](https://neetcode.io/problems/kth-largest-element-in-an-array) | - | - |
 | - [ ] ⏳ Unsolved | 68 | [[Task Scheduler]] | Medium | [LeetCode](https://leetcode.com/problems/task-scheduler/) \| [NeetCode](https://neetcode.io/problems/task-scheduling) | - | - |

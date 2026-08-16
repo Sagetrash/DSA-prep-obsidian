@@ -8,21 +8,23 @@ track: Volume
 primary_pattern: "[[Heap & Priority Queue]]"
 secondary_patterns: []
 status: Solved
-result: Accepted
+result: "Accepted"
 attempts: 1
 independent_solves: 1
 hint_used: none
-time_taken: 5m
+time_taken: "3m"
+grade: "Grade A"
 first_attempt: 2026-08-15
-last_attempt: 2026-08-15
-next_review: 2026-08-16
+last_attempted: 2026-08-16
+next_review: 2026-08-19
+mistakes: []
 confidence: 5
 expected_time_complexity: "O(N log N)"
 expected_space_complexity: "O(N)"
 tags:
   - problem
-  - leetcode
   - heap
+  - priority-queue
   - easy
 ---
 
