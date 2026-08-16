@@ -8,10 +8,10 @@ primary_pattern: "[[Stack]]"
 secondary_patterns: ["[[Backtracking]]"]
 neetcode_number: 24
 result: "Accepted"
-hint_used: small
+hint_used: solution
 independent_solves: 0
 time_taken: "10m"
-grade: "Grade A"
+grade: "Grade D"
 last_attempted: 2026-08-16
 next_review: 2026-08-17
 mistakes: []
@@ -97,7 +97,7 @@ class Solution:
 - **Optimal TC**: $\mathcal{O}\left(\frac{4^N}{\sqrt{N}}\right)$ | **Optimal SC**: $\mathcal{O}(N)$
 
 ### Grade
-**Grade**: Grade A | **Independent**: No (Guided on explicit state variables `open_c` and `close_c`) | **Hints Used**: small
+**Grade**: Grade D | **Independent**: No | **Hints Used**: solution (AI provided boilerplate structure in chat)
 
 ### Key Insight
 - Backtracking constraints prevent generating invalid parenthetical combinations (pruning invalid branches early).
@@ -113,4 +113,4 @@ class Solution:
 
 | Attempt # | Date | Result | Time | Hint Used | Grade |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| 1 | 2026-08-16 | Accepted | 10m | small | Grade A |
+| 1 | 2026-08-16 | Accepted | 10m | solution | Grade D |
