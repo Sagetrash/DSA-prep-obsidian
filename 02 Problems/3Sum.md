@@ -9,15 +9,18 @@ primary_pattern: "[[Two Pointers]]"
 secondary_patterns:
   - "[[Arrays & Hashing]]"
 status: Solved
-result: Accepted
-attempts: 2
-independent_solves: 2
-hint_used: none
-time_taken: 10m
-first_attempt: 2026-08-09
-last_attempt: 2026-08-13
-next_review: 2026-08-16
-confidence: 5
+result: "Accepted"
+hint_used: small
+independent_solves: 1
+time_taken: "8m"
+grade: "Grade B"
+last_attempted: 2026-08-16
+next_review: 2026-08-19
+mistakes: []
+tags:
+  - problem
+  - two-pointers
+  - medium
 expected_time_complexity: "O(N^2)"
 expected_space_complexity: "O(1)"
 tags:
