@@ -1,6 +1,6 @@
 ---
 title: "Problem Index & Revision Dashboard"
-last_updated: 2026-08-15
+last_updated: 2026-08-16
 tags:
   - index
   - problems
@@ -13,7 +13,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 
 ---
 
-## 🔴 Active Revision Queue (Up for Review Today: 2026-08-15) — 27 Problems
+## 🔴 Active Revision Queue (Up for Review Today: 2026-08-16) — 33 Problems
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -37,39 +37,44 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | 2026-08-13 | `2026-08-14` | 🔴 Overdue (2026-08-14) |
 | **[[House Robber]]** | Medium | High Value | [[Dynamic Programming]] | 2026-08-13 | `2026-08-14` | 🔴 Overdue (2026-08-14) |
 | **[[Maximum Subarray]]** | Medium | High Value | [[Greedy]] | 2026-08-13 | `2026-08-14` | 🔴 Overdue (2026-08-14) |
-| **[[Linked List Cycle]]** | Easy | Volume | [[Linked List]] | 2026-08-12 | `2026-08-15` | 🟡 Due Today |
-| **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | 2026-08-12 | `2026-08-15` | 🟡 Due Today |
-| **[[Merge Two Sorted Lists]]** | Easy | Volume | [[Linked List]] | 2026-08-12 | `2026-08-15` | 🟡 Due Today |
-| **[[Min Stack]]** | Medium | High Value | [[Stack]] | 2026-08-12 | `2026-08-15` | 🟡 Due Today |
-| **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | 2026-08-12 | `2026-08-15` | 🟡 Due Today |
-| **[[Same Tree]]** | Easy | Volume | [[Trees]] | 2026-08-12 | `2026-08-15` | 🟡 Due Today |
-| **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | 2026-08-12 | `2026-08-15` | 🟡 Due Today |
+| **[[Linked List Cycle]]** | Easy | Volume | [[Linked List]] | 2026-08-12 | `2026-08-15` | 🔴 Overdue (2026-08-15) |
+| **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | 2026-08-12 | `2026-08-15` | 🔴 Overdue (2026-08-15) |
+| **[[Merge Two Sorted Lists]]** | Easy | Volume | [[Linked List]] | 2026-08-12 | `2026-08-15` | 🔴 Overdue (2026-08-15) |
+| **[[Min Stack]]** | Medium | High Value | [[Stack]] | 2026-08-12 | `2026-08-15` | 🔴 Overdue (2026-08-15) |
+| **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | 2026-08-12 | `2026-08-15` | 🔴 Overdue (2026-08-15) |
+| **[[Same Tree]]** | Easy | Volume | [[Trees]] | 2026-08-12 | `2026-08-15` | 🔴 Overdue (2026-08-15) |
+| **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | 2026-08-12 | `2026-08-15` | 🔴 Overdue (2026-08-15) |
+| **[[3Sum]]** | Medium | High Value | [[Two Pointers]] | 2026-08-13 | `2026-08-16` | 🟡 Due Today |
+| **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | 2026-08-13 | `2026-08-16` | 🟡 Due Today |
+| **[[Diameter of Binary Tree]]** | Easy | Volume | [[Trees]] | 2026-08-15 | `2026-08-16` | 🟡 Due Today |
+| **[[Evaluate Reverse Polish Notation]]** | Medium | High Value | [[Stack]] | 2026-08-15 | `2026-08-16` | 🟡 Due Today |
+| **[[Last Stone Weight]]** | Easy | Volume | [[Heap & Priority Queue]] | 2026-08-15 | `2026-08-16` | 🟡 Due Today |
+| **[[Two Sum II - Input Array Is Sorted]]** | Medium | High Value | [[Two Pointers]] | 2026-08-15 | `2026-08-16` | 🟡 Due Today |
 
 ---
 
-## 🟢 Future Scheduled Revisions (Upcoming Days) — 11 Problems
+## 🟢 Future Scheduled Revisions (Upcoming Days) — 9 Problems
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[[3Sum]]** | Medium | High Value | [[Two Pointers]] | 2026-08-13 | `2026-08-16` | 🟢 Scheduled |
-| **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | 2026-08-13 | `2026-08-16` | 🟢 Scheduled |
-| **[[Diameter of Binary Tree]]** | Easy | Volume | [[Trees]] | 2026-08-15 | `2026-08-16` | 🟢 Scheduled |
-| **[[Evaluate Reverse Polish Notation]]** | Medium | High Value | [[Stack]] | 2026-08-15 | `2026-08-16` | 🟢 Scheduled |
-| **[[Last Stone Weight]]** | Easy | Volume | [[Heap & Priority Queue]] | 2026-08-15 | `2026-08-16` | 🟢 Scheduled |
-| **[[Two Sum II - Input Array Is Sorted]]** | Medium | High Value | [[Two Pointers]] | 2026-08-15 | `2026-08-16` | 🟢 Scheduled |
 | **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-17` | 🟢 Scheduled |
 | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
 | **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-21` | 🟢 Scheduled |
 | **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-28` | 🟢 Scheduled |
+| **[[Balanced Binary Tree]]** | Easy | High Value | [[Trees]] | Unknown | `null` | 🟢 Scheduled |
+| **[[Generate Parentheses]]** | Medium | Volume | [[Stack]] | Unknown | `null` | 🟢 Scheduled |
+| **[[K Closest Points to Origin]]** | Medium | Volume | [[Heap & Priority Queue]] | Unknown | `null` | 🟢 Scheduled |
+| **[[Longest Repeating Character Replacement]]** | Medium | High Value | [[Sliding Window]] | Unknown | `null` | 🟢 Scheduled |
 
 ---
 
-## 📊 Master Problem Inventory (38 Solved)
+## 📊 Master Problem Inventory (42 Solved)
 
 | Problem Title | Difficulty | Track | Primary Pattern | Grade | Last Solved | Next Review Date |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[[3Sum]]** | Medium | High Value | [[Two Pointers]] | Grade A | 2026-08-13 | `2026-08-16` |
+| **[[Balanced Binary Tree]]** | Easy | High Value | [[Trees]] | Grade A | Unknown | `null` |
 | **[[Best Time to Buy and Sell Stock]]** | Easy | Volume | [[Sliding Window]] | Grade A | 2026-08-09 | `2026-08-13` |
 | **[[Best Time to Buy and Sell Stock II]]** | Medium | Volume | [[Greedy]] | Grade A | 2026-08-13 | `2026-08-14` |
 | **[[Binary Search]]** | Easy | High Value | [[Binary Search]] | Grade A | 2026-08-10 | `2026-08-11` |
@@ -80,12 +85,15 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Diameter of Binary Tree]]** | Easy | Volume | [[Trees]] | Grade C | 2026-08-15 | `2026-08-16` |
 | **[[Evaluate Reverse Polish Notation]]** | Medium | High Value | [[Stack]] | Grade A | 2026-08-15 | `2026-08-16` |
 | **[[Find Minimum in Rotated Sorted Array]]** | Medium | Volume | [[Binary Search]] | Grade A | 2026-08-10 | `2026-08-11` |
+| **[[Generate Parentheses]]** | Medium | Volume | [[Stack]] | Grade A | Unknown | `null` |
 | **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-14 | `2026-08-28` |
 | **[[House Robber]]** | Medium | High Value | [[Dynamic Programming]] | Grade A | 2026-08-13 | `2026-08-14` |
 | **[[Invert Binary Tree]]** | Easy | High Value | [[Trees]] | Grade B | 2026-08-12 | `2026-08-13` |
+| **[[K Closest Points to Origin]]** | Medium | Volume | [[Heap & Priority Queue]] | Grade A | Unknown | `null` |
 | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Grade A | 2026-08-12 | `2026-08-19` |
 | **[[Last Stone Weight]]** | Easy | Volume | [[Heap & Priority Queue]] | Grade A | 2026-08-15 | `2026-08-16` |
 | **[[Linked List Cycle]]** | Easy | Volume | [[Linked List]] | Grade A | 2026-08-12 | `2026-08-15` |
+| **[[Longest Repeating Character Replacement]]** | Medium | High Value | [[Sliding Window]] | Grade A | Unknown | `null` |
 | **[[Longest Substring Without Repeating Characters]]** | Medium | High Value | [[Sliding Window]] | Grade A | 2026-08-09 | `2026-08-13` |
 | **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | Grade A | 2026-08-12 | `2026-08-15` |
 | **[[Maximum Subarray]]** | Medium | High Value | [[Greedy]] | Grade A | 2026-08-13 | `2026-08-14` |
