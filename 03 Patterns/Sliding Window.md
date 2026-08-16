@@ -2,11 +2,11 @@
 pattern_name: "Sliding Window"
 category: "Algorithmic Pattern"
 mastery_level: 3
-attempted_count: 2
-solved_count: 2
+attempted_count: 3
+solved_count: 3
 independent_solved_count: 1
-hint_rate: "50%"
-average_time: "13m"
+hint_rate: "67%"
+average_time: "13m 40s"
 tags:
   - pattern
 ---

@@ -104,7 +104,7 @@ tags:
 | :-: | :-: | :--- | :-: | :--- | :-: | :-: |
 | - [x] ✅ Solved | 15 | **[[Best Time to Buy and Sell Stock]]** | Easy | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) \| [NeetCode](https://neetcode.io/problems/buy-and-sell-crypto) | Grade A | `2026-08-13` |
 | - [x] ✅ Solved | 16 | **[[Longest Substring Without Repeating Characters]]** | Medium | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) \| [NeetCode](https://neetcode.io/problems/longest-substring-without-duplicates) | Grade A | `2026-08-13` |
-| - [x] ✅ Solved | 17 | **[[Longest Repeating Character Replacement]]** | Medium | [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/) \| [NeetCode](https://neetcode.io/problems/longest-repeating-substring-with-replacement) | Grade A | - |
+| - [x] ✅ Solved | 17 | **[[Longest Repeating Character Replacement]]** | Medium | [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/) \| [NeetCode](https://neetcode.io/problems/longest-repeating-substring-with-replacement) | Grade C | `2026-08-17` |
 | - [ ] ⏳ Unsolved | 18 | [[Permutation in String]] | Medium | [LeetCode](https://leetcode.com/problems/permutation-in-string/) \| [NeetCode](https://neetcode.io/problems/permutation-string) | - | - |
 | - [ ] ⏳ Unsolved | 19 | [[Minimum Window Substring]] | Hard | [LeetCode](https://leetcode.com/problems/minimum-window-substring/) \| [NeetCode](https://neetcode.io/problems/minimum-window-with-characters) | - | - |
 | - [ ] ⏳ Unsolved | 20 | [[Sliding Window Maximum]] | Hard | [LeetCode](https://leetcode.com/problems/sliding-window-maximum/) \| [NeetCode](https://neetcode.io/problems/sliding-window-maximum) | - | - |

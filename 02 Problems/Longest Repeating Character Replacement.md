@@ -7,13 +7,13 @@ track: High Value
 primary_pattern: "[[Sliding Window]]"
 secondary_patterns: []
 neetcode_number: 17
-result: ""
-hint_used: none
+result: "Accepted"
+hint_used: small
 independent_solves: 0
-time_taken: ""
-grade: ""
+time_taken: "15m"
+grade: "Grade C"
 last_attempted: 2026-08-16
-next_review: ""
+next_review: 2026-08-17
 mistakes: []
 tags:
   - problem
@@ -57,50 +57,66 @@ Explanation: Replace the one 'A' in the middle with 'B' → "AABBBBA" has length
 
 ## 💭 My First Thought
 
-*(Write here before attempting)*
+In a pure brute force approach, I'd have to change each character to each other character and record the longest substring. Top-down contraction from whole string would check $O(N^2)$ windows.
 
 ---
 
 ## 🔍 My Reasoning & Approach
 
-*(Step-by-step thought process, constraints checked, pattern identified)*
+Sliding window expanding from `left = 0`, `right = 0` to `len(s) - 1`.
+- Track frequency of characters in window using a hash map `count`.
+- Invariant: minimum replacements needed to make window identical is `(right - left + 1) - max(count.values())`.
+- If replacements needed exceeds `k`, shrink window from left by decrementing `count[s[left]]` and incrementing `left`.
+- Maintain `max_len = max(max_len, right - left + 1)`.
+- Since alphabet size $\le 26$, `max(count.values())` takes $\mathcal{O}(26) = \mathcal{O}(1)$ time.
 
 ---
 
 ## 💻 My Solution
 
 ```python
-# Write your solution here
+class Solution:
+    def characterReplacement(self, s: str, k: int) -> int:
+        left = 0
+        count = {}
+        right = left
+        max_len = 0
+        while right < len(s):
+            count[s[right]] = count.get(s[right], 0) + 1
+            if (right - left + 1) - max(count.values()) > k:
+                count[s[left]] -= 1
+                left += 1
+            max_len = max(max_len, right - left + 1)
+            right += 1
+        return max_len
 ```
 
-**Time Complexity**: 
-**Space Complexity**: 
+**Time Complexity**: $\mathcal{O}(N)$ — Each character is visited at most twice by `right` and `left` pointers. `max(count.values())` checks at most 26 keys.
+**Space Complexity**: $\mathcal{O}(1)$ — `count` hashmap stores at most 26 uppercase English characters.
 
 ---
 
 ## 🤖 AI Analysis
 
-*(Auto-populated after submission)*
-
 ### Complexity Verification
-- **Actual TC**: 
-- **Actual SC**: 
-- **Optimal TC**: $O(N)$ | **Optimal SC**: $O(1)$
+- **Actual TC**: $\mathcal{O}(26 \cdot N) = \mathcal{O}(N)$
+- **Actual SC**: $\mathcal{O}(26) = \mathcal{O}(1)$
+- **Optimal TC**: $\mathcal{O}(N)$ | **Optimal SC**: $\mathcal{O}(1)$
 
 ### Grade
-**Grade**: — | **Independent**: — | **Hints Used**: —
+**Grade**: Grade C | **Independent**: No (Required conceptual guidance on window validity formulation and expanding window traversal) | **Hints Used**: small
 
 ### Key Insight
-The window validity condition is: `(window_length - max_frequency_char_count) ≤ k`
-- This represents: "characters that are NOT the dominant character → replacements needed"
-- If replacements needed exceed `k`, shrink the left pointer.
-- You do NOT need to decrement `max_freq` when shrinking (it can only increase or stay, never decrease usefully for the answer).
+The window validity condition: `(window_len - max_freq) <= k`
+- `window_len - max_freq` represents characters that MUST be replaced.
+- When `right` expands, add `s[right]` to frequency count.
+- When invalid (`> k`), contract `left` by 1.
 
 ### Edge Cases Checked
-- [ ] Single character string
-- [ ] `k = 0` (no replacements allowed)
-- [ ] All same characters
-- [ ] `k ≥ len(s)` (whole string can be replaced)
+- [x] Single character string
+- [x] `k = 0` (no replacements allowed)
+- [x] All same characters
+- [x] `k >= len(s)` (whole string can be replaced)
 
 ---
 
@@ -108,4 +124,4 @@ The window validity condition is: `(window_length - max_frequency_char_count) �
 
 | Attempt # | Date | Result | Time | Hint Used | Grade |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| 1 | 2026-08-16 | | | | |
+| 1 | 2026-08-16 | Accepted | 15m | small | Grade C |

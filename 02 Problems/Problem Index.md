@@ -57,6 +57,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **[[Longest Repeating Character Replacement]]** | Medium | High Value | [[Sliding Window]] | Unknown | `2026-08-17` | 🟢 Scheduled |
 | **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-17` | 🟢 Scheduled |
 | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
@@ -65,7 +66,6 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Balanced Binary Tree]]** | Easy | High Value | [[Trees]] | Unknown | `null` | 🟢 Scheduled |
 | **[[Generate Parentheses]]** | Medium | Volume | [[Stack]] | Unknown | `null` | 🟢 Scheduled |
 | **[[K Closest Points to Origin]]** | Medium | Volume | [[Heap & Priority Queue]] | Unknown | `null` | 🟢 Scheduled |
-| **[[Longest Repeating Character Replacement]]** | Medium | High Value | [[Sliding Window]] | Unknown | `null` | 🟢 Scheduled |
 
 ---
 
@@ -93,7 +93,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Grade A | 2026-08-12 | `2026-08-19` |
 | **[[Last Stone Weight]]** | Easy | Volume | [[Heap & Priority Queue]] | Grade A | 2026-08-15 | `2026-08-16` |
 | **[[Linked List Cycle]]** | Easy | Volume | [[Linked List]] | Grade A | 2026-08-12 | `2026-08-15` |
-| **[[Longest Repeating Character Replacement]]** | Medium | High Value | [[Sliding Window]] | Grade A | Unknown | `null` |
+| **[[Longest Repeating Character Replacement]]** | Medium | High Value | [[Sliding Window]] | Grade C | Unknown | `2026-08-17` |
 | **[[Longest Substring Without Repeating Characters]]** | Medium | High Value | [[Sliding Window]] | Grade A | 2026-08-09 | `2026-08-13` |
 | **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | Grade A | 2026-08-12 | `2026-08-15` |
 | **[[Maximum Subarray]]** | Medium | High Value | [[Greedy]] | Grade A | 2026-08-13 | `2026-08-14` |
