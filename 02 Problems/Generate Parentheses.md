@@ -7,13 +7,13 @@ track: Volume
 primary_pattern: "[[Stack]]"
 secondary_patterns: ["[[Backtracking]]"]
 neetcode_number: 24
-result: ""
-hint_used: none
+result: "Accepted"
+hint_used: small
 independent_solves: 0
-time_taken: ""
-grade: ""
+time_taken: "10m"
+grade: "Grade A"
 last_attempted: 2026-08-16
-next_review: ""
+next_review: 2026-08-17
 mistakes: []
 tags:
   - problem
@@ -52,72 +52,60 @@ Output: ["()"]
 
 ## 💭 My First Thought
 
-*(Write here before attempting)*
+Maintain state to know when we can add brackets. If open, we can add open or close. Use recursion to explore all paths in decision tree.
 
 ---
 
 ## 🔍 My Reasoning & Approach
 
-*(Step-by-step thought process, constraints checked, pattern identified)*
+Decision tree backtracking using recursive DFS:
+- Maintain state: `open_c` (count of open brackets used) and `close_c` (count of close brackets used).
+- **Rule 1**: Add `(` if `open_c < n`.
+- **Rule 2**: Add `)` if `close_c < open_c` (can only close if there is an unmatched open bracket).
+- **Base Case**: `open_c == n and close_c == n` → valid combination of length $2N$, append `curr_s` to `res`.
 
 ---
 
 ## 💻 My Solution
 
 ```python
-# Write your solution here
+class Solution:
+    def generateParenthesis(self, n: int) -> List[str]:
+        res = []
+        def dfs(open_c, close_c, curr_s):
+            if open_c == n and close_c == n:
+                res.append(curr_s)
+                return
+            if open_c < n:
+                dfs(open_c + 1, close_c, curr_s + "(")
+            if close_c < open_c:
+                dfs(open_c, close_c + 1, curr_s + ")")
+        dfs(0, 0, "")
+        return res
 ```
 
-**Time Complexity**: 
-**Space Complexity**: 
+**Time Complexity**: $\mathcal{O}\left(\frac{4^N}{\sqrt{N}}\right)$ — Bounded by the $N$-th Catalan number $C_N = \frac{1}{N+1}\binom{2N}{N}$, each string construction takes $\mathcal{O}(N)$ time.
+**Space Complexity**: $\mathcal{O}(N)$ — Maximum recursion stack depth is $2N$.
 
 ---
 
 ## 🤖 AI Analysis
 
-*(Auto-populated after submission)*
-
 ### Complexity Verification
-- **Actual TC**: 
-- **Actual SC**: 
-- **Optimal TC**: $O(4^N / \sqrt{N})$ (Nth Catalan number × N for string construction) | **Optimal SC**: $O(N)$ (recursion depth)
+- **Actual TC**: $\mathcal{O}\left(\frac{4^N}{\sqrt{N}}\right)$
+- **Actual SC**: $\mathcal{O}(N)$
+- **Optimal TC**: $\mathcal{O}\left(\frac{4^N}{\sqrt{N}}\right)$ | **Optimal SC**: $\mathcal{O}(N)$
 
 ### Grade
-**Grade**: — | **Independent**: — | **Hints Used**: —
+**Grade**: Grade A | **Independent**: No (Guided on explicit state variables `open_c` and `close_c`) | **Hints Used**: small
 
 ### Key Insight
-**Decision tree backtracking with 2 rules**:
-- Add `(` if `open_count < n`
-- Add `)` if `close_count < open_count`
-- Base case: `open_count == close_count == n` → valid combo, append to result
-
-```python
-def generateParentheses(n: int):
-    result = []
-    def dfs(open_c, close_c, current):
-        if open_c == close_c == n:
-            result.append(current)
-            return
-        if open_c < n:
-            dfs(open_c + 1, close_c, current + "(")
-        if close_c < open_c:
-            dfs(open_c, close_c + 1, current + ")")
-    dfs(0, 0, "")
-    return result
-```
-
-**Why `close < open`?** — A closing paren is only valid if there's an unmatched open paren waiting.
-
-### Cognitive Bridge to Backtracking Module
-This problem is your first encounter with **backtracking on a decision tree**. The pattern generalizes:
-- State = current partial solution
-- Choices = valid next steps (constrained)
-- Base case = complete valid solution
-- Backtrack = return (Python garbage collects the string; explicit backtrack needed for mutable arrays)
+- Backtracking constraints prevent generating invalid parenthetical combinations (pruning invalid branches early).
+- Passing immutable string concatenation (`curr_s + "("`) implicitly handles string backtracking via Python's call stack.
 
 ### Edge Cases Checked
-- [ ] `n = 1` → `["()"]`
-- [ ] `n = 8` (max constraints — ensure recursion depth is fine)
+- [x] `n = 1` → `["()"]`
+- [x] `n = 8` (max constraint — recursion depth $16 \ll 1000$ limit)
 
 ---
 
@@ -125,4 +113,4 @@ This problem is your first encounter with **backtracking on a decision tree**. T
 
 | Attempt # | Date | Result | Time | Hint Used | Grade |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| 1 | 2026-08-16 | | | | |
+| 1 | 2026-08-16 | Accepted | 10m | small | Grade A |

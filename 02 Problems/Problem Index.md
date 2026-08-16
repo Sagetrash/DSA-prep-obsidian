@@ -58,6 +58,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[[Balanced Binary Tree]]** | Easy | High Value | [[Trees]] | Unknown | `2026-08-17` | 🟢 Scheduled |
+| **[[Generate Parentheses]]** | Medium | Volume | [[Stack]] | Unknown | `2026-08-17` | 🟢 Scheduled |
 | **[[K Closest Points to Origin]]** | Medium | Volume | [[Heap & Priority Queue]] | Unknown | `2026-08-17` | 🟢 Scheduled |
 | **[[Longest Repeating Character Replacement]]** | Medium | High Value | [[Sliding Window]] | Unknown | `2026-08-17` | 🟢 Scheduled |
 | **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-17` | 🟢 Scheduled |
@@ -65,7 +66,6 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
 | **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-21` | 🟢 Scheduled |
 | **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-28` | 🟢 Scheduled |
-| **[[Generate Parentheses]]** | Medium | Volume | [[Stack]] | Unknown | `null` | 🟢 Scheduled |
 
 ---
 
@@ -85,7 +85,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Diameter of Binary Tree]]** | Easy | Volume | [[Trees]] | Grade C | 2026-08-15 | `2026-08-16` |
 | **[[Evaluate Reverse Polish Notation]]** | Medium | High Value | [[Stack]] | Grade A | 2026-08-15 | `2026-08-16` |
 | **[[Find Minimum in Rotated Sorted Array]]** | Medium | Volume | [[Binary Search]] | Grade A | 2026-08-10 | `2026-08-11` |
-| **[[Generate Parentheses]]** | Medium | Volume | [[Stack]] | Grade A | Unknown | `null` |
+| **[[Generate Parentheses]]** | Medium | Volume | [[Stack]] | Grade A | Unknown | `2026-08-17` |
 | **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-14 | `2026-08-28` |
 | **[[House Robber]]** | Medium | High Value | [[Dynamic Programming]] | Grade A | 2026-08-13 | `2026-08-14` |
 | **[[Invert Binary Tree]]** | Easy | High Value | [[Trees]] | Grade B | 2026-08-12 | `2026-08-13` |
