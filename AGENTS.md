@@ -101,9 +101,9 @@ When recommending problems for today or tomorrow, run the adaptive selection eng
 2. **Identify Recurring Mistakes**: Check active mistake notes with high frequency.
 3. **Check Revision Schedule**: Include problems where `next_review <= today`.
 4. **Balance Daily Target**:
-   * Standard Day: 2 High-Value + 2–3 Volume (4–5 total).
-   * Busy Day: 2 High-Value (minimum).
-   * High-Availability Day: 2 High-Value + 3–4 Volume.
+   * Standard Day: **5 New Target Problems** (2 High-Value + 3 Volume) + Scheduled Reviews.
+   * Busy Day: 2–3 High-Value (minimum).
+   * High-Availability Day: 5 High-Value + 2–3 Volume (7–8 total).
 5. **Targeted Weakness Attack**: If user is weak in Sliding Window, do NOT assign 5 Hashmap problems. Assign:
    * 1 Hashmap reinforcement
    * 2 Sliding Window problems
