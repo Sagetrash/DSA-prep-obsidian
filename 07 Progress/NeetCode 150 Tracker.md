@@ -119,7 +119,7 @@ tags:
 | :-: | :-: | :--- | :-: | :--- | :-: | :-: |
 | - [x] ✅ Solved | 21 | **[[Valid Parentheses]]** | Easy | [LeetCode](https://leetcode.com/problems/valid-parentheses/) \| [NeetCode](https://neetcode.io/problems/validate-parentheses) | Grade A | `2026-08-15` |
 | - [x] ✅ Solved | 22 | **[[Min Stack]]** | Medium | [LeetCode](https://leetcode.com/problems/min-stack/) \| [NeetCode](https://neetcode.io/problems/minimum-stack) | Grade A | `2026-08-15` |
-| - [x] ✅ Solved | 23 | **[[Evaluate Reverse Polish Notation]]** | Medium | [LeetCode](https://leetcode.com/problems/evaluate-reverse-polish-notation/) \| [NeetCode](https://neetcode.io/problems/evaluate-reverse-polish-notation) | Grade A | `2026-08-16` |
+| - [x] ✅ Solved | 23 | **[[Evaluate Reverse Polish Notation]]** | Medium | [LeetCode](https://leetcode.com/problems/evaluate-reverse-polish-notation/) \| [NeetCode](https://neetcode.io/problems/evaluate-reverse-polish-notation) | Grade A | `2026-08-19` |
 | - [x] ✅ Solved | 24 | **[[Generate Parentheses]]** | Medium | [LeetCode](https://leetcode.com/problems/generate-parentheses/) \| [NeetCode](https://neetcode.io/problems/generate-parentheses) | Grade D | `2026-08-17` |
 | - [ ] ⏳ Unsolved | 25 | [[Daily Temperatures]] | Medium | [LeetCode](https://leetcode.com/problems/daily-temperatures/) \| [NeetCode](https://neetcode.io/problems/daily-temperatures) | - | - |
 | - [ ] ⏳ Unsolved | 26 | [[Car Fleet]] | Medium | [LeetCode](https://leetcode.com/problems/car-fleet/) \| [NeetCode](https://neetcode.io/problems/car-fleet) | - | - |
