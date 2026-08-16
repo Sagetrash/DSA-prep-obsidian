@@ -1,17 +1,18 @@
 ---
-title: "Generate Parentheses"
-leetcode_url: "https://leetcode.com/problems/generate-parentheses/"
-neetcode_url: "https://neetcode.io/problems/generate-parentheses"
+title: Generate Parentheses
+leetcode_url: https://leetcode.com/problems/generate-parentheses/
+neetcode_url: https://neetcode.io/problems/generate-parentheses
 difficulty: Medium
 track: Volume
 primary_pattern: "[[Stack]]"
-secondary_patterns: ["[[Backtracking]]"]
+secondary_patterns:
+  - "[[Backtracking]]"
 neetcode_number: 24
-result: "Accepted"
-hint_used: solution
+result: Accepted
+hint_used: none
 independent_solves: 0
-time_taken: "10m"
-grade: "Grade D"
+time_taken: 10m
+grade: Grade D
 last_attempted: 2026-08-16
 next_review: 2026-08-17
 mistakes: []
