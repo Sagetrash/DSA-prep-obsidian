@@ -7,13 +7,13 @@ track: Volume
 primary_pattern: "[[Heap & Priority Queue]]"
 secondary_patterns: []
 neetcode_number: 66
-result: ""
-hint_used: none
+result: "Accepted"
+hint_used: small
 independent_solves: 0
-time_taken: ""
-grade: ""
+time_taken: "12m"
+grade: "Grade A"
 last_attempted: 2026-08-16
-next_review: ""
+next_review: 2026-08-17
 mistakes: []
 tags:
   - problem
@@ -58,60 +58,63 @@ Output: [[3,3],[-2,4]]
 
 ## 💭 My First Thought
 
-*(Write here before attempting)*
+Initial intuition was a hashmap of distances mapped to lists of points, returning values of the $K$ minimum keys. Refined to a max-heap of size $K$ to avoid full sorting and handle duplicate distances cleanly.
 
 ---
 
 ## 🔍 My Reasoning & Approach
 
-*(Step-by-step thought process, constraints checked, pattern identified)*
+Maintain a max-heap of size $K$ using Python's `heapq` with negated Euclidean distance $(- (x^2 + y^2))$.
+1. Iterate through `points`. For each `(x, y)`, compute `dist = x*x + y*y`.
+2. Push `(-dist, x, y)` onto `heap`. Python's `heapq` compares tuple elements starting at index 0.
+3. If `len(heap) > k`, pop the top element (which has the smallest negated distance, meaning the largest actual distance).
+4. At the end, extract `[x, y]` from the $K$ remaining heap elements.
 
 ---
 
 ## 💻 My Solution
 
 ```python
-# Write your solution here
+import heapq
+
+class Solution:
+    def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
+        heap = []
+        heapq.heapify(heap)
+        for x, y in points:
+            distance = x * x + y * y
+            heapq.heappush(heap, (-distance, x, y))
+            if len(heap) > k:
+                heapq.heappop(heap)
+        out = [[y, z] for x, y, z in heap]
+        return out
 ```
 
-**Time Complexity**: 
-**Space Complexity**: 
+**Time Complexity**: $\mathcal{O}(N \log K)$ — Each of the $N$ points is pushed onto a heap of max size $K + 1$.
+**Space Complexity**: $\mathcal{O}(K)$ — Heap stores at most $K + 1$ point tuples at any given time.
 
 ---
 
 ## 🤖 AI Analysis
 
-*(Auto-populated after submission)*
-
 ### Complexity Verification
-- **Actual TC**: 
-- **Actual SC**: 
-- **Optimal TC**: $O(N \log K)$ | **Optimal SC**: $O(K)$
+- **Actual TC**: $\mathcal{O}(N \log K)$
+- **Actual SC**: $\mathcal{O}(K)$
+- **Optimal TC**: $\mathcal{O}(N \log K)$ (or $\mathcal{O}(N)$ average via QuickSelect) | **Optimal SC**: $\mathcal{O}(K)$
 
 ### Grade
-**Grade**: — | **Independent**: — | **Hints Used**: —
+**Grade**: Grade A | **Independent**: No (Required minor syntax clarification on tuple ordering in Python's `heapq`) | **Hints Used**: small
 
-### Key Insights
-**Two valid approaches**:
-
-1. **`heapq.nsmallest` (clean, Pythonic)**:
-   ```python
-   return heapq.nsmallest(k, points, key=lambda p: p[0]**2 + p[1]**2)
-   ```
-   — $O(N \log K)$ time under the hood.
-
-2. **Manual max-heap of size K (explicit)**:
-   - Push `(-dist_sq, x, y)` to maintain a max-heap via negation.
-   - If heap size > K, pop the largest (most distant) element.
-   - At the end, extract coordinates.
-
-**Key trick**: Compare $x^2 + y^2$ directly. No need for `sqrt()` since it's monotonically increasing.
+### Key Insight
+- Comparing squared distances $x^2 + y^2$ avoids floating-point precision issues with `sqrt()`.
+- Negating values in a min-heap simulates a max-heap, allowing bounding heap size to $K$.
+- Python `heapq` compares tuples lexicographically starting at index 0 (`-distance`).
 
 ### Edge Cases Checked
-- [ ] `k = len(points)` (return all points)
-- [ ] `k = 1` (return single closest)
-- [ ] Points equidistant from origin
-- [ ] Negative coordinates
+- [x] `k = len(points)` (return all points)
+- [x] `k = 1` (return single closest)
+- [x] Points equidistant from origin
+- [x] Negative coordinates
 
 ---
 
@@ -119,4 +122,4 @@ Output: [[3,3],[-2,4]]
 
 | Attempt # | Date | Result | Time | Hint Used | Grade |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| 1 | 2026-08-16 | | | | |
+| 1 | 2026-08-16 | Accepted | 12m | small | Grade A |

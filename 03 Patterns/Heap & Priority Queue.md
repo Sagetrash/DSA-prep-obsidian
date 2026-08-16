@@ -2,11 +2,11 @@
 pattern_name: "Heap & Priority Queue"
 category: "Data Structures"
 mastery_level: 4
-attempted_count: 1
-solved_count: 1
+attempted_count: 2
+solved_count: 2
 independent_solved_count: 1
-hint_rate: "0%"
-average_time: "5m"
+hint_rate: "50%"
+average_time: "8m 30s"
 tags:
   - pattern
 ---
