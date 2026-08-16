@@ -59,9 +59,9 @@ Analysis of your GitHub repository [`Sagetrash/neetcode-submissions`](https://gi
 ---
 
 ## 📈 Recent Progress & Metrics Summary
-* **Total Solved (Phase 2)**: 40 Solved Total (34 NeetCode 150 Core + 6 Volume/Supplementary)
-* **High Value Solved**: 22 (Two Sum, Group Anagrams, Top K Frequent Elements, Product of Array Except Self, 3Sum, Two Sum II - Input Array Is Sorted, Evaluate Reverse Polish Notation, Longest Substring Without Repeating Characters, Longest Repeating Character Replacement, Container With Most Water, Binary Search, Search 2D Matrix, Koko Eating Bananas, Search in Rotated Sorted Array, Valid Parentheses, Min Stack, Reverse Linked List, Binary Tree Level Order Traversal, Invert Binary Tree, Maximum Depth of Binary Tree, House Robber, Maximum Subarray)
+* **Total Solved (Phase 2)**: 41 Solved Total (35 NeetCode 150 Core + 6 Volume/Supplementary)
+* **High Value Solved**: 23 (Two Sum, Group Anagrams, Top K Frequent Elements, Product of Array Except Self, 3Sum, Two Sum II - Input Array Is Sorted, Evaluate Reverse Polish Notation, Longest Substring Without Repeating Characters, Longest Repeating Character Replacement, Container With Most Water, Binary Search, Search 2D Matrix, Koko Eating Bananas, Search in Rotated Sorted Array, Valid Parentheses, Min Stack, Reverse Linked List, Binary Tree Level Order Traversal, Invert Binary Tree, Maximum Depth of Binary Tree, Balanced Binary Tree, House Robber, Maximum Subarray)
 * **Volume Solved**: 18 (Contains Duplicate, Valid Anagram, Search Insert Position, Valid Palindrome, Best Time to Buy and Sell Stock, Squares of a Sorted Array, Move Zeroes, Remove Duplicates from Sorted Array, Find Minimum in Rotated Sorted Array, Merge Two Sorted Lists, Linked List Cycle, Same Tree, Subtree of Another Tree, Climbing Stairs, Best Time to Buy and Sell Stock II, Diameter of Binary Tree, Last Stone Weight)
-* **Independent Solve Rate**: 84.6% (33/39 unassisted passes)
+* **Independent Solve Rate**: 85.0% (34/40 unassisted passes)
 * **Average Solving Time**: 9.0 mins
 * **Long-Term Target**: 150 Core / 300+ Problems Solved

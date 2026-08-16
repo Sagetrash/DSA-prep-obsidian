@@ -57,13 +57,13 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **[[Balanced Binary Tree]]** | Easy | High Value | [[Trees]] | Unknown | `2026-08-17` | 🟢 Scheduled |
 | **[[Longest Repeating Character Replacement]]** | Medium | High Value | [[Sliding Window]] | Unknown | `2026-08-17` | 🟢 Scheduled |
 | **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-17` | 🟢 Scheduled |
 | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
 | **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-21` | 🟢 Scheduled |
 | **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-28` | 🟢 Scheduled |
-| **[[Balanced Binary Tree]]** | Easy | High Value | [[Trees]] | Unknown | `null` | 🟢 Scheduled |
 | **[[Generate Parentheses]]** | Medium | Volume | [[Stack]] | Unknown | `null` | 🟢 Scheduled |
 | **[[K Closest Points to Origin]]** | Medium | Volume | [[Heap & Priority Queue]] | Unknown | `null` | 🟢 Scheduled |
 
@@ -74,7 +74,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | Problem Title | Difficulty | Track | Primary Pattern | Grade | Last Solved | Next Review Date |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[[3Sum]]** | Medium | High Value | [[Two Pointers]] | Grade A | 2026-08-13 | `2026-08-16` |
-| **[[Balanced Binary Tree]]** | Easy | High Value | [[Trees]] | Grade A | Unknown | `null` |
+| **[[Balanced Binary Tree]]** | Easy | High Value | [[Trees]] | Grade A | Unknown | `2026-08-17` |
 | **[[Best Time to Buy and Sell Stock]]** | Easy | Volume | [[Sliding Window]] | Grade A | 2026-08-09 | `2026-08-13` |
 | **[[Best Time to Buy and Sell Stock II]]** | Medium | Volume | [[Greedy]] | Grade A | 2026-08-13 | `2026-08-14` |
 | **[[Binary Search]]** | Easy | High Value | [[Binary Search]] | Grade A | 2026-08-10 | `2026-08-11` |

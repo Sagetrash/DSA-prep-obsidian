@@ -7,13 +7,13 @@ track: High Value
 primary_pattern: "[[Trees]]"
 secondary_patterns: []
 neetcode_number: 49
-result: ""
+result: "Accepted"
 hint_used: none
-independent_solves: 0
-time_taken: ""
-grade: ""
+independent_solves: 1
+time_taken: "12m"
+grade: "Grade A"
 last_attempted: 2026-08-16
-next_review: ""
+next_review: 2026-08-17
 mistakes: []
 tags:
   - problem
@@ -60,57 +60,75 @@ Output: true
 
 ## 💭 My First Thought
 
-*(Write here before attempting)*
+Do a recursion where we first reach the leaf nodes, assign heights 1 (or 0 for null), build up and compare subtree heights. If difference is > 1 at any point, return False / flag as unbalanced.
 
 ---
 
 ## 🔍 My Reasoning & Approach
 
-*(Step-by-step thought process, constraints checked, pattern identified)*
+Bottom-up post-order DFS to avoid redundant top-down $O(N^2)$ height recalculations.
+- Helper `dfs(node)` returns height of subtree if balanced, or `-1` sentinel if unbalanced.
+- Base case: `if not node: return 0`.
+- Recurse: `left_h = dfs(node.left)`, `right_h = dfs(node.right)`.
+- If `left_h == -1` or `right_h == -1` or `abs(left_h - right_h) > 1`, return `-1`.
+- Otherwise return `1 + max(left_h, right_h)`.
+- Main function checks `return dfs(root) != -1`.
 
 ---
 
 ## 💻 My Solution
 
 ```python
-# Write your solution here
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def isBalanced(self, root: Optional[TreeNode]) -> bool:
+        return self.dfs(root) != -1
+    
+    def dfs(self, node: Optional[TreeNode]) -> int:
+        if not node:
+            return 0
+        left_h = self.dfs(node.left)
+        right_h = self.dfs(node.right)
+        if left_h == -1 or right_h == -1:
+            return -1
+        if abs(left_h - right_h) > 1:
+            return -1
+        return 1 + max(left_h, right_h)
 ```
 
-**Time Complexity**: 
-**Space Complexity**: 
+**Time Complexity**: $\mathcal{O}(N)$ — Every node in the tree is visited at most once.
+**Space Complexity**: $\mathcal{O}(H)$ — Recursion call stack depth proportional to height of tree ($\mathcal{O}(\log N)$ balanced, $\mathcal{O}(N)$ worst-case skewed).
 
 ---
 
 ## 🤖 AI Analysis
 
-*(Auto-populated after submission)*
-
 ### Complexity Verification
-- **Actual TC**: 
-- **Actual SC**: 
-- **Optimal TC**: $O(N)$ | **Optimal SC**: $O(H)$
+- **Actual TC**: $\mathcal{O}(N)$
+- **Actual SC**: $\mathcal{O}(H)$
+- **Optimal TC**: $\mathcal{O}(N)$ | **Optimal SC**: $\mathcal{O}(H)$
 
 ### Grade
-**Grade**: — | **Independent**: — | **Hints Used**: —
+**Grade**: Grade A | **Independent**: Yes | **Hints Used**: none
 
 ### Key Insight
-**Optimal approach — Bottom-up DFS with sentinel `-1`**:
-- Define a helper `dfs(node) → int` that returns the height of the subtree, or `-1` if it's already unbalanced.
-- At each node: compute `left_h = dfs(node.left)`, `right_h = dfs(node.right)`.
-- If either returned `-1`, or `abs(left_h - right_h) > 1`, return `-1` (propagate unbalanced signal).
-- Otherwise return `1 + max(left_h, right_h)`.
-- **Avoids the naive $O(N^2)$ approach** of calling `height()` at every node separately.
+Using `-1` as a sentinel height value allows immediate short-circuiting of unbalanced subtrees without traversing further or performing redundant top-down height queries.
 
 ### Cognitive Link to Diameter of Binary Tree
-Both Balanced BT and Diameter use post-order DFS. The difference:
-- **Diameter**: Track global max of `left_h + right_h` at each node.
-- **Balanced BT**: Track if `abs(left_h - right_h) > 1` at any node. Use sentinel to short-circuit.
+Both problems leverage **bottom-up post-order DFS**:
+- **Diameter**: Computes `left_h + right_h` to update global max diameter, returns `1 + max(left_h, right_h)` to parent.
+- **Balanced BT**: Computes `abs(left_h - right_h)` to check balance condition, returns `-1` if invalid or `1 + max(left_h, right_h)` to parent.
 
 ### Edge Cases Checked
-- [ ] Empty tree (return `True`)
-- [ ] Single node (return `True`)
-- [ ] Perfectly balanced tree
-- [ ] Left-skewed or right-skewed tree (height diff grows with depth)
+- [x] Empty tree (`root = None` → returns `True`)
+- [x] Single node (`root = TreeNode(1)` → returns `True`)
+- [x] Perfectly balanced tree
+- [x] Unbalanced skewed tree
 
 ---
 
@@ -118,4 +136,4 @@ Both Balanced BT and Diameter use post-order DFS. The difference:
 
 | Attempt # | Date | Result | Time | Hint Used | Grade |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| 1 | 2026-08-16 | | | | |
+| 1 | 2026-08-16 | Accepted | 12m | none | Grade A |
