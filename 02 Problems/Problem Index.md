@@ -1,6 +1,6 @@
 ---
 title: "Problem Index & Revision Dashboard"
-last_updated: 2026-08-16
+last_updated: 2026-08-17
 tags:
   - index
   - problems
@@ -13,7 +13,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 
 ---
 
-## 🔴 Active Revision Queue (Up for Review Today: 2026-08-16) — 27 Problems
+## 🔴 Active Revision Queue (Up for Review Today: 2026-08-17) — 32 Problems
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -44,18 +44,19 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | 2026-08-12 | `2026-08-15` | 🔴 Overdue (2026-08-15) |
 | **[[Same Tree]]** | Easy | Volume | [[Trees]] | 2026-08-12 | `2026-08-15` | 🔴 Overdue (2026-08-15) |
 | **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | 2026-08-12 | `2026-08-15` | 🔴 Overdue (2026-08-15) |
+| **[[Balanced Binary Tree]]** | Easy | High Value | [[Trees]] | Unknown | `2026-08-17` | 🟡 Due Today |
+| **[[Generate Parentheses]]** | Medium | Volume | [[Stack]] | Unknown | `2026-08-17` | 🟡 Due Today |
+| **[[K Closest Points to Origin]]** | Medium | Volume | [[Heap & Priority Queue]] | Unknown | `2026-08-17` | 🟡 Due Today |
+| **[[Longest Repeating Character Replacement]]** | Medium | High Value | [[Sliding Window]] | Unknown | `2026-08-17` | 🟡 Due Today |
+| **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-17` | 🟡 Due Today |
 
 ---
 
-## 🟢 Future Scheduled Revisions (Upcoming Days) — 20 Problems
+## 🟢 Future Scheduled Revisions (Upcoming Days) — 16 Problems
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[[Balanced Binary Tree]]** | Easy | High Value | [[Trees]] | Unknown | `2026-08-17` | 🟢 Scheduled |
-| **[[Generate Parentheses]]** | Medium | Volume | [[Stack]] | Unknown | `2026-08-17` | 🟢 Scheduled |
-| **[[K Closest Points to Origin]]** | Medium | Volume | [[Heap & Priority Queue]] | Unknown | `2026-08-17` | 🟢 Scheduled |
-| **[[Longest Repeating Character Replacement]]** | Medium | High Value | [[Sliding Window]] | Unknown | `2026-08-17` | 🟢 Scheduled |
-| **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-17` | 🟢 Scheduled |
+| **[[Permutation in String]]** | Medium | High Value | [[Sliding Window]] | Unknown | `2026-08-18` | 🟢 Scheduled |
 | **[[3Sum]]** | Medium | High Value | [[Two Pointers]] | Unknown | `2026-08-19` | 🟢 Scheduled |
 | **[[Diameter of Binary Tree]]** | Easy | Volume | [[Trees]] | Unknown | `2026-08-19` | 🟢 Scheduled |
 | **[[Evaluate Reverse Polish Notation]]** | Medium | High Value | [[Stack]] | Unknown | `2026-08-19` | 🟢 Scheduled |
@@ -69,12 +70,12 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Kth Largest Element in a Stream]]** | Easy | Volume | [[Heap & Priority Queue]] | Unknown | `null` | 🟢 Scheduled |
 | **[[Lowest Common Ancestor of a Binary Search Tree]]** | Medium | High Value | [[Trees]] | Unknown | `null` | 🟢 Scheduled |
 | **[[Min Cost Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Unknown | `null` | 🟢 Scheduled |
-| **[[Permutation in String]]** | Medium | High Value | [[Sliding Window]] | Unknown | `null` | 🟢 Scheduled |
+| **[[Stone Game IX]]** | Medium | Supplementary | [[Greedy]] | Unknown | `null` | 🟢 Scheduled |
 | **[[Subsets]]** | Medium | Volume | [[Backtracking]] | Unknown | `null` | 🟢 Scheduled |
 
 ---
 
-## 📊 Master Problem Inventory (47 Solved)
+## 📊 Master Problem Inventory (48 Solved)
 
 | Problem Title | Difficulty | Track | Primary Pattern | Grade | Last Solved | Next Review Date |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -108,7 +109,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Min Cost Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Grade A | Unknown | `null` |
 | **[[Min Stack]]** | Medium | High Value | [[Stack]] | Grade A | 2026-08-12 | `2026-08-15` |
 | **[[Move Zeroes]]** | Easy | Volume | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-13` |
-| **[[Permutation in String]]** | Medium | High Value | [[Sliding Window]] | Grade A | Unknown | `null` |
+| **[[Permutation in String]]** | Medium | High Value | [[Sliding Window]] | Grade A | Unknown | `2026-08-18` |
 | **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-14 | `2026-08-21` |
 | **[[Remove Duplicates from Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-10` |
 | **[[Reverse Linked List]]** | Easy | High Value | [[Linked List]] | Grade A | 2026-08-12 | `2026-08-15` |
@@ -117,6 +118,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Search Insert Position]]** | Easy | Volume | [[Binary Search]] | Grade A | 2026-08-08 | `2026-08-09` |
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | Grade A | 2026-08-12 | `2026-08-19` |
 | **[[Squares of a Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-10` |
+| **[[Stone Game IX]]** | Medium | Supplementary | [[Greedy]] | Grade A | Unknown | `null` |
 | **[[Subsets]]** | Medium | Volume | [[Backtracking]] | Grade A | Unknown | `null` |
 | **[[Subtree of Another Tree]]** | Easy | Volume | [[Trees]] | Grade C | 2026-08-12 | `2026-08-13` |
 | **[[Top K Frequent Elements]]** | Medium | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-08 | `2026-08-11` |

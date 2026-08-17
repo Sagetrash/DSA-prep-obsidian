@@ -1,6 +1,6 @@
 ---
 title: "NeetCode 150 Progress Tracker"
-last_updated: 2026-08-16
+last_updated: 2026-08-17
 total_solved: 42
 total_target: 150
 completion_percentage: "28.0%"
@@ -105,7 +105,7 @@ tags:
 | - [x] ✅ Solved | 15 | **[[Best Time to Buy and Sell Stock]]** | Easy | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) \| [NeetCode](https://neetcode.io/problems/buy-and-sell-crypto) | Grade A | `2026-08-13` |
 | - [x] ✅ Solved | 16 | **[[Longest Substring Without Repeating Characters]]** | Medium | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) \| [NeetCode](https://neetcode.io/problems/longest-substring-without-duplicates) | Grade A | `2026-08-13` |
 | - [x] ✅ Solved | 17 | **[[Longest Repeating Character Replacement]]** | Medium | [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/) \| [NeetCode](https://neetcode.io/problems/longest-repeating-substring-with-replacement) | Grade C | `2026-08-17` |
-| - [x] ✅ Solved | 18 | **[[Permutation in String]]** | Medium | [LeetCode](https://leetcode.com/problems/permutation-in-string/) \| [NeetCode](https://neetcode.io/problems/permutation-string) | Grade A | - |
+| - [x] ✅ Solved | 18 | **[[Permutation in String]]** | Medium | [LeetCode](https://leetcode.com/problems/permutation-in-string/) \| [NeetCode](https://neetcode.io/problems/permutation-string) | Grade A | `2026-08-18` |
 | - [ ] ⏳ Unsolved | 19 | [[Minimum Window Substring]] | Hard | [LeetCode](https://leetcode.com/problems/minimum-window-substring/) \| [NeetCode](https://neetcode.io/problems/minimum-window-with-characters) | - | - |
 | - [ ] ⏳ Unsolved | 20 | [[Sliding Window Maximum]] | Hard | [LeetCode](https://leetcode.com/problems/sliding-window-maximum/) \| [NeetCode](https://neetcode.io/problems/sliding-window-maximum) | - | - |
 
@@ -376,7 +376,7 @@ tags:
 
 ---
 
-## ➕ Supplementary Vault Solved Problems (5 Solved)
+## ➕ Supplementary Vault Solved Problems (6 Solved)
 
 These problems are solved in the vault and tracked in the Spaced Repetition Revision Queue, complementing the standard NeetCode 150 sheet (sourced from Striver SDE / Blind 75 / LeetCode 75).
 
@@ -387,3 +387,4 @@ These problems are solved in the vault and tracked in the Spaced Repetition Revi
 | - [x] ✅ Solved | **[[Remove Duplicates from Sorted Array]]** | Easy | Volume | [[Two Pointers]] | [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Grade A | `2026-08-10` |
 | - [x] ✅ Solved | **[[Search Insert Position]]** | Easy | Volume | [[Binary Search]] | [LeetCode](https://leetcode.com/problems/search-insert-position/) | Grade A | `2026-08-09` |
 | - [x] ✅ Solved | **[[Squares of a Sorted Array]]** | Easy | Volume | [[Two Pointers]] | [LeetCode](https://leetcode.com/problems/squares-of-a-sorted-array/) | Grade A | `2026-08-10` |
+| - [x] ✅ Solved | **[[Stone Game IX]]** | Medium | Supplementary | [[Greedy]] | [LeetCode](https://leetcode.com/problems/stone-game-ix/) | Grade A | - |
