@@ -17,16 +17,13 @@ grade: "Grade B"
 last_attempted: 2026-08-16
 next_review: 2026-08-19
 mistakes: []
-tags:
-  - problem
-  - two-pointers
-  - medium
 expected_time_complexity: "O(N^2)"
 expected_space_complexity: "O(1)"
 tags:
   - problem
   - leetcode
   - two-pointers
+  - medium
 ---
 
 # 3Sum
@@ -35,8 +32,8 @@ tags:
 * **Platform**: [LeetCode](https://leetcode.com/problems/3sum/)
 * **Difficulty**: `Medium` | **Track**: `High Value`
 * **Primary Pattern**: [[Two Pointers]]
-* **Status**: `Solved` | **Result**: `Accepted` | **Grade**: `Grade A`
-* **Next Review**: `2026-08-16`
+* **Status**: `Solved` | **Result**: `Accepted` | **Grade**: `Grade B`
+* **Next Review**: `2026-08-19`
 
 ---
 

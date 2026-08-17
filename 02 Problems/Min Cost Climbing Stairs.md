@@ -7,13 +7,13 @@ track: Volume
 primary_pattern: "[[Dynamic Programming]]"
 secondary_patterns: []
 neetcode_number: 100
-result: ""
-hint_used: none
-independent_solves: 0
-time_taken: ""
-grade: ""
+result: "Accepted"
+hint_used: small
+independent_solves: 1
+time_taken: "6m"
+grade: "B"
 last_attempted: 2026-08-17
-next_review: ""
+next_review: 2026-08-18
 mistakes: []
 tags:
   - problem
@@ -28,74 +28,56 @@ tags:
 
 ---
 
-## 📋 Problem Statement
-
-You are given an integer array `cost` where `cost[i]` is the cost of $i$-th step on a staircase. Once you pay the cost, you can either climb one or two steps.
-
-You can either start from the step with index `0`, or the step with index `1`.
-
-Return the minimum cost to reach the top of the floor.
-
-**Example 1:**
-```
-Input: cost = [10,15,20]
-Output: 15
-Explanation: You will start at index 1.
-- Pay 15 and climb two steps to reach the top.
-The total cost is 15.
-```
-
-**Example 2:**
-```
-Input: cost = [1,100,1,1,1,100,1,1,100,1]
-Output: 6
-Explanation: You will start at index 0.
-- Pay 1 and step to index 2.
-- Pay 1 and step to index 4.
-- Pay 1 and step to index 6.
-- Pay 1 and step to index 7.
-- Pay 1 and step to index 9.
-- Pay 1 and step to the top.
-The total cost is 6.
-```
-
-**Constraints:**
-- `2 <= cost.length <= 1000`
-- `0 <= cost[i] <= 999`
-
----
-
 ## 💭 My First Thought
 
-*(Write here before attempting)*
+Asked whether cost is paid for the step currently stood on, then recognized we can iterate backwards from `len(cost) - 1` down to `0` to accumulate the optimal subproblem costs bottom-up.
 
 ---
 
 ## 🔍 My Reasoning & Approach
 
-*(Step-by-step thought process, constraints checked, pattern identified)*
+1. **Bottom-Up 1D DP Recurrence**:
+   - `dp[i] = cost[i] + min(dp[i+1], dp[i+2])`
+2. **Space Optimization ($\mathcal{O}(1)$ Space)**:
+   - Instead of maintaining a full array of size $N$, use 2 scalar variables (`one` and `two`) representing the minimum cost to reach the top from steps $i+1$ and $i+2$.
+   - Iterate backwards from index `len(cost) - 1` to `0`.
+   - Update `temp = cost[i] + min(one, two)`, then shift state: `two = one`, `one = temp`.
+3. **Return Value Refinement**:
+   - Starting from `len(cost) - 1` down to `0`, `one` will hold the cost starting at index `0`, and `two` will hold the cost starting at index `1`.
+   - Return `min(one, two)`.
 
 ---
 
 ## 💻 My Solution
 
 ```python
-# Write your solution here
+class Solution:
+    def minCostClimbingStairs(self, cost: List[int]) -> int:
+        one = 0
+        two = 0
+        for i in range(len(cost) - 1, -1, -1):
+            temp = cost[i] + min(one, two)
+            two = one
+            one = temp
+        return min(one, two)
 ```
 
-**Time Complexity**: 
-**Space Complexity**: 
+**Time Complexity**: $\mathcal{O}(N)$ linear scan of `cost` array.  
+**Space Complexity**: $\mathcal{O}(1)$ constant extra space using 2 scalar variables.
 
 ---
 
 ## 🤖 AI Analysis
 
-*(Auto-populated after submission)*
+### Code Analysis Checklist
+1. **Correctness**: Fully correct. Operates backwards in $\mathcal{O}(N)$ time.
+2. **Complexity**: Optimal $\mathcal{O}(N)$ time and $\mathcal{O}(1)$ space.
+3. **Pattern Verification**: Classic 1D Bottom-Up Dynamic Programming state reduction (Fibonacci/Climbing Stairs pattern family).
+4. **Code Quality Note**: If iterating backwards through `range(len(cost) - 1, -1, -1)`, `cost.append(0)` is unnecessary when `one` and `two` are initialized to `0`.
 
-### Complexity Verification
-- **Actual TC**: 
-- **Actual SC**: 
-- **Optimal TC**: $O(N)$ | **Optimal SC**: $O(1)$
+### Interview Readiness Grade
+**Grade: B — Correct but needed minor clarification**
+* Clarified requirement on step-cost payment and starting index choices. Clean $\mathcal{O}(1)$ space bottom-up DP logic!
 
 ---
 
@@ -103,4 +85,5 @@ The total cost is 6.
 
 | Attempt # | Date | Result | Time | Hint Used | Grade |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| 1 | 2026-08-17 | | | | |
+| 1 | 2026-08-17 | Accepted | 6m | small | B |
+
