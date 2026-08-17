@@ -1,17 +1,122 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:prob",
+      "query": "tag:#dashboard OR tag:#index OR tag:#tracker OR tag:#readiness",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 16766720
+      }
+    },
+    {
+      "query": "tag:#pattern",
+      "color": {
+        "a": 1,
+        "rgb": 11342935
+      }
+    },
+    {
+      "query": "tag:#mistake OR tag:#logic-error OR tag:#space-complexity",
+      "color": {
+        "a": 1,
+        "rgb": 15744070
+      }
+    },
+    {
+      "query": "tag:#daily-session OR tag:#mock-oa OR tag:#review-session",
+      "color": {
+        "a": 1,
+        "rgb": 5880780
+      }
+    },
+    {
+      "query": "tag:#easy",
+      "color": {
+        "a": 1,
+        "rgb": 5754470
+      }
+    },
+    {
+      "query": "tag:#medium",
+      "color": {
+        "a": 1,
+        "rgb": 16298530
+      }
+    },
+    {
+      "query": "tag:#arrays OR tag:#prefix-sum OR tag:#matrix",
+      "color": {
+        "a": 1,
+        "rgb": 34625
+      }
+    },
+    {
+      "query": "tag:#two-pointers OR tag:#sliding-window OR tag:#fast-slow-pointers",
+      "color": {
+        "a": 1,
+        "rgb": 16744270
+      }
+    },
+    {
+      "query": "tag:#trees OR tag:#bfs",
+      "color": {
+        "a": 1,
+        "rgb": 4443210
+      }
+    },
+    {
+      "query": "tag:#binary-search",
+      "color": {
+        "a": 1,
+        "rgb": 13382605
+      }
+    },
+    {
+      "query": "tag:#dp OR tag:#dynamic-programming",
+      "color": {
+        "a": 1,
+        "rgb": 12852224
+      }
+    },
+    {
+      "query": "tag:#stack OR tag:#linked-list",
+      "color": {
+        "a": 1,
+        "rgb": 11403519
+      }
+    },
+    {
+      "query": "tag:#heap OR tag:#priority-queue OR tag:#bucket-sort",
+      "color": {
+        "a": 1,
+        "rgb": 16738740
+      }
+    },
+    {
+      "query": "tag:#hashing OR tag:#strings",
+      "color": {
+        "a": 1,
+        "rgb": 3317740
+      }
+    },
+    {
+      "query": "tag:#greedy OR tag:#backtracking OR tag:#game-theory OR tag:#math",
+      "color": {
+        "a": 1,
+        "rgb": 14761060
+      }
+    },
+    {
+      "query": "tag:#problem",
+      "color": {
+        "a": 1,
+        "rgb": 6323135
       }
     }
   ],
@@ -21,10 +126,10 @@
   "nodeSizeMultiplier": 1.37013287698812,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.126434467485404,
-  "repelStrength": 7.02637406885444,
-  "linkStrength": 0.274511777733038,
-  "linkDistance": 269,
-  "scale": 0.37044996736647556,
+  "centerStrength": 0.316891483793034,
+  "repelStrength": 11.1943793911007,
+  "linkStrength": 0.312663579625529,
+  "linkDistance": 270,
+  "scale": 0.16965642640968534,
   "close": false
 }
