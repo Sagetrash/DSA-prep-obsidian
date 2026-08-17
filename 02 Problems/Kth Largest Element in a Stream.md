@@ -7,13 +7,13 @@ track: Volume
 primary_pattern: "[[Heap & Priority Queue]]"
 secondary_patterns: []
 neetcode_number: 64
-result: ""
-hint_used: none
-independent_solves: 0
-time_taken: ""
-grade: ""
+result: "Accepted"
+hint_used: small
+independent_solves: 1
+time_taken: "8m"
+grade: "C"
 last_attempted: 2026-08-17
-next_review: ""
+next_review: 2026-08-18
 mistakes: []
 tags:
   - problem
@@ -29,72 +29,72 @@ tags:
 
 ---
 
-## 📋 Problem Statement
-
-Design a class to find the `k`-th largest element in a stream. Note that it is the `k`-th largest element in the sorted order, not the `k`-th distinct element.
-
-Implement `KthLargest` class:
-- `KthLargest(int k, int[] nums)` Initializes the object with the integer `k` and the stream of integers `nums`.
-- `int add(int val)` Appends the integer `val` to the stream and returns the element representing the `k`-th largest element in the stream.
-
-**Example 1:**
-```
-Input
-["KthLargest", "add", "add", "add", "add", "add"]
-[[3, [4, 5, 8, 2]], [3], [5], [10], [9], [4]]
-Output
-[null, 4, 5, 5, 8, 8]
-
-Explanation
-KthLargest kthLargest = new KthLargest(3, [4, 5, 8, 2]);
-kthLargest.add(3);   // return 4
-kthLargest.add(5);   // return 5
-kthLargest.add(10);  // return 5
-kthLargest.add(9);   // return 8
-kthLargest.add(4);   // return 8
-```
-
-**Constraints:**
-- `1 <= k <= 10^4`
-- `0 <= nums.length <= 10^4`
-- `-10^4 <= nums[i] <= 10^4`
-- `-10^4 <= val <= 10^4`
-- At most `10^4` calls will be made to `add`.
-- It is guaranteed that there will be at least `k` elements in the array when you search for the `k`-th element.
-
----
-
 ## 💭 My First Thought
 
-*(Write here before attempting)*
+Initially thought of using a Max-Heap to store all stream elements and extract the $k$-th largest. After considering heap bounds, recognized that keeping a Min-Heap capped at size $k$ puts the $k$-th largest element right at the top (`heap[0]`).
 
 ---
 
 ## 🔍 My Reasoning & Approach
 
-*(Step-by-step thought process, constraints checked, pattern identified)*
+1. **Min-Heap Property**:
+   - In a Min-Heap of size $K$, the root element `heap[0]` is the smallest of the $K$ largest elements seen so far. That is definitionally the $K$-th largest element!
+2. **Initialization `__init__(k, nums)`**:
+   - Push all elements from `nums` into `self.heap` and pop elements whenever `len(self.heap) > k`.
+3. **`add(val)` Execution**:
+   - Push `val` to `self.heap`.
+   - If `len(self.heap) > k`, pop the smallest element via `heappop(self.heap)`.
+   - Return `self.heap[0]` in $\mathcal{O}(1)$ time!
 
 ---
 
 ## 💻 My Solution
 
 ```python
-# Write your solution here
+import heapq as h
+
+class KthLargest:
+
+    def __init__(self, k: int, nums: List[int]):
+        heap = []
+        self.k = k
+        h.heapify(heap)
+        for num in nums:
+            h.heappush(heap, num)
+            while len(heap) > k:
+                h.heappop(heap)
+        self.heap = heap
+
+    def add(self, val: int) -> int:
+        h.heappush(self.heap, val)
+        if len(self.heap) > self.k:
+            h.heappop(self.heap)
+        return self.heap[0]
+
+
+# Your KthLargest object will be instantiated and called as such:
+# obj = KthLargest(k, nums)
+# param_1 = obj.add(val)
 ```
 
-**Time Complexity**: 
-**Space Complexity**: 
+**Time Complexity**:
+- `__init__`: $\mathcal{O}(N \log K)$ where $N = \text{len}(nums)$. (Can also be $\mathcal{O}(N)$ using `heapify(nums)` first then popping $N-K$ times).
+- `add`: $\mathcal{O}(\log K)$ per call.
+**Space Complexity**: $\mathcal{O}(K)$ extra space for storing min-heap of size $K$.
 
 ---
 
 ## 🤖 AI Analysis
 
-*(Auto-populated after submission)*
+### Code Analysis Checklist
+1. **Correctness**: 100% correct Min-Heap bounded to size $K$.
+2. **Complexity**: Optimal $\mathcal{O}(\log K)$ per `add()` call and $\mathcal{O}(K)$ space.
+3. **Pattern Verification**: Classic Min-Heap bounded size pattern for $K$-largest/smallest streaming problems.
+4. **Minor Optimization Tip**: In `add(val)`, since heap size increases by at most 1, `if len(self.heap) > self.k:` is sufficient instead of `while`. (Your implementation handles it cleanly!).
 
-### Complexity Verification
-- **Actual TC**: 
-- **Actual SC**: 
-- **Optimal TC**: $O(\log K)$ per `add()` call | **Optimal SC**: $O(K)$
+### Interview Readiness Grade
+**Grade: C — Correct with hints**
+* Needed a conceptual nudge to pivot from unbounded Max-Heap to bounded Min-Heap of size $K$. Clean implementation!
 
 ---
 
@@ -102,4 +102,5 @@ kthLargest.add(4);   // return 8
 
 | Attempt # | Date | Result | Time | Hint Used | Grade |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| 1 | 2026-08-17 | | | | |
+| 1 | 2026-08-17 | Accepted | 8m | small | C |
+
