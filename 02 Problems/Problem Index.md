@@ -58,6 +58,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[[Lowest Common Ancestor of a Binary Search Tree]]** | Medium | High Value | [[Trees]] | Unknown | `2026-08-18` | 🟢 Scheduled |
 | **[[Permutation in String]]** | Medium | High Value | [[Sliding Window]] | Unknown | `2026-08-18` | 🟢 Scheduled |
+| **[[Subsets]]** | Medium | Volume | [[Backtracking]] | Unknown | `2026-08-18` | 🟢 Scheduled |
 | **[[3Sum]]** | Medium | High Value | [[Two Pointers]] | Unknown | `2026-08-19` | 🟢 Scheduled |
 | **[[Diameter of Binary Tree]]** | Easy | Volume | [[Trees]] | Unknown | `2026-08-19` | 🟢 Scheduled |
 | **[[Evaluate Reverse Polish Notation]]** | Medium | High Value | [[Stack]] | Unknown | `2026-08-19` | 🟢 Scheduled |
@@ -71,7 +72,6 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Kth Largest Element in a Stream]]** | Easy | Volume | [[Heap & Priority Queue]] | Unknown | `null` | 🟢 Scheduled |
 | **[[Min Cost Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Unknown | `null` | 🟢 Scheduled |
 | **[[Stone Game IX]]** | Medium | Supplementary | [[Greedy]] | Unknown | `null` | 🟢 Scheduled |
-| **[[Subsets]]** | Medium | Volume | [[Backtracking]] | Unknown | `null` | 🟢 Scheduled |
 
 ---
 
@@ -119,7 +119,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | Grade A | 2026-08-12 | `2026-08-19` |
 | **[[Squares of a Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-10` |
 | **[[Stone Game IX]]** | Medium | Supplementary | [[Greedy]] | Grade A | Unknown | `null` |
-| **[[Subsets]]** | Medium | Volume | [[Backtracking]] | Grade A | Unknown | `null` |
+| **[[Subsets]]** | Medium | Volume | [[Backtracking]] | Grade A | Unknown | `2026-08-18` |
 | **[[Subtree of Another Tree]]** | Easy | Volume | [[Trees]] | Grade C | 2026-08-12 | `2026-08-13` |
 | **[[Top K Frequent Elements]]** | Medium | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-08 | `2026-08-11` |
 | **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-14 | `2026-08-17` |
