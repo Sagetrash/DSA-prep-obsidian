@@ -56,6 +56,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **[[Lowest Common Ancestor of a Binary Search Tree]]** | Medium | High Value | [[Trees]] | Unknown | `2026-08-18` | 🟢 Scheduled |
 | **[[Permutation in String]]** | Medium | High Value | [[Sliding Window]] | Unknown | `2026-08-18` | 🟢 Scheduled |
 | **[[3Sum]]** | Medium | High Value | [[Two Pointers]] | Unknown | `2026-08-19` | 🟢 Scheduled |
 | **[[Diameter of Binary Tree]]** | Easy | Volume | [[Trees]] | Unknown | `2026-08-19` | 🟢 Scheduled |
@@ -68,7 +69,6 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | Unknown | `2026-08-23` | 🟢 Scheduled |
 | **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-28` | 🟢 Scheduled |
 | **[[Kth Largest Element in a Stream]]** | Easy | Volume | [[Heap & Priority Queue]] | Unknown | `null` | 🟢 Scheduled |
-| **[[Lowest Common Ancestor of a Binary Search Tree]]** | Medium | High Value | [[Trees]] | Unknown | `null` | 🟢 Scheduled |
 | **[[Min Cost Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Unknown | `null` | 🟢 Scheduled |
 | **[[Stone Game IX]]** | Medium | Supplementary | [[Greedy]] | Unknown | `null` | 🟢 Scheduled |
 | **[[Subsets]]** | Medium | Volume | [[Backtracking]] | Unknown | `null` | 🟢 Scheduled |
@@ -102,7 +102,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Linked List Cycle]]** | Easy | Volume | [[Linked List]] | Grade A | 2026-08-12 | `2026-08-15` |
 | **[[Longest Repeating Character Replacement]]** | Medium | High Value | [[Sliding Window]] | Grade C | Unknown | `2026-08-17` |
 | **[[Longest Substring Without Repeating Characters]]** | Medium | High Value | [[Sliding Window]] | Grade A | 2026-08-09 | `2026-08-13` |
-| **[[Lowest Common Ancestor of a Binary Search Tree]]** | Medium | High Value | [[Trees]] | Grade A | Unknown | `null` |
+| **[[Lowest Common Ancestor of a Binary Search Tree]]** | Medium | High Value | [[Trees]] | Grade A | Unknown | `2026-08-18` |
 | **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | Grade A | 2026-08-12 | `2026-08-15` |
 | **[[Maximum Subarray]]** | Medium | High Value | [[Greedy]] | Grade A | 2026-08-13 | `2026-08-14` |
 | **[[Merge Two Sorted Lists]]** | Easy | Volume | [[Linked List]] | Grade A | 2026-08-12 | `2026-08-15` |
