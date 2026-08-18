@@ -277,7 +277,7 @@ tags:
 | Status | # | Problem Title | Difficulty | Platform Links | Code Grade | Next Review Date |
 | :-: | :-: | :--- | :-: | :--- | :-: | :-: |
 | - [x] ✅ Solved | 99 | **[[Climbing Stairs]]** | Easy | [LeetCode](https://leetcode.com/problems/climbing-stairs/) \| [NeetCode](https://neetcode.io/problems/climbing-stairs) | Grade A | `2026-08-14` |
-| - [x] ✅ Solved | 100 | **[[Min Cost Climbing Stairs]]** | Easy | [LeetCode](https://leetcode.com/problems/min-cost-climbing-stairs/) \| [NeetCode](https://neetcode.io/problems/min-cost-climbing-stairs) | Grade A | `2026-08-18` |
+| - [x] ✅ Solved | 100 | **[[Min Cost Climbing Stairs]]** | Easy | [LeetCode](https://leetcode.com/problems/min-cost-climbing-stairs/) \| [NeetCode](https://neetcode.io/problems/min-cost-climbing-stairs) | Grade A | `2026-08-21` |
 | - [x] ✅ Solved | 101 | **[[House Robber]]** | Medium | [LeetCode](https://leetcode.com/problems/house-robber/) \| [NeetCode](https://neetcode.io/problems/house-robber) | Grade A | `2026-08-14` |
 | - [ ] ⏳ Unsolved | 102 | [[House Robber II]] | Medium | [LeetCode](https://leetcode.com/problems/house-robber-ii/) \| [NeetCode](https://neetcode.io/problems/house-robber-ii) | - | - |
 | - [ ] ⏳ Unsolved | 103 | [[Longest Palindromic Substring]] | Medium | [LeetCode](https://leetcode.com/problems/longest-palindromic-substring/) \| [NeetCode](https://neetcode.io/problems/longest-palindromic-substring) | - | - |

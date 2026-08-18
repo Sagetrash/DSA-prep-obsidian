@@ -8,12 +8,12 @@ primary_pattern: "[[Dynamic Programming]]"
 secondary_patterns: []
 neetcode_number: 100
 result: "Accepted"
-hint_used: small
-independent_solves: 1
-time_taken: "6m"
-grade: "B"
-last_attempted: 2026-08-17
-next_review: 2026-08-18
+hint_used: none
+independent_solves: 2
+time_taken: "11m"
+grade: "A"
+last_attempted: 2026-08-18
+next_review: 2026-08-21
 mistakes: []
 tags:
   - problem
@@ -30,7 +30,7 @@ tags:
 
 ## 💭 My First Thought
 
-Asked whether cost is paid for the step currently stood on, then recognized we can iterate backwards from `len(cost) - 1` down to `0` to accumulate the optimal subproblem costs bottom-up.
+Iterate backwards from `len(cost) - 1` down to `0` using 2 scalar variables `one` and `two` initialized to `0`, accumulating `temp = cost[i] + min(one, two)` at each step to maintain optimal subproblem costs in $\mathcal{O}(1)$ space.
 
 ---
 
@@ -42,8 +42,7 @@ Asked whether cost is paid for the step currently stood on, then recognized we c
    - Instead of maintaining a full array of size $N$, use 2 scalar variables (`one` and `two`) representing the minimum cost to reach the top from steps $i+1$ and $i+2$.
    - Iterate backwards from index `len(cost) - 1` to `0`.
    - Update `temp = cost[i] + min(one, two)`, then shift state: `two = one`, `one = temp`.
-3. **Return Value Refinement**:
-   - Starting from `len(cost) - 1` down to `0`, `one` will hold the cost starting at index `0`, and `two` will hold the cost starting at index `1`.
+3. **Return Value**:
    - Return `min(one, two)`.
 
 ---
@@ -53,6 +52,7 @@ Asked whether cost is paid for the step currently stood on, then recognized we c
 ```python
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
+        cost.append(0)
         one = 0
         two = 0
         for i in range(len(cost) - 1, -1, -1):
@@ -72,12 +72,12 @@ class Solution:
 ### Code Analysis Checklist
 1. **Correctness**: Fully correct. Operates backwards in $\mathcal{O}(N)$ time.
 2. **Complexity**: Optimal $\mathcal{O}(N)$ time and $\mathcal{O}(1)$ space.
-3. **Pattern Verification**: Classic 1D Bottom-Up Dynamic Programming state reduction (Fibonacci/Climbing Stairs pattern family).
-4. **Code Quality Note**: If iterating backwards through `range(len(cost) - 1, -1, -1)`, `cost.append(0)` is unnecessary when `one` and `two` are initialized to `0`.
+3. **Pattern Verification**: Classic 1D Bottom-Up Dynamic Programming state reduction.
+4. **Code Quality**: Clean, intuitive implementation of 1D DP state rolling.
 
 ### Interview Readiness Grade
-**Grade: B — Correct but needed minor clarification**
-* Clarified requirement on step-cost payment and starting index choices. Clean $\mathcal{O}(1)$ space bottom-up DP logic!
+**Grade: A — Strong independent solution**
+* Zero hints used. Solved independently in 11 minutes with optimal $\mathcal{O}(1)$ space DP recurrence. Mastery jump from Grade B $\to$ Grade A!
 
 ---
 
@@ -86,4 +86,4 @@ class Solution:
 | Attempt # | Date | Result | Time | Hint Used | Grade |
 | :---: | :--- | :--- | :--- | :--- | :--- |
 | 1 | 2026-08-17 | Accepted | 6m | small | B |
-
+| 2 | 2026-08-18 | Accepted | 11m | none | A |

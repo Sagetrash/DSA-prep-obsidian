@@ -13,7 +13,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 
 ---
 
-## 🔴 Active Revision Queue (Up for Review Today: 2026-08-18) — 36 Problems
+## 🔴 Active Revision Queue (Up for Review Today: 2026-08-18) — 35 Problems
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -51,12 +51,11 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-17` | 🔴 Overdue (2026-08-17) |
 | **[[Kth Largest Element in a Stream]]** | Easy | Volume | [[Heap & Priority Queue]] | Unknown | `2026-08-18` | 🟡 Due Today |
 | **[[Lowest Common Ancestor of a Binary Search Tree]]** | Medium | High Value | [[Trees]] | Unknown | `2026-08-18` | 🟡 Due Today |
-| **[[Min Cost Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Unknown | `2026-08-18` | 🟡 Due Today |
 | **[[Permutation in String]]** | Medium | High Value | [[Sliding Window]] | Unknown | `2026-08-18` | 🟡 Due Today |
 
 ---
 
-## 🟢 Future Scheduled Revisions (Upcoming Days) — 17 Problems
+## 🟢 Future Scheduled Revisions (Upcoming Days) — 18 Problems
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -72,6 +71,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
 | **[[Two Sum II - Input Array Is Sorted]]** | Medium | High Value | [[Two Pointers]] | Unknown | `2026-08-19` | 🟢 Scheduled |
 | **[[Valid Sudoku]]** | Medium | Volume | [[Arrays & Hashing]] | 2026-08-18 | `2026-08-19` | 🟢 Scheduled |
+| **[[Min Cost Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Unknown | `2026-08-21` | 🟢 Scheduled |
 | **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-21` | 🟢 Scheduled |
 | **[[Subsets]]** | Medium | Volume | [[Backtracking]] | Unknown | `2026-08-21` | 🟢 Scheduled |
 | **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | Unknown | `2026-08-23` | 🟢 Scheduled |
@@ -114,7 +114,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Maximum Depth of Binary Tree]]** | Easy | High Value | [[Trees]] | Grade A | 2026-08-12 | `2026-08-15` |
 | **[[Maximum Subarray]]** | Medium | High Value | [[Greedy]] | Grade A | 2026-08-13 | `2026-08-14` |
 | **[[Merge Two Sorted Lists]]** | Easy | Volume | [[Linked List]] | Grade A | 2026-08-12 | `2026-08-15` |
-| **[[Min Cost Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Grade A | Unknown | `2026-08-18` |
+| **[[Min Cost Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Grade A | Unknown | `2026-08-21` |
 | **[[Min Stack]]** | Medium | High Value | [[Stack]] | Grade A | 2026-08-12 | `2026-08-15` |
 | **[[Move Zeroes]]** | Easy | Volume | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-13` |
 | **[[Permutation in String]]** | Medium | High Value | [[Sliding Window]] | Grade A | Unknown | `2026-08-18` |
