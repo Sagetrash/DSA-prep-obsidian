@@ -13,7 +13,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 
 ---
 
-## 🔴 Active Revision Queue (Up for Review Today: 2026-08-18) — 37 Problems
+## 🔴 Active Revision Queue (Up for Review Today: 2026-08-18) — 36 Problems
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -53,11 +53,10 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Lowest Common Ancestor of a Binary Search Tree]]** | Medium | High Value | [[Trees]] | Unknown | `2026-08-18` | 🟡 Due Today |
 | **[[Min Cost Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Unknown | `2026-08-18` | 🟡 Due Today |
 | **[[Permutation in String]]** | Medium | High Value | [[Sliding Window]] | Unknown | `2026-08-18` | 🟡 Due Today |
-| **[[Subsets]]** | Medium | Volume | [[Backtracking]] | Unknown | `2026-08-18` | 🟡 Due Today |
 
 ---
 
-## 🟢 Future Scheduled Revisions (Upcoming Days) — 16 Problems
+## 🟢 Future Scheduled Revisions (Upcoming Days) — 17 Problems
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -74,6 +73,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Two Sum II - Input Array Is Sorted]]** | Medium | High Value | [[Two Pointers]] | Unknown | `2026-08-19` | 🟢 Scheduled |
 | **[[Valid Sudoku]]** | Medium | Volume | [[Arrays & Hashing]] | 2026-08-18 | `2026-08-19` | 🟢 Scheduled |
 | **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-21` | 🟢 Scheduled |
+| **[[Subsets]]** | Medium | Volume | [[Backtracking]] | Unknown | `2026-08-21` | 🟢 Scheduled |
 | **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | Unknown | `2026-08-23` | 🟢 Scheduled |
 | **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-28` | 🟢 Scheduled |
 | **[[Stone Game IX]]** | Medium | Supplementary | [[Greedy]] | Unknown | `null` | 🟢 Scheduled |
@@ -128,7 +128,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | Grade A | 2026-08-12 | `2026-08-19` |
 | **[[Squares of a Sorted Array]]** | Easy | Volume | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-10` |
 | **[[Stone Game IX]]** | Medium | Supplementary | [[Greedy]] | Grade A | Unknown | `null` |
-| **[[Subsets]]** | Medium | Volume | [[Backtracking]] | Grade A | Unknown | `2026-08-18` |
+| **[[Subsets]]** | Medium | Volume | [[Backtracking]] | Grade A | Unknown | `2026-08-21` |
 | **[[Subtree of Another Tree]]** | Easy | Volume | [[Trees]] | Grade C | 2026-08-12 | `2026-08-13` |
 | **[[Top K Frequent Elements]]** | Medium | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-08 | `2026-08-11` |
 | **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | Grade A | 2026-08-14 | `2026-08-17` |

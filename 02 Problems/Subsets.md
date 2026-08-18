@@ -8,12 +8,12 @@ primary_pattern: "[[Backtracking]]"
 secondary_patterns: []
 neetcode_number: 71
 result: "Accepted"
-hint_used: substantial
-independent_solves: 0
-time_taken: "12m"
-grade: "D"
-last_attempted: 2026-08-17
-next_review: 2026-08-18
+hint_used: none
+independent_solves: 1
+time_taken: "7m"
+grade: "A"
+last_attempted: 2026-08-18
+next_review: 2026-08-21
 mistakes: []
 tags:
   - problem
@@ -30,7 +30,7 @@ tags:
 
 ## 💭 My First Thought
 
-I knew I wanted to use a brute-force approach to push all possible subsets, but I struggled to formulate how to structure the recursive choices and when to append the subsets to the result list.
+At any time for element at index `i`, we can either include the element or not include it, creating a 2-way decision tree with $2^N$ total leaves.
 
 ---
 
@@ -39,10 +39,10 @@ I knew I wanted to use a brute-force approach to push all possible subsets, but 
 1. **Backtracking Decision Tree**:
    - At each index `i` of `nums`, make a binary decision: **Include `nums[i]`** or **Exclude `nums[i]`**.
 2. **Base Case**:
-   - When `i == len(nums)`, we have traversed a full branch of the decision tree. Append a copy of `curr_sub` (`curr_sub.copy()`) to `res`.
+   - When `i == len(nums)`, we have traversed a full branch of the decision tree. Append a copy of `sub` (`sub[:]`) to `res`.
 3. **State Backtracking**:
-   - `curr_sub.append(nums[i])` $\to$ `dfs(i + 1)` (Include branch).
-   - `curr_sub.pop()` $\to$ backtrack state.
+   - `sub.append(nums[i])` $\to$ `dfs(i + 1)` (Include branch).
+   - `sub.pop()` $\to$ backtrack state.
    - `dfs(i + 1)` (Exclude branch).
 
 ---
@@ -53,19 +53,19 @@ I knew I wanted to use a brute-force approach to push all possible subsets, but 
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         res = []
-        curr_sub = []
+        sub = []
         
         def dfs(i):
-            if i >= len(nums):
-                res.append(curr_sub.copy())
+            if i == len(nums):
+                res.append(sub[:])
                 return
             
             # Choice 1: Include nums[i]
-            curr_sub.append(nums[i])
+            sub.append(nums[i])
             dfs(i + 1)
             
             # Backtrack
-            curr_sub.pop()
+            sub.pop()
             
             # Choice 2: Exclude nums[i]
             dfs(i + 1)
@@ -84,12 +84,12 @@ class Solution:
 ### Code Analysis Checklist
 1. **Correctness**: 100% correct implementation of 0/1 decision tree recursion.
 2. **Complexity**: Optimal $\mathcal{O}(N \cdot 2^N)$ time and $\mathcal{O}(N)$ space.
-3. **Pattern Verification**: Core foundational pattern for all Combinate/Subset Backtracking problems.
-4. **Key Takeaway**: Always remember `res.append(curr_sub.copy())` instead of `res.append(curr_sub)`. In Python, lists are passed by reference, so appending without `.copy()` yields a list of empty lists at the end!
+3. **Pattern Verification**: Flawless unassisted execution of Backtracking decision tree.
+4. **Key Takeaway**: The slice copy `sub[:]` is a clean, idiomatic Python equivalent to `sub.copy()`.
 
 ### Interview Readiness Grade
-**Grade: D — Required substantial assistance / solution template**
-* Needed structural guidance on formulating the decision tree and base case trigger. Scheduled for 1-day unassisted re-drill.
+**Grade: A — Strong independent solution**
+* Zero hints used. Solved in 7 minutes with clean, bug-free recursion and explicit backtrack state management. Mastery jump from Grade D $\to$ Grade A!
 
 ---
 
@@ -98,4 +98,4 @@ class Solution:
 | Attempt # | Date | Result | Time | Hint Used | Grade |
 | :---: | :--- | :--- | :--- | :--- | :--- |
 | 1 | 2026-08-17 | Accepted | 12m | substantial | D |
-
+| 2 | 2026-08-18 | Accepted | 7m | none | A |
