@@ -13,7 +13,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 
 ---
 
-## 🔴 Active Revision Queue (Up for Review Today: 2026-08-18) — 38 Problems
+## 🔴 Active Revision Queue (Up for Review Today: 2026-08-18) — 37 Problems
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -54,11 +54,10 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Min Cost Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Unknown | `2026-08-18` | 🟡 Due Today |
 | **[[Permutation in String]]** | Medium | High Value | [[Sliding Window]] | Unknown | `2026-08-18` | 🟡 Due Today |
 | **[[Subsets]]** | Medium | Volume | [[Backtracking]] | Unknown | `2026-08-18` | 🟡 Due Today |
-| **[[Valid Sudoku]]** | Medium | Volume | [[Arrays & Hashing]] | null | `2026-08-18` | 🟡 Due Today |
 
 ---
 
-## 🟢 Future Scheduled Revisions (Upcoming Days) — 15 Problems
+## 🟢 Future Scheduled Revisions (Upcoming Days) — 16 Problems
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -73,6 +72,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Reorder List]]** | Medium | High Value | [[Linked List]] | 2026-08-18 | `2026-08-19` | 🟢 Scheduled |
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
 | **[[Two Sum II - Input Array Is Sorted]]** | Medium | High Value | [[Two Pointers]] | Unknown | `2026-08-19` | 🟢 Scheduled |
+| **[[Valid Sudoku]]** | Medium | Volume | [[Arrays & Hashing]] | 2026-08-18 | `2026-08-19` | 🟢 Scheduled |
 | **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-21` | 🟢 Scheduled |
 | **[[Binary Tree Level Order Traversal]]** | Medium | High Value | [[BFS & DFS]] | Unknown | `2026-08-23` | 🟢 Scheduled |
 | **[[Group Anagrams]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-28` | 🟢 Scheduled |
@@ -136,4 +136,4 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Valid Anagram]]** | Easy | Volume | [[Arrays & Hashing]] | Grade A | 2026-08-08 | `2026-08-09` |
 | **[[Valid Palindrome]]** | Easy | Volume | [[Two Pointers]] | Grade A | 2026-08-09 | `2026-08-10` |
 | **[[Valid Parentheses]]** | Easy | High Value | [[Stack]] | Grade A | 2026-08-12 | `2026-08-15` |
-| **[[Valid Sudoku]]** | Medium | Volume | [[Arrays & Hashing]] | Grade A | null | `2026-08-18` |
+| **[[Valid Sudoku]]** | Medium | Volume | [[Arrays & Hashing]] | Grade A | 2026-08-18 | `2026-08-19` |

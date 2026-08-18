@@ -7,16 +7,16 @@ difficulty: Medium
 track: Volume
 primary_pattern: "[[Arrays & Hashing]]"
 secondary_patterns: []
-status: Unsolved
-result: Untested
-attempts: 0
-independent_solves: 0
+status: Solved
+result: Accepted
+attempts: 1
+independent_solves: 1
 hint_used: none
-time_taken: 0m
-first_attempt: null
-last_attempt: null
-next_review: 2026-08-18
-confidence: 0
+time_taken: 14m
+first_attempt: 2026-08-18
+last_attempt: 2026-08-18
+next_review: 2026-08-19
+confidence: 5
 expected_time_complexity: "O(1)"
 expected_space_complexity: "O(1)"
 tags:
@@ -31,8 +31,8 @@ tags:
 * **Platform**: [LeetCode](https://leetcode.com/problems/valid-sudoku/) | [NeetCode](https://neetcode.io/problems/valid-sudoku)
 * **Difficulty**: `Medium` | **Track**: `Volume`
 * **Primary Pattern**: [[Arrays & Hashing]]
-* **Status**: `Unsolved` | **Result**: `Untested`
-* **Next Review**: `2026-08-18`
+* **Status**: `Solved` | **Result**: `Accepted`
+* **Next Review**: `2026-08-19`
 
 ---
 
@@ -74,7 +74,6 @@ Input: board =
 , [".",".",".","4","1","9",".",".","5"]
 , [".",".",".",".","8",".",".","7","9"]]
 Output: false
-Explanation: Same as Example 1, except with 5 in the top left corner being modified to 8. Since there are two 8's in the top left 3x3 sub-box, it is invalid.
 ```
 
 ### Constraints
@@ -85,54 +84,79 @@ Explanation: Same as Example 1, except with 5 in the top left corner being modif
 ---
 
 ## My First Thought
-*(Write your initial approach & reasoning HERE BEFORE looking at solutions)*
+I can check every row then every column for any repetitions. Once that is done, I can check all the $3 \times 3$ sub-squares, giving a clean linear single pass over the board.
 
 ---
 
 ## My Solution
 ```python
-# Paste your code submission here
+class Solution:
+    def isValidSudoku(self, board: List[List[str]]) -> bool:
+        rows = collections.defaultdict(set)
+        cols = collections.defaultdict(set)
+        square = collections.defaultdict(set)
+        
+        for r in range(len(board)):
+            for c in range(len(board[r])):
+                curr = board[r][c]
+                if curr == ".":
+                    continue
+                if curr in rows[r] or curr in cols[c]:
+                    return False
+                if curr in square[(r // 3, c // 3)]:
+                    return False
+                rows[r].add(curr)
+                cols[c].add(curr)
+                square[(r // 3, c // 3)].add(curr)
+                
+        return True
 ```
 
 ---
 
 ## Attempt Log & Metrics
-* **Time Taken**: 
-* **Hint Used**: `none` / `small` / `substantial` / `solution`
-* **Result**: `Accepted` / `Wrong Answer` / `TLE`
-* **Self Confidence (1–5)**: 
+* **Time Taken**: 14m
+* **Hint Used**: `none`
+* **Result**: `Accepted`
+* **Self Confidence (1–5)**: 5
 
 ---
 
 ## Reasoning & Explanation
-*(Explain WHY your code works and how the optimal pattern applies)*
+1. **Single Pass Multi-Set Validation**: Utilizes 3 `defaultdict(set)` structures (`rows`, `cols`, `square`) to validate row, column, and subgrid constraints simultaneously.
+2. **Subgrid Coordinate Mapping**: Maps 2D cell position `(r, c)` to its corresponding $3 \times 3$ subgrid key `(r // 3, c // 3)`.
+3. **Empty Cell Skipping**: Ignores `"."` characters so only filled cells are evaluated.
 
 ---
 
 ## Correct Approach & Complexity Analysis
-* **Optimal Pattern**: Hash Sets for Rows, Cols, and 3x3 Sub-boxes `(r // 3, c // 3)`
-* **Time Complexity**: `O(81) = O(1)`
-* **Space Complexity**: `O(81) = O(1)`
+* **Optimal Pattern**: Single Pass Hash Sets with `(r // 3, c // 3)` Subgrid Indexing
+* **Time Complexity**: $\mathcal{O}(81) = \mathcal{O}(1)$ — Fixed $9 \times 9$ matrix traversal.
+* **Space Complexity**: $\mathcal{O}(81) = \mathcal{O}(1)$ — At most 81 entries stored across hash sets.
 
 ---
 
 ## Key Edge Cases
-- [ ] Duplicate in same row
-- [ ] Duplicate in same col
-- [ ] Duplicate in same 3x3 subgrid
+- [x] Duplicate in same row — Caught immediately by `curr in rows[r]`.
+- [x] Duplicate in same column — Caught immediately by `curr in cols[c]`.
+- [x] Duplicate in same $3 \times 3$ subgrid — Caught immediately by `curr in square[(r // 3, c // 3)]`.
 
 ---
 
 ## Linked Mistakes
-* None logged yet
+* None
 
 ---
 
 ## Review History
 | Date | Result | Time | Hint Level | Code Grade | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-08-18 | Accepted | 14m | none | Grade A | Initial unassisted 1st-pass solve |
 
 ---
 
 ## AI Analysis
-*(Pending user solution submission)*
+* **Grade**: **Grade A — Strong Independent Solution**
+* **Correctness**: 100% correct logic.
+* **Complexity**: Optimal $\mathcal{O}(1)$ Time and $\mathcal{O}(1)$ Space.
+* **Interview Readiness**: Clean, production-quality implementation. Single-pass grid indexing using integer division `(r // 3, c // 3)` is the standard textbook pattern for Sudoku problems.

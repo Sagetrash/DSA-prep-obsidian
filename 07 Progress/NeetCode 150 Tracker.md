@@ -76,7 +76,7 @@ tags:
 | - [x] ✅ Solved | 4 | **[[Group Anagrams]]** | Medium | [LeetCode](https://leetcode.com/problems/group-anagrams/) \| [NeetCode](https://neetcode.io/problems/anagram-groups) | Grade A | `2026-08-28` |
 | - [x] ✅ Solved | 5 | **[[Top K Frequent Elements]]** | Medium | [LeetCode](https://leetcode.com/problems/top-k-frequent-elements/) \| [NeetCode](https://neetcode.io/problems/top-k-elements-in-list) | Grade A | `2026-08-11` |
 | - [x] ✅ Solved | 6 | **[[Product of Array Except Self]]** | Medium | [LeetCode](https://leetcode.com/problems/product-of-array-except-self/) \| [NeetCode](https://neetcode.io/problems/products-of-array-discluding-self) | Grade A | `2026-08-21` |
-| - [x] ✅ Solved | 7 | **[[Valid Sudoku]]** | Medium | [LeetCode](https://leetcode.com/problems/valid-sudoku/) \| [NeetCode](https://neetcode.io/problems/valid-sudoku) | Grade A | `2026-08-18` |
+| - [x] ✅ Solved | 7 | **[[Valid Sudoku]]** | Medium | [LeetCode](https://leetcode.com/problems/valid-sudoku/) \| [NeetCode](https://neetcode.io/problems/valid-sudoku) | Grade A | `2026-08-19` |
 | - [ ] ⏳ Unsolved | 8 | [[Encode and Decode Strings]] | Medium | [LeetCode](https://leetcode.com/problems/encode-and-decode-strings/) \| [NeetCode](https://neetcode.io/problems/string-encode-and-decode) | - | - |
 | - [ ] ⏳ Unsolved | 9 | [[Longest Consecutive Sequence]] | Medium | [LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/) \| [NeetCode](https://neetcode.io/problems/longest-consecutive-sequence) | - | - |
 

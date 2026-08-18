@@ -59,9 +59,9 @@ Analysis of your GitHub repository [`Sagetrash/neetcode-submissions`](https://gi
 ---
 
 ## 📈 Recent Progress & Metrics Summary
-* **Total Solved (Phase 2)**: 43 Solved Total (37 NeetCode 150 Core + 6 Volume/Supplementary)
-* **High Value Solved**: 23 (Two Sum, Group Anagrams, Top K Frequent Elements, Product of Array Except Self, 3Sum, Two Sum II - Input Array Is Sorted, Evaluate Reverse Polish Notation, Longest Substring Without Repeating Characters, Longest Repeating Character Replacement, Container With Most Water, Binary Search, Search 2D Matrix, Koko Eating Bananas, Search in Rotated Sorted Array, Valid Parentheses, Min Stack, Reverse Linked List, Binary Tree Level Order Traversal, Invert Binary Tree, Maximum Depth of Binary Tree, Balanced Binary Tree, House Robber, Maximum Subarray)
-* **Volume Solved**: 20 (Contains Duplicate, Valid Anagram, Search Insert Position, Valid Palindrome, Best Time to Buy and Sell Stock, Squares of a Sorted Array, Move Zeroes, Remove Duplicates from Sorted Array, Find Minimum in Rotated Sorted Array, Merge Two Sorted Lists, Linked List Cycle, Same Tree, Subtree of Another Tree, Climbing Stairs, Best Time to Buy and Sell Stock II, Diameter of Binary Tree, Last Stone Weight, K Closest Points to Origin, Generate Parentheses)
-* **Independent Solve Rate**: 81.8% (34/42 unassisted passes)
-* **Average Solving Time**: 9.1 mins
+* **Total Solved (Phase 2)**: 53 Solved Total (47 NeetCode 150 Core + 6 Supplementary) | Phase 2 Progress: 31.3% (47/150)
+* **High Value Solved**: 25 (Two Sum, Group Anagrams, Top K Frequent Elements, Product of Array Except Self, 3Sum, Two Sum II - Input Array Is Sorted, Evaluate Reverse Polish Notation, Longest Substring Without Repeating Characters, Longest Repeating Character Replacement, Container With Most Water, Binary Search, Search 2D Matrix, Koko Eating Bananas, Search in Rotated Sorted Array, Valid Parentheses, Min Stack, Reverse Linked List, Binary Tree Level Order Traversal, Invert Binary Tree, Maximum Depth of Binary Tree, Balanced Binary Tree, House Robber, Maximum Subarray, Binary Tree Right Side View, Reorder List)
+* **Volume Solved**: 28 (Contains Duplicate, Valid Anagram, Search Insert Position, Valid Palindrome, Best Time to Buy and Sell Stock, Squares of a Sorted Array, Move Zeroes, Remove Duplicates from Sorted Array, Find Minimum in Rotated Sorted Array, Merge Two Sorted Lists, Linked List Cycle, Same Tree, Subtree of Another Tree, Climbing Stairs, Best Time to Buy and Sell Stock II, Diameter of Binary Tree, Last Stone Weight, K Closest Points to Origin, Generate Parentheses, Permutation in String, Lowest Common Ancestor of a BST, Subsets, Kth Largest Element in a Stream, Min Cost Climbing Stairs, Combination Sum, Daily Temperatures, Valid Sudoku)
+* **Independent Solve Rate**: 81.1% (43/53 unassisted passes)
+* **Average Solving Time**: 11.2 mins
 * **Long-Term Target**: 150 Core / 300+ Problems Solved
