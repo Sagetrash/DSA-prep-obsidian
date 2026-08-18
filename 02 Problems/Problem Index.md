@@ -13,7 +13,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 
 ---
 
-## 🔴 Active Revision Queue (Up for Review Today: 2026-08-18) — 35 Problems
+## 🔴 Active Revision Queue (Up for Review Today: 2026-08-18) — 34 Problems
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -49,13 +49,12 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[K Closest Points to Origin]]** | Medium | Volume | [[Heap & Priority Queue]] | Unknown | `2026-08-17` | 🔴 Overdue (2026-08-17) |
 | **[[Longest Repeating Character Replacement]]** | Medium | High Value | [[Sliding Window]] | Unknown | `2026-08-17` | 🔴 Overdue (2026-08-17) |
 | **[[Two Sum]]** | Easy | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-17` | 🔴 Overdue (2026-08-17) |
-| **[[Kth Largest Element in a Stream]]** | Easy | Volume | [[Heap & Priority Queue]] | Unknown | `2026-08-18` | 🟡 Due Today |
 | **[[Lowest Common Ancestor of a Binary Search Tree]]** | Medium | High Value | [[Trees]] | Unknown | `2026-08-18` | 🟡 Due Today |
 | **[[Permutation in String]]** | Medium | High Value | [[Sliding Window]] | Unknown | `2026-08-18` | 🟡 Due Today |
 
 ---
 
-## 🟢 Future Scheduled Revisions (Upcoming Days) — 18 Problems
+## 🟢 Future Scheduled Revisions (Upcoming Days) — 19 Problems
 
 | Problem Title | Difficulty | Track | Primary Pattern | Last Attempt | Next Review Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -71,6 +70,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Search in Rotated Sorted Array]]** | Medium | High Value | [[Binary Search]] | 2026-08-12 | `2026-08-19` | 🟢 Scheduled |
 | **[[Two Sum II - Input Array Is Sorted]]** | Medium | High Value | [[Two Pointers]] | Unknown | `2026-08-19` | 🟢 Scheduled |
 | **[[Valid Sudoku]]** | Medium | Volume | [[Arrays & Hashing]] | 2026-08-18 | `2026-08-19` | 🟢 Scheduled |
+| **[[Kth Largest Element in a Stream]]** | Easy | Volume | [[Heap & Priority Queue]] | Unknown | `2026-08-21` | 🟢 Scheduled |
 | **[[Min Cost Climbing Stairs]]** | Easy | Volume | [[Dynamic Programming]] | Unknown | `2026-08-21` | 🟢 Scheduled |
 | **[[Product of Array Except Self]]** | Medium | High Value | [[Arrays & Hashing]] | 2026-08-14 | `2026-08-21` | 🟢 Scheduled |
 | **[[Subsets]]** | Medium | Volume | [[Backtracking]] | Unknown | `2026-08-21` | 🟢 Scheduled |
@@ -105,7 +105,7 @@ This note dynamically tracks all problems in the vault, their attempt metrics, a
 | **[[Invert Binary Tree]]** | Easy | High Value | [[Trees]] | Grade B | 2026-08-12 | `2026-08-13` |
 | **[[K Closest Points to Origin]]** | Medium | Volume | [[Heap & Priority Queue]] | Grade A | Unknown | `2026-08-17` |
 | **[[Koko Eating Bananas]]** | Medium | High Value | [[Binary Search]] | Grade A | 2026-08-12 | `2026-08-19` |
-| **[[Kth Largest Element in a Stream]]** | Easy | Volume | [[Heap & Priority Queue]] | Grade A | Unknown | `2026-08-18` |
+| **[[Kth Largest Element in a Stream]]** | Easy | Volume | [[Heap & Priority Queue]] | Grade A | Unknown | `2026-08-21` |
 | **[[Last Stone Weight]]** | Easy | Volume | [[Heap & Priority Queue]] | Grade A | Unknown | `2026-08-19` |
 | **[[Linked List Cycle]]** | Easy | Volume | [[Linked List]] | Grade A | 2026-08-12 | `2026-08-15` |
 | **[[Longest Repeating Character Replacement]]** | Medium | High Value | [[Sliding Window]] | Grade C | Unknown | `2026-08-17` |

@@ -8,12 +8,12 @@ primary_pattern: "[[Heap & Priority Queue]]"
 secondary_patterns: []
 neetcode_number: 64
 result: "Accepted"
-hint_used: small
-independent_solves: 1
-time_taken: "8m"
-grade: "C"
-last_attempted: 2026-08-17
-next_review: 2026-08-18
+hint_used: none
+independent_solves: 2
+time_taken: "2m"
+grade: "A"
+last_attempted: 2026-08-18
+next_review: 2026-08-21
 mistakes: []
 tags:
   - problem
@@ -70,15 +70,10 @@ class KthLargest:
         if len(self.heap) > self.k:
             h.heappop(self.heap)
         return self.heap[0]
-
-
-# Your KthLargest object will be instantiated and called as such:
-# obj = KthLargest(k, nums)
-# param_1 = obj.add(val)
 ```
 
 **Time Complexity**:
-- `__init__`: $\mathcal{O}(N \log K)$ where $N = \text{len}(nums)$. (Can also be $\mathcal{O}(N)$ using `heapify(nums)` first then popping $N-K$ times).
+- `__init__`: $\mathcal{O}(N \log K)$ where $N = \text{len}(nums)$.
 - `add`: $\mathcal{O}(\log K)$ per call.
 **Space Complexity**: $\mathcal{O}(K)$ extra space for storing min-heap of size $K$.
 
@@ -90,11 +85,10 @@ class KthLargest:
 1. **Correctness**: 100% correct Min-Heap bounded to size $K$.
 2. **Complexity**: Optimal $\mathcal{O}(\log K)$ per `add()` call and $\mathcal{O}(K)$ space.
 3. **Pattern Verification**: Classic Min-Heap bounded size pattern for $K$-largest/smallest streaming problems.
-4. **Minor Optimization Tip**: In `add(val)`, since heap size increases by at most 1, `if len(self.heap) > self.k:` is sufficient instead of `while`. (Your implementation handles it cleanly!).
 
 ### Interview Readiness Grade
-**Grade: C — Correct with hints**
-* Needed a conceptual nudge to pivot from unbounded Max-Heap to bounded Min-Heap of size $K$. Clean implementation!
+**Grade: A — Strong independent solution**
+* Passed Rapid Pattern Quiz on 2026-08-18: Correctly identified Min-Heap size $K$ invariant and root element `heap[0]` properties.
 
 ---
 
@@ -103,4 +97,4 @@ class KthLargest:
 | Attempt # | Date | Result | Time | Hint Used | Grade |
 | :---: | :--- | :--- | :--- | :--- | :--- |
 | 1 | 2026-08-17 | Accepted | 8m | small | C |
-
+| 2 | 2026-08-18 | Passed Quiz | 2m | none | A |
