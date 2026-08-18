@@ -121,7 +121,7 @@ tags:
 | - [x] ✅ Solved | 22 | **[[Min Stack]]** | Medium | [LeetCode](https://leetcode.com/problems/min-stack/) \| [NeetCode](https://neetcode.io/problems/minimum-stack) | Grade A | `2026-08-15` |
 | - [x] ✅ Solved | 23 | **[[Evaluate Reverse Polish Notation]]** | Medium | [LeetCode](https://leetcode.com/problems/evaluate-reverse-polish-notation/) \| [NeetCode](https://neetcode.io/problems/evaluate-reverse-polish-notation) | Grade A | `2026-08-19` |
 | - [x] ✅ Solved | 24 | **[[Generate Parentheses]]** | Medium | [LeetCode](https://leetcode.com/problems/generate-parentheses/) \| [NeetCode](https://neetcode.io/problems/generate-parentheses) | Grade D | `2026-08-17` |
-| - [x] ✅ Solved | 25 | **[[Daily Temperatures]]** | Medium | [LeetCode](https://leetcode.com/problems/daily-temperatures/) \| [NeetCode](https://neetcode.io/problems/daily-temperatures) | Grade A | `2026-08-18` |
+| - [x] ✅ Solved | 25 | **[[Daily Temperatures]]** | Medium | [LeetCode](https://leetcode.com/problems/daily-temperatures/) \| [NeetCode](https://neetcode.io/problems/daily-temperatures) | Grade C | `2026-08-19` |
 | - [ ] ⏳ Unsolved | 26 | [[Car Fleet]] | Medium | [LeetCode](https://leetcode.com/problems/car-fleet/) \| [NeetCode](https://neetcode.io/problems/car-fleet) | - | - |
 | - [ ] ⏳ Unsolved | 27 | [[Largest Rectangle in Histogram]] | Hard | [LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/) \| [NeetCode](https://neetcode.io/problems/largest-rectangle-in-histogram) | - | - |
 
