@@ -151,7 +151,7 @@ tags:
 | :-: | :-: | :--- | :-: | :--- | :-: | :-: |
 | - [x] ✅ Solved | 35 | **[[Reverse Linked List]]** | Easy | [LeetCode](https://leetcode.com/problems/reverse-linked-list/) \| [NeetCode](https://neetcode.io/problems/reverse-a-linked-list) | Grade A | `2026-08-15` |
 | - [x] ✅ Solved | 36 | **[[Merge Two Sorted Lists]]** | Easy | [LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/) \| [NeetCode](https://neetcode.io/problems/merge-two-sorted-linked-lists) | Grade A | `2026-08-15` |
-| - [x] ✅ Solved | 37 | **[[Reorder List]]** | Medium | [LeetCode](https://leetcode.com/problems/reorder-list/) \| [NeetCode](https://neetcode.io/problems/reorder-linked-list) | Grade A | `2026-08-18` |
+| - [x] ✅ Solved | 37 | **[[Reorder List]]** | Medium | [LeetCode](https://leetcode.com/problems/reorder-list/) \| [NeetCode](https://neetcode.io/problems/reorder-linked-list) | Grade C | `2026-08-19` |
 | - [ ] ⏳ Unsolved | 38 | [[Remove Nth Node From End of List]] | Medium | [LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) \| [NeetCode](https://neetcode.io/problems/remove-node-from-end-of-linked-list) | - | - |
 | - [ ] ⏳ Unsolved | 39 | [[Copy List with Random Pointer]] | Medium | [LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/) \| [NeetCode](https://neetcode.io/problems/copy-linked-list-with-random-pointer) | - | - |
 | - [ ] ⏳ Unsolved | 40 | [[Add Two Numbers]] | Medium | [LeetCode](https://leetcode.com/problems/add-two-numbers/) \| [NeetCode](https://neetcode.io/problems/add-two-numbers) | - | - |
