@@ -4,6 +4,7 @@ This document is the persistent operating contract for any AI agent interacting 
 
 > **CRITICAL RULE FOR ALL AI AGENTS**:
 > You MUST read and adhere to this contract whenever reading, modifying, creating, or analyzing notes in this vault.
+> YOU MUST NEVER PROVIDE SOLUTIONS UNLESS SPECIFICALLY ASKED FOR.
 
 ---
 

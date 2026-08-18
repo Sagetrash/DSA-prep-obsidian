@@ -1,12 +1,12 @@
 ---
 title: "NeetCode 150 Progress Tracker"
-last_updated: 2026-08-17
-total_solved: 42
+last_updated: 2026-08-18
+total_solved: 47
 total_target: 150
-completion_percentage: "28.0%"
+completion_percentage: "31.3%"
 easy_solved: 20
 easy_total: 28
-medium_solved: 22
+medium_solved: 27
 medium_total: 101
 hard_solved: 0
 hard_total: 21
@@ -27,15 +27,15 @@ tags:
 ## 📊 Overall Progress Dashboard
 
 ### Overall Completion
-`[██████░░░░░░░░░░░░░░] 28.0% (42 / 150 Solved)`
+`[██████░░░░░░░░░░░░░░] 31.3% (47 / 150 Solved)`
 
 ### Difficulty Breakdown
 | Difficulty | Solved / Total | Completion % | Visual Progress |
 | :--- | :---: | :---: | :--- |
 | 🟢 **Easy** | 20 / 28 | 71.4% | `[██████████████░░░░░░] 71.4%` |
-| 🟡 **Medium** | 22 / 101 | 21.8% | `[████░░░░░░░░░░░░░░░░] 21.8%` |
+| 🟡 **Medium** | 27 / 101 | 26.7% | `[█████░░░░░░░░░░░░░░░] 26.7%` |
 | 🔴 **Hard** | 0 / 21 | 0.0% | `[░░░░░░░░░░░░░░░░░░░░] 0.0%` |
-| 🏆 **Total Overall** | **42 / 150** | **28.0%** | `[██████░░░░░░░░░░░░░░] 28.0%` |
+| 🏆 **Total Overall** | **47 / 150** | **31.3%** | `[██████░░░░░░░░░░░░░░] 31.3%` |
 
 ---
 
@@ -43,16 +43,16 @@ tags:
 
 | # | Module | Solved / Total | Completion % | Progress Bar | Status |
 | :-: | :--- | :---: | :---: | :--- | :--- |
-| 1 | [[#1. Arrays & Hashing (6 / 9 Solved — 66.7%)|Arrays & Hashing]] | 6 / 9 | 66.7% | `[██████████░░░░░] 66.7%` | 🟡 In Progress |
+| 1 | [[#1. Arrays & Hashing (7 / 9 Solved — 77.8%)|Arrays & Hashing]] | 7 / 9 | 77.8% | `[████████████░░░] 77.8%` | 🟡 In Progress |
 | 2 | [[#2. Two Pointers (4 / 5 Solved — 80.0%)|Two Pointers]] | 4 / 5 | 80.0% | `[████████████░░░] 80.0%` | 🟡 In Progress |
 | 3 | [[#3. Sliding Window (4 / 6 Solved — 66.7%)|Sliding Window]] | 4 / 6 | 66.7% | `[██████████░░░░░] 66.7%` | 🟡 In Progress |
-| 4 | [[#4. Stack (4 / 7 Solved — 57.1%)|Stack]] | 4 / 7 | 57.1% | `[█████████░░░░░░] 57.1%` | 🟡 In Progress |
+| 4 | [[#4. Stack (5 / 7 Solved — 71.4%)|Stack]] | 5 / 7 | 71.4% | `[███████████░░░░] 71.4%` | 🟡 In Progress |
 | 5 | [[#5. Binary Search (5 / 7 Solved — 71.4%)|Binary Search]] | 5 / 7 | 71.4% | `[███████████░░░░] 71.4%` | 🟡 In Progress |
-| 6 | [[#6. Linked List (3 / 11 Solved — 27.3%)|Linked List]] | 3 / 11 | 27.3% | `[████░░░░░░░░░░░] 27.3%` | 🟡 In Progress |
-| 7 | [[#7. Trees (8 / 15 Solved — 53.3%)|Trees]] | 8 / 15 | 53.3% | `[████████░░░░░░░] 53.3%` | 🟡 In Progress |
+| 6 | [[#6. Linked List (4 / 11 Solved — 36.4%)|Linked List]] | 4 / 11 | 36.4% | `[█████░░░░░░░░░░] 36.4%` | 🟡 In Progress |
+| 7 | [[#7. Trees (9 / 15 Solved — 60.0%)|Trees]] | 9 / 15 | 60.0% | `[█████████░░░░░░] 60.0%` | 🟡 In Progress |
 | 8 | [[#8. Tries (0 / 3 Solved — 0.0%)|Tries]] | 0 / 3 | 0.0% | `[░░░░░░░░░░░░░░░] 0.0%` | ⚪ Not Started |
 | 9 | [[#9. Heap / Priority Queue (3 / 7 Solved — 42.9%)|Heap / Priority Queue]] | 3 / 7 | 42.9% | `[██████░░░░░░░░░] 42.9%` | 🟡 In Progress |
-| 10 | [[#10. Backtracking (1 / 9 Solved — 11.1%)|Backtracking]] | 1 / 9 | 11.1% | `[██░░░░░░░░░░░░░] 11.1%` | 🟡 In Progress |
+| 10 | [[#10. Backtracking (2 / 9 Solved — 22.2%)|Backtracking]] | 2 / 9 | 22.2% | `[███░░░░░░░░░░░░] 22.2%` | 🟡 In Progress |
 | 11 | [[#11. Graphs (0 / 13 Solved — 0.0%)|Graphs]] | 0 / 13 | 0.0% | `[░░░░░░░░░░░░░░░] 0.0%` | ⚪ Not Started |
 | 12 | [[#12. Advanced Graphs (0 / 6 Solved — 0.0%)|Advanced Graphs]] | 0 / 6 | 0.0% | `[░░░░░░░░░░░░░░░] 0.0%` | ⚪ Not Started |
 | 13 | [[#13. 1D Dynamic Programming (3 / 12 Solved — 25.0%)|1D Dynamic Programming]] | 3 / 12 | 25.0% | `[████░░░░░░░░░░░] 25.0%` | 🟡 In Progress |
@@ -64,9 +64,9 @@ tags:
 
 ---
 
-## 1. Arrays & Hashing (6 / 9 Solved — 66.7%)
+## 1. Arrays & Hashing (7 / 9 Solved — 77.8%)
 
-**Pattern Note**: [[Arrays & Hashing]] | **Progress**: `[██████████░░░░░] 66.7%` (6 / 9 problems solved)
+**Pattern Note**: [[Arrays & Hashing]] | **Progress**: `[████████████░░░] 77.8%` (7 / 9 problems solved)
 
 | Status | # | Problem Title | Difficulty | Platform Links | Code Grade | Next Review Date |
 | :-: | :-: | :--- | :-: | :--- | :-: | :-: |
@@ -76,7 +76,7 @@ tags:
 | - [x] ✅ Solved | 4 | **[[Group Anagrams]]** | Medium | [LeetCode](https://leetcode.com/problems/group-anagrams/) \| [NeetCode](https://neetcode.io/problems/anagram-groups) | Grade A | `2026-08-28` |
 | - [x] ✅ Solved | 5 | **[[Top K Frequent Elements]]** | Medium | [LeetCode](https://leetcode.com/problems/top-k-frequent-elements/) \| [NeetCode](https://neetcode.io/problems/top-k-elements-in-list) | Grade A | `2026-08-11` |
 | - [x] ✅ Solved | 6 | **[[Product of Array Except Self]]** | Medium | [LeetCode](https://leetcode.com/problems/product-of-array-except-self/) \| [NeetCode](https://neetcode.io/problems/products-of-array-discluding-self) | Grade A | `2026-08-21` |
-| - [ ] ⏳ Unsolved | 7 | [[Valid Sudoku]] | Medium | [LeetCode](https://leetcode.com/problems/valid-sudoku/) \| [NeetCode](https://neetcode.io/problems/valid-sudoku) | - | - |
+| - [x] ✅ Solved | 7 | **[[Valid Sudoku]]** | Medium | [LeetCode](https://leetcode.com/problems/valid-sudoku/) \| [NeetCode](https://neetcode.io/problems/valid-sudoku) | Grade A | `2026-08-18` |
 | - [ ] ⏳ Unsolved | 8 | [[Encode and Decode Strings]] | Medium | [LeetCode](https://leetcode.com/problems/encode-and-decode-strings/) \| [NeetCode](https://neetcode.io/problems/string-encode-and-decode) | - | - |
 | - [ ] ⏳ Unsolved | 9 | [[Longest Consecutive Sequence]] | Medium | [LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/) \| [NeetCode](https://neetcode.io/problems/longest-consecutive-sequence) | - | - |
 
@@ -111,9 +111,9 @@ tags:
 
 ---
 
-## 4. Stack (4 / 7 Solved — 57.1%)
+## 4. Stack (5 / 7 Solved — 71.4%)
 
-**Pattern Note**: [[Stack]] | **Progress**: `[█████████░░░░░░] 57.1%` (4 / 7 problems solved)
+**Pattern Note**: [[Stack]] | **Progress**: `[███████████░░░░] 71.4%` (5 / 7 problems solved)
 
 | Status | # | Problem Title | Difficulty | Platform Links | Code Grade | Next Review Date |
 | :-: | :-: | :--- | :-: | :--- | :-: | :-: |
@@ -121,7 +121,7 @@ tags:
 | - [x] ✅ Solved | 22 | **[[Min Stack]]** | Medium | [LeetCode](https://leetcode.com/problems/min-stack/) \| [NeetCode](https://neetcode.io/problems/minimum-stack) | Grade A | `2026-08-15` |
 | - [x] ✅ Solved | 23 | **[[Evaluate Reverse Polish Notation]]** | Medium | [LeetCode](https://leetcode.com/problems/evaluate-reverse-polish-notation/) \| [NeetCode](https://neetcode.io/problems/evaluate-reverse-polish-notation) | Grade A | `2026-08-19` |
 | - [x] ✅ Solved | 24 | **[[Generate Parentheses]]** | Medium | [LeetCode](https://leetcode.com/problems/generate-parentheses/) \| [NeetCode](https://neetcode.io/problems/generate-parentheses) | Grade D | `2026-08-17` |
-| - [ ] ⏳ Unsolved | 25 | [[Daily Temperatures]] | Medium | [LeetCode](https://leetcode.com/problems/daily-temperatures/) \| [NeetCode](https://neetcode.io/problems/daily-temperatures) | - | - |
+| - [x] ✅ Solved | 25 | **[[Daily Temperatures]]** | Medium | [LeetCode](https://leetcode.com/problems/daily-temperatures/) \| [NeetCode](https://neetcode.io/problems/daily-temperatures) | Grade A | `2026-08-18` |
 | - [ ] ⏳ Unsolved | 26 | [[Car Fleet]] | Medium | [LeetCode](https://leetcode.com/problems/car-fleet/) \| [NeetCode](https://neetcode.io/problems/car-fleet) | - | - |
 | - [ ] ⏳ Unsolved | 27 | [[Largest Rectangle in Histogram]] | Hard | [LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/) \| [NeetCode](https://neetcode.io/problems/largest-rectangle-in-histogram) | - | - |
 
@@ -143,15 +143,15 @@ tags:
 
 ---
 
-## 6. Linked List (3 / 11 Solved — 27.3%)
+## 6. Linked List (4 / 11 Solved — 36.4%)
 
-**Pattern Note**: [[Linked List]] | **Progress**: `[████░░░░░░░░░░░] 27.3%` (3 / 11 problems solved)
+**Pattern Note**: [[Linked List]] | **Progress**: `[█████░░░░░░░░░░] 36.4%` (4 / 11 problems solved)
 
 | Status | # | Problem Title | Difficulty | Platform Links | Code Grade | Next Review Date |
 | :-: | :-: | :--- | :-: | :--- | :-: | :-: |
 | - [x] ✅ Solved | 35 | **[[Reverse Linked List]]** | Easy | [LeetCode](https://leetcode.com/problems/reverse-linked-list/) \| [NeetCode](https://neetcode.io/problems/reverse-a-linked-list) | Grade A | `2026-08-15` |
 | - [x] ✅ Solved | 36 | **[[Merge Two Sorted Lists]]** | Easy | [LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/) \| [NeetCode](https://neetcode.io/problems/merge-two-sorted-linked-lists) | Grade A | `2026-08-15` |
-| - [ ] ⏳ Unsolved | 37 | [[Reorder List]] | Medium | [LeetCode](https://leetcode.com/problems/reorder-list/) \| [NeetCode](https://neetcode.io/problems/reorder-linked-list) | - | - |
+| - [x] ✅ Solved | 37 | **[[Reorder List]]** | Medium | [LeetCode](https://leetcode.com/problems/reorder-list/) \| [NeetCode](https://neetcode.io/problems/reorder-linked-list) | Grade A | `2026-08-18` |
 | - [ ] ⏳ Unsolved | 38 | [[Remove Nth Node From End of List]] | Medium | [LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) \| [NeetCode](https://neetcode.io/problems/remove-node-from-end-of-linked-list) | - | - |
 | - [ ] ⏳ Unsolved | 39 | [[Copy List with Random Pointer]] | Medium | [LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/) \| [NeetCode](https://neetcode.io/problems/copy-linked-list-with-random-pointer) | - | - |
 | - [ ] ⏳ Unsolved | 40 | [[Add Two Numbers]] | Medium | [LeetCode](https://leetcode.com/problems/add-two-numbers/) \| [NeetCode](https://neetcode.io/problems/add-two-numbers) | - | - |
@@ -163,9 +163,9 @@ tags:
 
 ---
 
-## 7. Trees (8 / 15 Solved — 53.3%)
+## 7. Trees (9 / 15 Solved — 60.0%)
 
-**Pattern Note**: [[Trees]] | **Progress**: `[████████░░░░░░░] 53.3%` (8 / 15 problems solved)
+**Pattern Note**: [[Trees]] | **Progress**: `[█████████░░░░░░] 60.0%` (9 / 15 problems solved)
 
 | Status | # | Problem Title | Difficulty | Platform Links | Code Grade | Next Review Date |
 | :-: | :-: | :--- | :-: | :--- | :-: | :-: |
@@ -177,7 +177,7 @@ tags:
 | - [x] ✅ Solved | 51 | **[[Subtree of Another Tree]]** | Easy | [LeetCode](https://leetcode.com/problems/subtree-of-another-tree/) \| [NeetCode](https://neetcode.io/problems/subtree-of-a-binary-tree) | Grade C | `2026-08-13` |
 | - [x] ✅ Solved | 52 | **[[Lowest Common Ancestor of a Binary Search Tree]]** | Medium | [LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) \| [NeetCode](https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree) | Grade A | `2026-08-18` |
 | - [x] ✅ Solved | 53 | **[[Binary Tree Level Order Traversal]]** | Medium | [LeetCode](https://leetcode.com/problems/binary-tree-level-order-traversal/) \| [NeetCode](https://neetcode.io/problems/level-order-traversal-of-binary-tree) | Grade A | `2026-08-23` |
-| - [ ] ⏳ Unsolved | 54 | [[Binary Tree Right Side View]] | Medium | [LeetCode](https://leetcode.com/problems/binary-tree-right-side-view/) \| [NeetCode](https://neetcode.io/problems/binary-tree-right-side-view) | - | - |
+| - [x] ✅ Solved | 54 | **[[Binary Tree Right Side View]]** | Medium | [LeetCode](https://leetcode.com/problems/binary-tree-right-side-view/) \| [NeetCode](https://neetcode.io/problems/binary-tree-right-side-view) | Grade A | `2026-08-18` |
 | - [ ] ⏳ Unsolved | 55 | [[Count Good Nodes in Binary Tree]] | Medium | [LeetCode](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) \| [NeetCode](https://neetcode.io/problems/count-good-nodes-in-binary-tree) | - | - |
 | - [ ] ⏳ Unsolved | 56 | [[Validate Binary Search Tree]] | Medium | [LeetCode](https://leetcode.com/problems/validate-binary-search-tree/) \| [NeetCode](https://neetcode.io/problems/valid-binary-search-tree) | - | - |
 | - [ ] ⏳ Unsolved | 57 | [[Kth Smallest Element in a BST]] | Medium | [LeetCode](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) \| [NeetCode](https://neetcode.io/problems/kth-smallest-integer-in-bst) | - | - |
@@ -215,14 +215,14 @@ tags:
 
 ---
 
-## 10. Backtracking (1 / 9 Solved — 11.1%)
+## 10. Backtracking (2 / 9 Solved — 22.2%)
 
-**Pattern Note**: [[Backtracking]] | **Progress**: `[██░░░░░░░░░░░░░] 11.1%` (1 / 9 problems solved)
+**Pattern Note**: [[Backtracking]] | **Progress**: `[███░░░░░░░░░░░░] 22.2%` (2 / 9 problems solved)
 
 | Status | # | Problem Title | Difficulty | Platform Links | Code Grade | Next Review Date |
 | :-: | :-: | :--- | :-: | :--- | :-: | :-: |
 | - [x] ✅ Solved | 71 | **[[Subsets]]** | Medium | [LeetCode](https://leetcode.com/problems/subsets/) \| [NeetCode](https://neetcode.io/problems/subsets) | Grade A | `2026-08-18` |
-| - [ ] ⏳ Unsolved | 72 | [[Combination Sum]] | Medium | [LeetCode](https://leetcode.com/problems/combination-sum/) \| [NeetCode](https://neetcode.io/problems/combination-target-sum) | - | - |
+| - [x] ✅ Solved | 72 | **[[Combination Sum]]** | Medium | [LeetCode](https://leetcode.com/problems/combination-sum/) \| [NeetCode](https://neetcode.io/problems/combination-target-sum) | Grade A | `2026-08-18` |
 | - [ ] ⏳ Unsolved | 73 | [[Permutations]] | Medium | [LeetCode](https://leetcode.com/problems/permutations/) \| [NeetCode](https://neetcode.io/problems/permutations) | - | - |
 | - [ ] ⏳ Unsolved | 74 | [[Subsets II]] | Medium | [LeetCode](https://leetcode.com/problems/subsets-ii/) \| [NeetCode](https://neetcode.io/problems/subsets-two) | - | - |
 | - [ ] ⏳ Unsolved | 75 | [[Combination Sum II]] | Medium | [LeetCode](https://leetcode.com/problems/combination-sum-ii/) \| [NeetCode](https://neetcode.io/problems/combination-target-sum-ii) | - | - |
