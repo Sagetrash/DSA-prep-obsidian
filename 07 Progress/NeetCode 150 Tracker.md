@@ -222,7 +222,7 @@ tags:
 | Status | # | Problem Title | Difficulty | Platform Links | Code Grade | Next Review Date |
 | :-: | :-: | :--- | :-: | :--- | :-: | :-: |
 | - [x] ✅ Solved | 71 | **[[Subsets]]** | Medium | [LeetCode](https://leetcode.com/problems/subsets/) \| [NeetCode](https://neetcode.io/problems/subsets) | Grade A | `2026-08-18` |
-| - [x] ✅ Solved | 72 | **[[Combination Sum]]** | Medium | [LeetCode](https://leetcode.com/problems/combination-sum/) \| [NeetCode](https://neetcode.io/problems/combination-target-sum) | Grade A | `2026-08-18` |
+| - [x] ✅ Solved | 72 | **[[Combination Sum]]** | Medium | [LeetCode](https://leetcode.com/problems/combination-sum/) \| [NeetCode](https://neetcode.io/problems/combination-target-sum) | Grade C | `2026-08-19` |
 | - [ ] ⏳ Unsolved | 73 | [[Permutations]] | Medium | [LeetCode](https://leetcode.com/problems/permutations/) \| [NeetCode](https://neetcode.io/problems/permutations) | - | - |
 | - [ ] ⏳ Unsolved | 74 | [[Subsets II]] | Medium | [LeetCode](https://leetcode.com/problems/subsets-ii/) \| [NeetCode](https://neetcode.io/problems/subsets-two) | - | - |
 | - [ ] ⏳ Unsolved | 75 | [[Combination Sum II]] | Medium | [LeetCode](https://leetcode.com/problems/combination-sum-ii/) \| [NeetCode](https://neetcode.io/problems/combination-target-sum-ii) | - | - |

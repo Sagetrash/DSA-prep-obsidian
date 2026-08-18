@@ -7,16 +7,16 @@ difficulty: Medium
 track: Volume
 primary_pattern: "[[Backtracking]]"
 secondary_patterns: []
-status: Unsolved
-result: Untested
-attempts: 0
+status: Solved
+result: Accepted
+attempts: 1
 independent_solves: 0
-hint_used: none
-time_taken: 0m
-first_attempt: null
-last_attempt: null
-next_review: 2026-08-18
-confidence: 0
+hint_used: small
+time_taken: 20m
+first_attempt: 2026-08-18
+last_attempt: 2026-08-18
+next_review: 2026-08-19
+confidence: 4
 expected_time_complexity: "O(2^(T/M))"
 expected_space_complexity: "O(T/M)"
 tags:
@@ -31,8 +31,8 @@ tags:
 * **Platform**: [LeetCode](https://leetcode.com/problems/combination-sum/) | [NeetCode](https://neetcode.io/problems/combination-target-sum)
 * **Difficulty**: `Medium` | **Track**: `Volume`
 * **Primary Pattern**: [[Backtracking]]
-* **Status**: `Unsolved` | **Result**: `Untested`
-* **Next Review**: `2026-08-18`
+* **Status**: `Solved` | **Result**: `Accepted`
+* **Next Review**: `2026-08-19`
 
 ---
 
@@ -46,7 +46,6 @@ The **same** number may be chosen from `candidates` an **unlimited number of tim
 Example 1:
 Input: candidates = [2,3,6,7], target = 7
 Output: [[2,2,3],[7]]
-Explanation: 2 and 3 are candidates, and 2 + 2 + 3 = 7. Note that 2 can be used multiple times. 7 is a candidate, and 7 = 7. These are the only two combinations.
 
 Example 2:
 Input: candidates = [2,3,5], target = 8
@@ -66,54 +65,79 @@ Output: []
 ---
 
 ## My First Thought
-*(Write your initial approach & reasoning HERE BEFORE looking at solutions)*
+Initially thought of division/modulo arithmetic (`target / candidate`). Pivoted to Backtracking decision tree: at each candidate index `i`, we can either include `candidates[i]` (remaining on index `i` for potential reuse) or skip to `i + 1`.
 
 ---
 
 ## My Solution
 ```python
-# Paste your code submission here
+class Solution:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+        res = []
+        def dfs(i, curr, total):
+            if total == target:
+                res.append(curr.copy())
+                return
+            if total > target or i >= len(candidates):
+                return
+            
+            # Choice 1: Include candidates[i] (can reuse index i)
+            curr.append(candidates[i])
+            dfs(i, curr, total + candidates[i])
+            curr.pop() # Backtrack cleanup
+            
+            # Choice 2: Exclude candidates[i]
+            dfs(i + 1, curr, total)
+            
+        dfs(0, [], 0)
+        return res
 ```
 
 ---
 
 ## Attempt Log & Metrics
-* **Time Taken**: 
-* **Hint Used**: `none` / `small` / `substantial` / `solution`
-* **Result**: `Accepted` / `Wrong Answer` / `TLE`
-* **Self Confidence (1–5)**: 
+* **Time Taken**: 20m
+* **Hint Used**: `small` (Prompted to pivot from division to DFS decision tree & add `curr.pop()` backtrack step)
+* **Result**: `Accepted`
+* **Self Confidence (1–5)**: 4
 
 ---
 
 ## Reasoning & Explanation
-*(Explain WHY your code works and how the optimal pattern applies)*
+1. **Decision Tree Setup**: At index `i`, Branch 1 includes `candidates[i]` in `curr` and passes `total + candidates[i]` recursively staying at index `i`.
+2. **Backtrack Cleanup**: Executes `curr.pop()` after Branch 1 finishes to restore `curr` to its original state before calling Branch 2 (`dfs(i + 1, curr, total)`).
+3. **Base Cases**: `total == target` appends `curr.copy()`. `total > target` or `i >= len(candidates)` prunes invalid paths.
 
 ---
 
 ## Correct Approach & Complexity Analysis
-* **Optimal Pattern**: Backtracking Decision Tree (Include Same Index vs Exclude & Skip)
-* **Time Complexity**: `O(2^(T/M))` where $T$ is target, $M$ is min candidate value
-* **Space Complexity**: `O(T/M)`
+* **Optimal Pattern**: Backtracking DFS Decision Tree
+* **Time Complexity**: $\mathcal{O}(2^{T/M})$ where $T$ is target and $M$ is the minimum value in `candidates`.
+* **Space Complexity**: $\mathcal{O}(T/M)$ maximum call stack depth and subset buffer length.
 
 ---
 
 ## Key Edge Cases
-- [ ] Target smaller than smallest candidate (`target < min(candidates)`)
-- [ ] Target exact multiple of single candidate
-- [ ] No valid combinations
+- [x] Target smaller than candidates (`candidates = [2], target = 1`) — Handled cleanly (returns `[]`).
+- [x] Reusing elements multiple times — Handled by passing same index `i` in recursive call.
+- [x] Multiple valid paths — Handled without duplicate combinations.
 
 ---
 
 ## Linked Mistakes
-* None logged yet
+* Forgot explicit `curr.pop()` backtrack step in initial draft.
 
 ---
 
 ## Review History
 | Date | Result | Time | Hint Level | Code Grade | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-08-18 | Accepted | 20m | small | Grade C | Correct with backtrack state cleanup guidance |
 
 ---
 
 ## AI Analysis
-*(Pending user solution submission)*
+* **Grade**: **Grade C — Correct with hints**
+* **Correctness**: 100% correct logic.
+* **Complexity**: Optimal $\mathcal{O}(2^{T/M})$ Time and $\mathcal{O}(T/M)$ Space.
+* **Interview Readiness**: Clean decision tree implementation. Remember: modifying mutable global/shared state in DFS ALWAYS requires a corresponding backtrack cleanup step (`pop()`).
